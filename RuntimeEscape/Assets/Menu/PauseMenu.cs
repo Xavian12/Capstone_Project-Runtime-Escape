@@ -11,6 +11,7 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
         /*
+         * add pause button when needed
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
@@ -39,10 +40,10 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
-    public void LoadMenu()
+    public void LoadScene(string sceneName)
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu_Test");
+        SceneManager.LoadScene(sceneName);
 
     }
 

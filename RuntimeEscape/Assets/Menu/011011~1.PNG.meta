@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 200f82ebda68eb244a80065db547d2f3
+guid: 9b0a1f146005e564eb3186ff6053a74a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6568048958719730862
-    second: Hacker_background_0
+      213: 112810985381282274
+    second: 011011~1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 3
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hacker_background_0
+      name: 011011~1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25bd224654a99d4a0800000000000000
-      internalID: -6568048958719730862
+      spriteID: 2e1c9665ef8c09100800000000000000
+      internalID: 112810985381282274
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hacker_background_0: -6568048958719730862
+      011011~1_0: 112810985381282274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

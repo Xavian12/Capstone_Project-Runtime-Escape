@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 128283632}
   - component: {fileID: 128283631}
   m_Layer: 5
-  m_Name: Button
+  m_Name: InfiniteLoopButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,7 +308,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 128283632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 469661858}
+        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &128283632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -924,7 +936,7 @@ GameObject:
   - component: {fileID: 584468223}
   - component: {fileID: 584468222}
   m_Layer: 5
-  m_Name: Button
+  m_Name: TutorialButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -993,7 +1005,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 584468223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 469661858}
+        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &584468223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1847,7 +1871,7 @@ GameObject:
   - component: {fileID: 938306852}
   - component: {fileID: 938306851}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CodeKeepButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1916,7 +1940,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 938306852}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 469661858}
+        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &938306852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2105,7 +2141,7 @@ GameObject:
   - component: {fileID: 1057021020}
   - component: {fileID: 1057021019}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ComputerLabButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2174,7 +2210,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1057021020}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 469661858}
+        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1057021020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4197,7 +4245,7 @@ GameObject:
   - component: {fileID: 2118527311}
   - component: {fileID: 2118527310}
   m_Layer: 5
-  m_Name: Button
+  m_Name: EscapeTheWildButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4266,7 +4314,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2118527311}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 469661858}
+        m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2118527311
 MonoBehaviour:
   m_ObjectHideFlags: 0
