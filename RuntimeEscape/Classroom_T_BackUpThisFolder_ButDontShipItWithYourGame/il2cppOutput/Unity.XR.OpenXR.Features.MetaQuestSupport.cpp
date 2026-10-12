@@ -139,23 +139,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80143
+// Method Definition Index: 99127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature_OnBeforeSerialize_mBDBD9B1831B675B51E313203F4085B9E323F986D (MetaQuestFeature_t8E2B25DD2DCD3C6B43B6AA0B69C4504566363C62* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/MetaQuest/MetaQuestFeature.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/MetaQuest/MetaQuestFeature.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 80144
+// Method Definition Index: 99128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature_OnAfterDeserialize_m6CEC9A834FF816944D60749296CF1E826441718E (MetaQuestFeature_t8E2B25DD2DCD3C6B43B6AA0B69C4504566363C62* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/MetaQuest/MetaQuestFeature.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/MetaQuest/MetaQuestFeature.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 80145
+// Method Definition Index: 99129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetaQuestFeature__ctor_m5252F2B3583ED0398B5E04ECE2892C240D4F4E63 (MetaQuestFeature_t8E2B25DD2DCD3C6B43B6AA0B69C4504566363C62* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

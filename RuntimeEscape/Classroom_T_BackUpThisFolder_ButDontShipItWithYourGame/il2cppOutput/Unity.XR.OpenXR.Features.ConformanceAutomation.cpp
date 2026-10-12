@@ -257,7 +257,7 @@ IL2CPP_EXTERN_C uint8_t DEFAULT_CALL script_xrSetInputDeviceVelocityUNITY(uint64
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80045
+// Method Definition Index: 99033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_instance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -270,7 +270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:49>
 		bool L_0;
 		L_0 = OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5(_stringLiteralB104C514D9981ACAB60EEF204DC3FF686A2B283E, NULL);
 		if (L_0)
@@ -279,30 +279,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:51>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1EE607E7A79DA3E992CB9CC9E1EC0D01EA835E3A, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:52>
 		return (bool)0;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:55>
 		uint64_t L_1 = ___0_instance;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:56>
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession = ((int64_t)0);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:58>
 		intptr_t L_2;
 		L_2 = OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C(NULL);
 		uint64_t L_3 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance;
 		ConformanceAutomationFeature_initialize_m1B315C43D35E283CCFEAF84FBC98B64B55B27197(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:59>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 80046
+// Method Definition Index: 99034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -312,16 +312,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:65>
 		uint64_t L_0 = ___0_xrInstance;
 		OpenXRFeature_OnInstanceDestroy_m6F4662B4A824FB8CC0E43BE43C701BC20CF661CD(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:66>
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance = ((int64_t)0);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 80047
+// Method Definition Index: 99035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_xrSessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -331,17 +331,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCr
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:72>
 		uint64_t L_0 = ___0_xrSessionId;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:73>
 		uint64_t L_1 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		OpenXRFeature_OnSessionCreate_m1687421C2B4816BF3A572AE9C74F183A3108F8F6(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 80048
+// Method Definition Index: 99036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDestroy_mC7E3A6C106E0079A0AE636DF7B419A9FBA609724 (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_xrSessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -351,16 +351,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:79>
 		uint64_t L_0 = ___0_xrSessionId;
 		OpenXRFeature_OnSessionDestroy_m342B36001F94E8DD461A229683FECFE4552AC48B(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:80>
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession = ((int64_t)0);
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 80049
+// Method Definition Index: 99037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetActive_mF4A84EFAC4CCD4611ED8353E5F475DB6A0F76D12 (String_t* ___0_interactionProfile, String_t* ___1_topLevelPath, bool ___2_isActive, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -370,11 +370,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:82>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:83>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:84>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:85>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:96>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:97>
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		String_t* L_1 = ___0_interactionProfile;
 		uint64_t L_2;
@@ -388,7 +388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		return L_6;
 	}
 }
-// Method Definition Index: 80050
+// Method Definition Index: 99038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetBool_mAF080AEA6BA9F2178272DE6C3BAF16F6AA3BC1C8 (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, bool ___2_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -398,11 +398,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:99>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:100>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:101>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:102>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:114>
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
@@ -416,7 +416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		return L_6;
 	}
 }
-// Method Definition Index: 80051
+// Method Definition Index: 99039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetFloat_mD2EF304BE3B2B677541F451A787DDB1C6EBEE31F (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, float ___2_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -426,11 +426,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:116>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:117>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:118>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:119>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:120>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:131>
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
@@ -444,7 +444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		return L_6;
 	}
 }
-// Method Definition Index: 80052
+// Method Definition Index: 99040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetVec2_mCC5BE5AD298944496AC6F1049CEE313375D3F972 (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -454,11 +454,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:133>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:134>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:135>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:136>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:147>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:148>
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
@@ -475,7 +475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		return L_7;
 	}
 }
-// Method Definition Index: 80053
+// Method Definition Index: 99041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetPose_m2C22B6572470A8D652AD54793EB45E798101FA27 (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___3_orientation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -485,12 +485,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:151>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:152>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:153>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:154>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:155>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:165>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:166>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:167>
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
@@ -510,7 +510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		return L_9;
 	}
 }
-// Method Definition Index: 80054
+// Method Definition Index: 99042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetVelocity_m6FFAFFF40B684DDE72403D9D4CAFF4F16F46A42C (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, bool ___2_linearValid, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_linear, bool ___4_angularValid, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___5_angular, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -520,15 +520,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:171>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:172>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:173>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:174>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:175>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:176>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:177>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:178>
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:179>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:182>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:183>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:184>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:185>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:186>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:187>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/ConformanceAutomation/ConformanceAutomationFeature.cs:190>
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession;
 		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
@@ -553,7 +553,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		return L_12;
 	}
 }
-// Method Definition Index: 80055
+// Method Definition Index: 99043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_m1B315C43D35E283CCFEAF84FBC98B64B55B27197 (intptr_t ___0_xrGetInstanceProcAddr, uint64_t ___1_xrInstance, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -575,7 +575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_
 	#endif
 
 }
-// Method Definition Index: 80056
+// Method Definition Index: 99044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_mCA351F487857A2CC4C2F98078BE2BFEBB19E5D54 (uint64_t ___0_xrSession, uint64_t ___1_interactionProfile, uint64_t ___2_topLevelPath, bool ___3_isActive, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -598,7 +598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 80057
+// Method Definition Index: 99045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m4A825E828EA07831112EC159CDCCE4AC11C86777 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, bool ___3_state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -621,7 +621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 80058
+// Method Definition Index: 99046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_mCDF3171C55122EDEA62C1E93904F0F231BB11765 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, float ___3_state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -644,7 +644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 80059
+// Method Definition Index: 99047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m5473879B1B7DC220B1605535E11DE5B7D0C1024C (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 ___3_state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -667,7 +667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 80060
+// Method Definition Index: 99048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m205D504F56533E790B6F2CEA8702FB5EF997ADC9 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, uint64_t ___3_space, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 ___4_pose, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -690,7 +690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 80061
+// Method Definition Index: 99049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, bool ___3_linearValid, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___4_linear, bool ___5_angularValid, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___6_angular, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -713,7 +713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 80062
+// Method Definition Index: 99050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature__ctor_mD56EBF29667C1232A5456B17D69A475FFC18BAC4 (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -725,7 +725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature__ctor_mD56E
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 42953
+// Method Definition Index: 44301
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;

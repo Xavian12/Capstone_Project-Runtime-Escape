@@ -120,13 +120,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80146
+// Method Definition Index: 99130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusQuestFeature__ctor_mF38393F1A5FA04C3AF781D82EC58A4CBB9D85AA2 (OculusQuestFeature_tF5FA7128BB36F546D5CF7094A93B812DAC667810* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/OculusQuest/OculusQuestFeature.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OculusQuest/OculusQuestFeature.cs:38>
 		__this->___targetQuest = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Runtime/OculusQuest/OculusQuestFeature.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OculusQuest/OculusQuestFeature.cs:42>
 		__this->___targetQuest2 = (bool)1;
 		OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852(__this, NULL);
 		return;
