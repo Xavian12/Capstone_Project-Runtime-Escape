@@ -1126,7 +1126,9 @@
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Classroom/Classroom.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
