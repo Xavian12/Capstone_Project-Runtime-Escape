@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/cube.unity
     guid: ae0de765d09794e12965a1b236f4b28e
+  - enabled: 1
+    path: Assets/Scenes/Menu/Menu.unity
+    guid: 6e77c8c8438e27e42be792a4b05d829e
+  - enabled: 1
+    path: Assets/Scenes/Classroom/Classroom.unity
+    guid: e891da0d701ed48a69dd258794a4419e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8ec3de74f661b4b4e81a2572595dda8a, type: 2}
