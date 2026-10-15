@@ -11,9 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/cube.unity
     guid: ae0de765d09794e12965a1b236f4b28e
+  - enabled: 0
+    path: Assets/Scenes/Menu/Menu.unity
+    guid: 6e77c8c8438e27e42be792a4b05d829e
+  - enabled: 1
+    path: Assets/Scenes/MenuHallway3D.unity
+    guid: 8f63cfb46b5a64f4297d17be8cd55ed9
+  - enabled: 1
+    path: Assets/Scenes/Classroom/Classroom.unity
+    guid: e891da0d701ed48a69dd258794a4419e
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: da2b439d1a2de5c46a4f428f8cf4fe19, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 8ec3de74f661b4b4e81a2572595dda8a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bbc271b40e89846ba838af3eb92cdc27, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: efe08e6b586454c468099f3156efeea1, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 90541e7b287ec4755b789ed0eb566288, type: 2}
   m_UseUCBPForAssetBundles: 0
