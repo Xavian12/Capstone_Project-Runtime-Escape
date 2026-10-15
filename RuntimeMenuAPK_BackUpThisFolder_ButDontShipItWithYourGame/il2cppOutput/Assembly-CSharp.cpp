@@ -4763,7 +4763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Start_mEA54CA01B93FC26FAA1F7E2D2D9
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:25>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:25>
 		bool L_0 = __this->___realTime;
 		if (!L_0)
 		{
@@ -4771,7 +4771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Start_mEA54CA01B93FC26FAA1F7E2D2D9
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:27>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
 		L_1 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
@@ -4779,14 +4779,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Start_mEA54CA01B93FC26FAA1F7E2D2D9
 		int32_t L_2;
 		L_2 = DateTime_get_Hour_m350B2AEB6ED8AAD80F0779C1FD37EEE13952A7F3((&V_0), NULL);
 		__this->___hour = L_2;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:28>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:28>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3;
 		L_3 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
 		V_0 = L_3;
 		int32_t L_4;
 		L_4 = DateTime_get_Minute_m73003491DA85D2C9951ECCF890D9BF6AFFB9E973((&V_0), NULL);
 		__this->___minutes = L_4;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:29>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:29>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_5;
 		L_5 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
 		V_0 = L_5;
@@ -4797,7 +4797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Start_mEA54CA01B93FC26FAA1F7E2D2D9
 
 IL_0041:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:31>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:31>
 		return;
 	}
 }
@@ -4808,13 +4808,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Update_mCB87CB853657454E30965EFCF9
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:36>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:36>
 		float L_0 = __this->___msecs;
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		float L_2 = __this->___clockSpeed;
 		__this->___msecs = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(L_1, L_2))));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:37>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:37>
 		float L_3 = __this->___msecs;
 		if ((!(((float)L_3) >= ((float)(1.0f)))))
 		{
@@ -4822,13 +4822,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Update_mCB87CB853657454E30965EFCF9
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:39>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:39>
 		float L_4 = __this->___msecs;
 		__this->___msecs = ((float)il2cpp_codegen_subtract(L_4, (1.0f)));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:40>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:40>
 		int32_t L_5 = __this->___seconds;
 		__this->___seconds = ((int32_t)il2cpp_codegen_add(L_5, 1));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:41>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:41>
 		int32_t L_6 = __this->___seconds;
 		if ((((int32_t)L_6) < ((int32_t)((int32_t)60))))
 		{
@@ -4836,12 +4836,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Update_mCB87CB853657454E30965EFCF9
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:43>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:43>
 		__this->___seconds = 0;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:44>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:44>
 		int32_t L_7 = __this->___minutes;
 		__this->___minutes = ((int32_t)il2cpp_codegen_add(L_7, 1));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:45>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:45>
 		int32_t L_8 = __this->___minutes;
 		if ((((int32_t)L_8) <= ((int32_t)((int32_t)60))))
 		{
@@ -4849,12 +4849,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Update_mCB87CB853657454E30965EFCF9
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:47>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:47>
 		__this->___minutes = 0;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:48>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:48>
 		int32_t L_9 = __this->___hour;
 		__this->___hour = ((int32_t)il2cpp_codegen_add(L_9, 1));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:49>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:49>
 		int32_t L_10 = __this->___hour;
 		if ((((int32_t)L_10) < ((int32_t)((int32_t)24))))
 		{
@@ -4862,23 +4862,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Update_mCB87CB853657454E30965EFCF9
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:50>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:50>
 		__this->___hour = 0;
 	}
 
 IL_0095:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:57>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:57>
 		int32_t L_11 = __this->___seconds;
 		V_0 = ((float)il2cpp_codegen_multiply((6.0f), ((float)L_11)));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:58>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:58>
 		int32_t L_12 = __this->___minutes;
 		V_1 = ((float)il2cpp_codegen_multiply((6.0f), ((float)L_12)));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:59>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:59>
 		int32_t L_13 = __this->___hour;
 		int32_t L_14 = __this->___minutes;
 		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((30.0f), ((float)L_13))), ((float)il2cpp_codegen_multiply((0.5f), ((float)L_14)))));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:62>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___pointerSeconds;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -4889,7 +4889,7 @@ IL_0095:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_18), (0.0f), (0.0f), L_17, NULL);
 		NullCheck(L_16);
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_16, L_18, NULL);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:63>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:63>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___pointerMinutes;
 		NullCheck(L_19);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
@@ -4900,7 +4900,7 @@ IL_0095:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_22), (0.0f), (0.0f), L_21, NULL);
 		NullCheck(L_20);
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_20, L_22, NULL);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:64>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:64>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___pointerHours;
 		NullCheck(L_23);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -4911,7 +4911,7 @@ IL_0095:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_26), (0.0f), (0.0f), L_25, NULL);
 		NullCheck(L_24);
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_24, L_26, NULL);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:66>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:66>
 		return;
 	}
 }
@@ -4919,9 +4919,9 @@ IL_0095:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock__ctor_mCFEE07421BE23EE1AD7EFD2A52BBAF69C411C398 (Clock_t961ACEA6479E09F986C76D4C14638AE523AF2039* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:10>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:10>
 		__this->___realTime = (bool)1;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Clock/Scripts/Clock.cs:17>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Clock/Scripts/Clock.cs:17>
 		__this->___clockSpeed = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -4946,7 +4946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFreeflight_Start_m9FF616353820B44D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:16>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:16>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
 		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4958,7 +4958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFreeflight_Start_m9FF616353820B44D
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:17>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:17>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2;
 		L_2 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		NullCheck(L_2);
@@ -4967,7 +4967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFreeflight_Start_m9FF616353820B44D
 
 IL_0019:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:18>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:18>
 		return;
 	}
 }
@@ -4995,7 +4995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFreeflight_Update_mE3FB6C8AB318D22
 	float G_B12_0 = 0.0f;
 	float G_B17_0 = 0.0f;
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:22>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:22>
 		bool L_0;
 		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)264), NULL);
 		if (!L_0)
@@ -5004,14 +5004,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFreeflight_Update_mE3FB6C8AB318D22
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:23>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:23>
 		float L_1 = __this->___speedNormal;
 		__this->___speedNormal = ((float)il2cpp_codegen_add(L_1, (1.0f)));
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:24>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:24>
 		bool L_2;
 		L_2 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)261), NULL);
 		if (!L_2)
@@ -5020,14 +5020,14 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:25>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:25>
 		float L_3 = __this->___speedNormal;
 		__this->___speedNormal = ((float)il2cpp_codegen_subtract(L_3, (1.0f)));
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:27>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:27>
 		float L_4 = __this->___speedNormal;
 		if ((!(((float)L_4) < ((float)(0.0f)))))
 		{
@@ -5035,13 +5035,13 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:28>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:28>
 		__this->___speedNormal = (0.0f);
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:32>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:32>
 		bool L_5;
 		L_5 = Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA(1, NULL);
 		if (!L_5)
@@ -5050,7 +5050,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:34>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:34>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
@@ -5061,18 +5061,18 @@ IL_0054:
 		L_9 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
 		float L_10 = __this->___mouseSensitivityX;
 		V_2 = ((float)il2cpp_codegen_add(L_8, ((float)il2cpp_codegen_multiply(L_9, L_10))));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:35>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:35>
 		float L_11 = __this->___rotY;
 		float L_12;
 		L_12 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
 		float L_13 = __this->___mouseSensitivityY;
 		__this->___rotY = ((float)il2cpp_codegen_add(L_11, ((float)il2cpp_codegen_multiply(L_12, L_13))));
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:36>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:36>
 		float L_14 = __this->___rotY;
 		float L_15;
 		L_15 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_14, (-89.5f), (89.5f), NULL);
 		__this->___rotY = L_15;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:37>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:37>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_17 = __this->___rotY;
@@ -5086,15 +5086,15 @@ IL_0054:
 
 IL_00d5:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:40>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:40>
 		float L_20;
 		L_20 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
 		V_0 = L_20;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:41>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:41>
 		float L_21;
 		L_21 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
 		V_1 = L_21;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:44>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:44>
 		float L_22 = V_0;
 		if ((((float)L_22) == ((float)(0.0f))))
 		{
@@ -5102,7 +5102,7 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:46>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:46>
 		bool L_23;
 		L_23 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)304), NULL);
 		if (L_23)
@@ -5125,13 +5125,13 @@ IL_0107:
 IL_010d:
 	{
 		V_3 = G_B12_0;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:47>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:47>
 		float L_26 = V_0;
 		float L_27 = V_3;
 		float L_28;
 		L_28 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_4), (0.0f), (0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_26, L_27)), L_28)), NULL);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:48>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:48>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
 		L_29 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_29);
@@ -5160,7 +5160,7 @@ IL_010d:
 
 IL_015a:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:52>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:52>
 		float L_39 = V_1;
 		if ((((float)L_39) == ((float)(0.0f))))
 		{
@@ -5168,7 +5168,7 @@ IL_015a:
 		}
 	}
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:54>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:54>
 		bool L_40;
 		L_40 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)304), NULL);
 		if (L_40)
@@ -5191,13 +5191,13 @@ IL_0176:
 IL_017c:
 	{
 		V_5 = G_B17_0;
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:55>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:55>
 		float L_43 = V_1;
 		float L_44 = V_5;
 		float L_45;
 		L_45 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_6), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_43, L_44)), L_45)), (0.0f), (0.0f), NULL);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:56>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:56>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46;
 		L_46 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_46);
@@ -5226,7 +5226,7 @@ IL_017c:
 
 IL_01cb:
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:58>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:58>
 		return;
 	}
 }
@@ -5234,13 +5234,13 @@ IL_01cb:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFreeflight__ctor_mFA47FDB8D7CFCC5DB137B42D45AD7715D364735E (CameraFreeflight_t954438BBB10704C5BEB927895D4750C070EF6B0B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:6>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:6>
 		__this->___speedNormal = (10.0f);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:7>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:7>
 		__this->___speedFast = (50.0f);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:9>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:9>
 		__this->___mouseSensitivityX = (5.0f);
-		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Locker_HQ/Scripts/CameraFreeflight.cs:10>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Imported Assets/Locker_HQ/Scripts/CameraFreeflight.cs:10>
 		__this->___mouseSensitivityY = (5.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
