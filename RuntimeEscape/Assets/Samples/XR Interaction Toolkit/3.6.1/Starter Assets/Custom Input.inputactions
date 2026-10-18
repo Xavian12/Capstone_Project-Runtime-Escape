@@ -1,15 +1,15 @@
 {
     "version": 1,
-    "name": "Custom Input Actions",
+    "name": "Custom Input",
     "maps": [
         {
             "name": "PauseMenu",
-            "id": "7f9d44d5-6a06-4f66-bada-38b3c2749706",
+            "id": "a23263b6-2259-4dd5-b498-6fe50cfa38a0",
             "actions": [
                 {
-                    "name": "MenuPressed",
+                    "name": "Pause Menu",
                     "type": "Button",
-                    "id": "ff6d0fc2-ace5-4214-99b9-7d8d0349510d",
+                    "id": "238d5334-6a1e-4978-adc2-8cbc48a5c73e",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -20,12 +20,12 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "39511983-85b5-4db8-acf3-568b5af953c2",
+                    "id": "8394d4e3-c313-4ab3-9889-3340b1766bc0",
                     "path": "<QuestProTouchController>/menu",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MenuPressed",
+                    "action": "Pause Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
