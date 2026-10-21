@@ -21,7 +21,7 @@
                 {
                     "name": "",
                     "id": "8394d4e3-c313-4ab3-9889-3340b1766bc0",
-                    "path": "<QuestProTouchController>/menu",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
