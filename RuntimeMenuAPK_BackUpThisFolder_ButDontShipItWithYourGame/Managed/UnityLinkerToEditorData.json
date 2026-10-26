@@ -86,7 +86,8 @@
           {
             "name": "Avatar",
             "scenes": [
-              "Assets/Scenes/Classroom/Classroom.unity"
+              "Assets/Scenes/Classroom/Classroom.unity",
+              "Assets/Scenes/MenuHallway3D.unity"
             ],
             "dependencyType": 0,
             "icon": null

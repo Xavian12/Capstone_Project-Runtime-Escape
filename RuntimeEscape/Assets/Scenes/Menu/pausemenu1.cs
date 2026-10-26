@@ -42,6 +42,13 @@ public class pausemenu1 : MonoBehaviour
         }
     }
 
+    public void Resume()
+    {
+        wristUI.SetActive(false);
+        activeWristUI = false;
+        Time.timeScale = 1;
+    }
+
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
