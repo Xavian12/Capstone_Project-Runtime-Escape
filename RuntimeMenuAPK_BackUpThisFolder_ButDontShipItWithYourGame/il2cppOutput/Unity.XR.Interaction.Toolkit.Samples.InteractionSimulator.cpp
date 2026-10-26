@@ -1,0 +1,10917 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
+struct Action_2_t4C05283691BC66586830D8BF971A9EEA99B32EA5;
+struct Action_2_tEF565A96FD8C4A0BD0635243ED4EDFDBE2899890;
+struct BindableEnum_1_t3E1A071A68D0511716E071A3195156A38D3EBC71;
+struct Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1;
+struct Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924;
+struct Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F;
+struct Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71;
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+struct Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762;
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE;
+struct Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4;
+struct IEqualityComparer_1_t381A27E90CDD4B90AA4BE8E8E1A63F412BF7B26C;
+struct IEqualityComparer_1_t6B358A2744EAFACC7EC3261B2E4E4557A58C864E;
+struct IEqualityComparer_1_tFEC6C081CF586B5EC10B055ECB1FEC03712DEB71;
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
+struct KeyCollection_t1195AA221700DF6480CF67168559BEEA6FC6B806;
+struct KeyCollection_t850823835CF010041A95EC284063A25BBD5B4106;
+struct KeyCollection_tD11EF1DDF1A8207086B26142547AF4DBEAF5AA46;
+struct KeyCollection_tDBCA229D33F1AF2E6E53D03F368FD7ED20C8B832;
+struct KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454;
+struct KeyCollection_t69BA8BEDCC0972005B15515EFC4B4E18792D6A24;
+struct List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A;
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB;
+struct List_1_tCC00F1EA7285A47DF2A9D8CE7E08BB3585EA8137;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityObjectReferenceCache_1_t5037B37A78F59591F798651810A820937FB97158;
+struct UnityObjectReferenceCache_2_t89FB64884388E678953FFA84ECE94DE3CB1D3E66;
+struct ValueCollection_t6F3D59456D56C3DED8BBD1193E4C87BE19F0BDEC;
+struct ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24;
+struct ValueCollection_t93A8BB9FD45AD4A3007AAA9AF64D47A53A8C7D8B;
+struct ValueCollection_tB299C06E8B49BF406A8E6B012CEB2F5086FD124D;
+struct ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA;
+struct ValueCollection_tC8E5DB7D4684A820BC1FEC405D47A27FAA48577B;
+struct ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1;
+struct ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F;
+struct XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5;
+struct XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0;
+struct Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76;
+struct EntryU5BU5D_tED7D9A9C855357A5746D16945F78E04E39332A94;
+struct EntryU5BU5D_tF9128CD92DF3C88F2490050D1D50EDDB691B9603;
+struct EntryU5BU5D_t18746105B4E6F6F6178215E31794B3B71E3C89AC;
+struct EntryU5BU5D_tB56839A899EE6384D73F820340409F5EB26D9636;
+struct EntryU5BU5D_tBC8769FFC7ECC10C2740A220C39736B63B151E29;
+struct EntryU5BU5D_tE5501121B8592AB31F959B2B27A9E2FB967AF83A;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ControllerInputModeU5BU5D_t054A23E8E4BD2BADB2A3C6198A8E0D9A5E1D7DDC;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8;
+struct SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192;
+struct SimulatedHandExpressionU5BU5D_tD667BED8A9365959F91838A68E6FC96026F9D5B0;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HandExpressionCapture_tA578F037613631E21136324B66C718373BD21578;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct ISimulatorDeviceAimRaycastFilter_t15C15544085B06B377492864B87696B592EB515A;
+struct IXRInputButtonReader_t4E43FD29BD50042EF9C0A58AA2355FB25F5864F5;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D;
+struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09;
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SimulatedDeviceLifecycleManager_tA9A19F0465A60403F4F454705C79D91A90AF448F;
+struct SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B;
+struct SimulatedHandExpressionManager_t36B4B67C8EE0BBCCD4589B5390E3777A468F6869;
+struct SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687;
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C;
+struct XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C;
+struct XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515;
+struct XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA;
+struct XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6;
+struct XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F;
+struct XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649;
+struct XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8;
+struct XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A;
+struct XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE;
+struct XRUIInputModule_tA641266A2621C1465F3C5433D747428A4CDA72F0;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct InputDeviceMonitor_t6EDC57AF699FF3D1F95DD2E638416BC7A4FBC957;
+struct TrackedDeviceMonitor_t9664A1B9DC4D949162FB2E6E435640B686407962;
+
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ComponentLocatorUtility_1_t05EBCF598E52A4871757D70BBD4B79CCE2655095_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ComponentLocatorUtility_1_t223E729C926C47834DFBE6DFF75E2E1D372BCF3F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CursorIcon_t1DF1308BBCF7A7177966E75FF562BBFDC708F1B0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral004E46028C04C2879AE89DC348E83BE7C8567133;
+IL2CPP_EXTERN_C String_t* _stringLiteral0B7D5D5BEC356A40AA2066870E8762B795956772;
+IL2CPP_EXTERN_C String_t* _stringLiteral0C10E47675493434D04CD8025C8303AF94F7BA5A;
+IL2CPP_EXTERN_C String_t* _stringLiteral1A82671F2C34BEA09C35354DDB899812746CBCF9;
+IL2CPP_EXTERN_C String_t* _stringLiteral343DBB9F26F3F5FD3FA573454E399ECE32D1686F;
+IL2CPP_EXTERN_C String_t* _stringLiteral34DE36C5F4C3148AB9A0B13318278CE7BD7FFBF0;
+IL2CPP_EXTERN_C String_t* _stringLiteral35C4430E130D7BC5D2FCA72D64F2DDE0E9F8E086;
+IL2CPP_EXTERN_C String_t* _stringLiteral3684ADE2EBE44A6703D093C6C0CA1269732F2A2A;
+IL2CPP_EXTERN_C String_t* _stringLiteral43D7320EE62A97791EB076D31E576CD4476FECC5;
+IL2CPP_EXTERN_C String_t* _stringLiteral548D93DDB2AC6B24373148B19D9A625571AB2318;
+IL2CPP_EXTERN_C String_t* _stringLiteral70B0FB66B2629F1CCE79FABB33D56EE6CF667AB9;
+IL2CPP_EXTERN_C String_t* _stringLiteral738F291E53E97C08DAE378C71EF70A60E31AE900;
+IL2CPP_EXTERN_C String_t* _stringLiteral771164B92ED409CF835FF6B84C4E6F812CBC1E80;
+IL2CPP_EXTERN_C String_t* _stringLiteral7A1DAE5E910FABCC1A858A6B94A58B139012C8B5;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B1F8C33B58654442858CB02AAE962D8C05DF4E8;
+IL2CPP_EXTERN_C String_t* _stringLiteral7B259D4E1F882969C812706070AD1BE2C4E459E4;
+IL2CPP_EXTERN_C String_t* _stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3;
+IL2CPP_EXTERN_C String_t* _stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D;
+IL2CPP_EXTERN_C String_t* _stringLiteral8208BC96A53100BEB0BD8E99BF3AA3F0BCB47C66;
+IL2CPP_EXTERN_C String_t* _stringLiteral89D87E1E07C139494154DAE8FB018F9C11DF3C94;
+IL2CPP_EXTERN_C String_t* _stringLiteral8EB708D108C7B62CE04DC0BA4842EEB0B619DBB6;
+IL2CPP_EXTERN_C String_t* _stringLiteral8F266D8739915EDF143F00287BC27A2EB2A875AA;
+IL2CPP_EXTERN_C String_t* _stringLiteral984698CE256D6E878C92C50047E8264D7AF62834;
+IL2CPP_EXTERN_C String_t* _stringLiteral9A4220765AE8ACCE7B3600C2AAB979CCBBE522DD;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B01F97DD9ACC81F94C626F0F771121D300FB271;
+IL2CPP_EXTERN_C String_t* _stringLiteralA2474EB85E7EEF13C75BB9EE2A361443B79F99AC;
+IL2CPP_EXTERN_C String_t* _stringLiteralA885C2D1E637D04BB43B8E224604BC0613A6F590;
+IL2CPP_EXTERN_C String_t* _stringLiteralAF9DA912DC3C077F0657D5120AC08832986289D1;
+IL2CPP_EXTERN_C String_t* _stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9;
+IL2CPP_EXTERN_C String_t* _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B;
+IL2CPP_EXTERN_C String_t* _stringLiteralB8B6946864938B469F6FE8B7D06E359A80AD980F;
+IL2CPP_EXTERN_C String_t* _stringLiteralBA54E9D992F03ED29AD46BA3E6D5F9C1FC0A2AF6;
+IL2CPP_EXTERN_C String_t* _stringLiteralBB98523776617D55526B05EA8A133E8678AAB489;
+IL2CPP_EXTERN_C String_t* _stringLiteralC55A66E8C45F6BE1AEB0798146BECF865D46D3E2;
+IL2CPP_EXTERN_C String_t* _stringLiteralCCCDD19BAC8E228E10128C1D017E557BF3B69BEA;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA7A4F3BB7215A06D414D0E587447A679AF6BDC9;
+IL2CPP_EXTERN_C String_t* _stringLiteralE17E01A6CDB454BE09B74C544A2901D6C9F990AF;
+IL2CPP_EXTERN_C String_t* _stringLiteralF64624A0B069CAC4738EE9D8D93AD33AAD7B58B0;
+IL2CPP_EXTERN_C String_t* _stringLiteralFD54C90B5A6D47F6579672102C3331CD0652644E;
+IL2CPP_EXTERN_C const RuntimeMethod* ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m2B6027DC7F08AB12F38EE38624B7E7C52170DBC5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m60E768E192B32C68E19C6650B57A9BCE2D514D83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m22E9C5C0D18C22DA383F38BF24CCD61D236BF3A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m7FA28303762766FE260FF53C6634F9355BEB35C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mF514321EB8BECBC38C0E1E7A3BD1ECFF158E4A4F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m1149C9D2CE832ECDBC2F0663EE3E1899C56C0D27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Values_m44BAAB077510C95A89590C32AF5D36664D031A11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Values_mA56B0D41B4B7E81F55E79D36E56A934977485B55_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Values_mCCC41FF246D656F5F707EF1522F1C279DAA5343F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m0A602774FBD9AB5FF2D9A2B44290BBED926D328F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mAA75678DF1D2E3191C5CFBA7D4AF0963A005B1F3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m696B5831B239FA49B7C6E9E829D5C2BA96B0E1AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m79217ADD3F299C9B19FE583F6512D90CD4FD5DF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mB20C5569DF7EA0E5FC2A766BFC5C4A9C5BAC7BC6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mF9B5DD4FC53CB2A9E6659950BA66050A197FC7A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m773ABBB02CDE3AE8AD2C4839DF832A1C96C9FFA5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m82EA4A043BD1FC4DB303D820966EBFBD9916A134_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m9FF8AEE1E32D596C30F327273E67DD0FFEBC032F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mDD55A50B8787B45E0B64C668ACF4A3C5855A3F7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m00C7464FDCAB2413EC07E130F2F10BFC87669B96_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m434AE7EA66F4FA96308500A1099554FC4AECB4BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m48A40A69DBFACC803599C22E7CE1D2AD4FCABF19_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mD7296BB33D16F06FD06E6077D093543842DCAE4F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA327C9E1CA12BC531D587E7567F2067B96E6B6A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m768372D99692DF7D0AC1318EE6ABCCDB2A885C92_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_Deconstruct_m1956E58102443E31342BE231C57A144EB3E5FD3B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mEBB9929154E25FFDF116FD4EED24E80B1416C73F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF61B1B410A25CD383FBC3D17D504599976EDB605_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_m21633EA46BD56950D03DEDDA3ADE44B2DEA8AC0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_mBEBB5769586D6C240A83E6E9457137C4DD2C3921_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_mF5DED5B7A248BFD82A24983BDB70FBB3285F238A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t800F9271B0DD3B24B801AB92BF83D49B08680941 
+{
+};
+struct Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tED7D9A9C855357A5746D16945F78E04E39332A94* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_t1195AA221700DF6480CF67168559BEEA6FC6B806* ____keys;
+	ValueCollection_t6F3D59456D56C3DED8BBD1193E4C87BE19F0BDEC* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tF9128CD92DF3C88F2490050D1D50EDDB691B9603* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_t850823835CF010041A95EC284063A25BBD5B4106* ____keys;
+	ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_t18746105B4E6F6F6178215E31794B3B71E3C89AC* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tD11EF1DDF1A8207086B26142547AF4DBEAF5AA46* ____keys;
+	ValueCollection_t93A8BB9FD45AD4A3007AAA9AF64D47A53A8C7D8B* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tB56839A899EE6384D73F820340409F5EB26D9636* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tDBCA229D33F1AF2E6E53D03F368FD7ED20C8B832* ____keys;
+	ValueCollection_tC8E5DB7D4684A820BC1FEC405D47A27FAA48577B* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tBC8769FFC7ECC10C2740A220C39736B63B151E29* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tB57CC90FD7461471159C351E10C1C4C745284454* ____keys;
+	ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tE5501121B8592AB31F959B2B27A9E2FB967AF83A* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_t69BA8BEDCC0972005B15515EFC4B4E18792D6A24* ____keys;
+	ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A  : public RuntimeObject
+{
+	ControllerInputModeU5BU5D_t054A23E8E4BD2BADB2A3C6198A8E0D9A5E1D7DDC* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B  : public RuntimeObject
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576  : public RuntimeObject
+{
+	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB  : public RuntimeObject
+{
+	SimulatedHandExpressionU5BU5D_tD667BED8A9365959F91838A68E6FC96026F9D5B0* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24  : public RuntimeObject
+{
+	Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* ____dictionary;
+};
+struct ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1  : public RuntimeObject
+{
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ____dictionary;
+};
+struct ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F  : public RuntimeObject
+{
+	Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ____dictionary;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 
+{
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 
+{
+	List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ____current;
+};
+struct Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD 
+{
+	Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ____currentValue;
+};
+struct Enumerator_tF9B1C7464F1BFE1675CFE608CC62D4507968CF08 
+{
+	Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____currentValue;
+};
+struct Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB 
+{
+	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____currentValue;
+};
+struct Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05 
+{
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____currentValue;
+};
+struct Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1 
+{
+	Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ____dictionary;
+	int32_t ____index;
+	int32_t ____version;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ____currentValue;
+};
+struct InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B 
+{
+	int32_t ___length;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___firstValue;
+	Action_1U5BU5D_tB846E6FE2326CCD34124D1E5D70117C9D33DEE76* ___additionalValues;
+};
+struct ValueTuple_2_tE3223708A074B01A40F57AEEB5BDDEE3001ECC1F 
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Item1;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___Item2;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 
+{
+	String_t* ___m_StringOriginalCase;
+	String_t* ___m_StringLowerCase;
+};
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke
+{
+	char* ___m_StringOriginalCase;
+	char* ___m_StringLowerCase;
+};
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com
+{
+	Il2CppChar* ___m_StringOriginalCase;
+	Il2CppChar* ___m_StringLowerCase;
+};
+struct PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE 
+{
+	int32_t ___m_index;
+	int32_t ___m_version;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct HandPlaybackData_t3409D873CA2BF938E23D7FEFA929E78F8764A1DD 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t HandPlaybackData_t3409D873CA2BF938E23D7FEFA929E78F8764A1DD__padding[1];
+	};
+};
+struct CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 
+{
+	bool ___m_CannotMutateCallbacksArray;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_Callbacks;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToAdd;
+	InlinedArray_1_tC208D319D19C2B3DF550BD9CDC11549F23D8F91B ___m_CallbacksToRemove;
+};
+struct Axis2DTargets_t14C3ACE601678139FB3346DE41A9384D00EEB165 
+{
+	int32_t ___value__;
+};
+struct ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0 
+{
+	int32_t ___value__;
+};
+struct CursorMode_t00F22EBA53549D39409497DF00D28A9035CF0C96 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct FontStyle_tDD46734FA9BCB99FB315CD7CAD1137EE536136D1 
+{
+	int32_t ___value__;
+};
+struct HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F 
+{
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_InternedString;
+};
+struct HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F_marshaled_pinvoke
+{
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke ___m_InternedString;
+};
+struct HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F_marshaled_com
+{
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com ___m_InternedString;
+};
+struct Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F 
+{
+	int32_t ___value__;
+};
+struct HeldHotkeyButtons_tF74410BCD6CAB16E8C0A38526F706E64F75E4D2B 
+{
+	int32_t ___value__;
+};
+struct InputActionType_t7E3615BDDF3C84F39712E5889559D3AD8E773108 
+{
+	int32_t ___value__;
+};
+struct InputTrackingState_tCBE220E8A09D62DA1C6BD96F76943FE90F15778D 
+{
+	uint32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct Space_tD3395974B59E2800B96677841CA1F8A372B0AE2C 
+{
+	int32_t ___value__;
+};
+struct TargetedDevices_tDE631218045961E4C1A31FEA4A4B01AA1121917C 
+{
+	int32_t ___value__;
+};
+#pragma pack(push, tp, 1)
+struct XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___primary2DAxis;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___primary2DAxis_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trigger_OffsetPadding[8];
+					float ___trigger;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___trigger_OffsetPadding_forAlignmentOnly[8];
+					float ___trigger_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___grip_OffsetPadding[12];
+					float ___grip;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___grip_OffsetPadding_forAlignmentOnly[12];
+					float ___grip_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___secondary2DAxis_OffsetPadding[16];
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___secondary2DAxis;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___secondary2DAxis_OffsetPadding_forAlignmentOnly[16];
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___secondary2DAxis_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___buttons_OffsetPadding[24];
+					uint16_t ___buttons;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___buttons_OffsetPadding_forAlignmentOnly[24];
+					uint16_t ___buttons_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___batteryLevel_OffsetPadding[26];
+					float ___batteryLevel;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___batteryLevel_OffsetPadding_forAlignmentOnly[26];
+					float ___batteryLevel_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding[30];
+					int32_t ___trackingState;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___trackingState_OffsetPadding_forAlignmentOnly[30];
+					int32_t ___trackingState_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding[34];
+					bool ___isTracked;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___isTracked_OffsetPadding_forAlignmentOnly[34];
+					bool ___isTracked_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding[35];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___devicePosition_OffsetPadding_forAlignmentOnly[35];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding[47];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding_forAlignmentOnly[47];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8__padding[63];
+	};
+};
+#pragma pack(pop, tp)
+struct XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8_marshaled_pinvoke
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___primary2DAxis;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___primary2DAxis_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trigger_OffsetPadding[8];
+					float ___trigger;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trigger_OffsetPadding_forAlignmentOnly[8];
+					float ___trigger_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___grip_OffsetPadding[12];
+					float ___grip;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___grip_OffsetPadding_forAlignmentOnly[12];
+					float ___grip_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___secondary2DAxis_OffsetPadding[16];
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___secondary2DAxis;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___secondary2DAxis_OffsetPadding_forAlignmentOnly[16];
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___secondary2DAxis_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___buttons_OffsetPadding[24];
+					uint16_t ___buttons;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___buttons_OffsetPadding_forAlignmentOnly[24];
+					uint16_t ___buttons_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___batteryLevel_OffsetPadding[26];
+					float ___batteryLevel;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___batteryLevel_OffsetPadding_forAlignmentOnly[26];
+					float ___batteryLevel_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding[30];
+					int32_t ___trackingState;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding_forAlignmentOnly[30];
+					int32_t ___trackingState_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding[34];
+					int32_t ___isTracked;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding_forAlignmentOnly[34];
+					int32_t ___isTracked_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding[35];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding_forAlignmentOnly[35];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding[47];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding_forAlignmentOnly[47];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+			};
+		};
+		uint8_t XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8__padding[63];
+	};
+};
+struct XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8_marshaled_com
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___primary2DAxis;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___primary2DAxis_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trigger_OffsetPadding[8];
+					float ___trigger;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trigger_OffsetPadding_forAlignmentOnly[8];
+					float ___trigger_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___grip_OffsetPadding[12];
+					float ___grip;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___grip_OffsetPadding_forAlignmentOnly[12];
+					float ___grip_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___secondary2DAxis_OffsetPadding[16];
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___secondary2DAxis;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___secondary2DAxis_OffsetPadding_forAlignmentOnly[16];
+					Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___secondary2DAxis_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___buttons_OffsetPadding[24];
+					uint16_t ___buttons;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___buttons_OffsetPadding_forAlignmentOnly[24];
+					uint16_t ___buttons_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___batteryLevel_OffsetPadding[26];
+					float ___batteryLevel;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___batteryLevel_OffsetPadding_forAlignmentOnly[26];
+					float ___batteryLevel_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding[30];
+					int32_t ___trackingState;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding_forAlignmentOnly[30];
+					int32_t ___trackingState_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding[34];
+					int32_t ___isTracked;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding_forAlignmentOnly[34];
+					int32_t ___isTracked_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding[35];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding_forAlignmentOnly[35];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding[47];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding_forAlignmentOnly[47];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+			};
+		};
+		uint8_t XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8__padding[63];
+	};
+};
+#pragma pack(push, tp, 1)
+struct XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftEyePosition;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___leftEyeRotation_OffsetPadding[12];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___leftEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___leftEyeRotation_OffsetPadding_forAlignmentOnly[12];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___leftEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyePosition_OffsetPadding[28];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightEyePosition;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___rightEyePosition_OffsetPadding_forAlignmentOnly[28];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyeRotation_OffsetPadding[40];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rightEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___rightEyeRotation_OffsetPadding_forAlignmentOnly[40];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rightEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyePosition_OffsetPadding[56];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___centerEyePosition;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___centerEyePosition_OffsetPadding_forAlignmentOnly[56];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___centerEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyeRotation_OffsetPadding[68];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___centerEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___centerEyeRotation_OffsetPadding_forAlignmentOnly[68];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___centerEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding[84];
+					int32_t ___trackingState;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___trackingState_OffsetPadding_forAlignmentOnly[84];
+					int32_t ___trackingState_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding[88];
+					bool ___isTracked;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___isTracked_OffsetPadding_forAlignmentOnly[88];
+					bool ___isTracked_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding[89];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___devicePosition_OffsetPadding_forAlignmentOnly[89];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding[101];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding_forAlignmentOnly[101];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F__padding[117];
+	};
+};
+#pragma pack(pop, tp)
+struct XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F_marshaled_pinvoke
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftEyePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___leftEyeRotation_OffsetPadding[12];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___leftEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___leftEyeRotation_OffsetPadding_forAlignmentOnly[12];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___leftEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyePosition_OffsetPadding[28];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightEyePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyePosition_OffsetPadding_forAlignmentOnly[28];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyeRotation_OffsetPadding[40];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rightEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyeRotation_OffsetPadding_forAlignmentOnly[40];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rightEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyePosition_OffsetPadding[56];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___centerEyePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyePosition_OffsetPadding_forAlignmentOnly[56];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___centerEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyeRotation_OffsetPadding[68];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___centerEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyeRotation_OffsetPadding_forAlignmentOnly[68];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___centerEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding[84];
+					int32_t ___trackingState;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding_forAlignmentOnly[84];
+					int32_t ___trackingState_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding[88];
+					int32_t ___isTracked;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding_forAlignmentOnly[88];
+					int32_t ___isTracked_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding[89];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding_forAlignmentOnly[89];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding[101];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding_forAlignmentOnly[101];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+			};
+		};
+		uint8_t XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F__padding[117];
+	};
+};
+struct XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F_marshaled_com
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftEyePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___leftEyeRotation_OffsetPadding[12];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___leftEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___leftEyeRotation_OffsetPadding_forAlignmentOnly[12];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___leftEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyePosition_OffsetPadding[28];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightEyePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyePosition_OffsetPadding_forAlignmentOnly[28];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyeRotation_OffsetPadding[40];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rightEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___rightEyeRotation_OffsetPadding_forAlignmentOnly[40];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rightEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyePosition_OffsetPadding[56];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___centerEyePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyePosition_OffsetPadding_forAlignmentOnly[56];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___centerEyePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyeRotation_OffsetPadding[68];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___centerEyeRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___centerEyeRotation_OffsetPadding_forAlignmentOnly[68];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___centerEyeRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding[84];
+					int32_t ___trackingState;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___trackingState_OffsetPadding_forAlignmentOnly[84];
+					int32_t ___trackingState_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding[88];
+					int32_t ___isTracked;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___isTracked_OffsetPadding_forAlignmentOnly[88];
+					int32_t ___isTracked_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding[89];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___devicePosition_OffsetPadding_forAlignmentOnly[89];
+					Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___devicePosition_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding[101];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation;
+				};
+				#pragma pack(pop, tp)
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___deviceRotation_OffsetPadding_forAlignmentOnly[101];
+					Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___deviceRotation_forAlignmentOnly;
+				};
+				#pragma pack(pop, tp)
+			};
+		};
+		uint8_t XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F__padding[117];
+	};
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct ActionFlags_t639BD2944E073F8DD263CE2CA581FC62C401AB1E 
+{
+	int32_t ___value__;
+};
+struct DisplayStringOptions_t2BB33BB69D1409C0EF8DFD4C0CA6665DE7A11A4A 
+{
+	int32_t ___value__;
+};
+struct Flags_t2ED4EFE461994B03533B3B524C8C2EA71315AAE6 
+{
+	int32_t ___value__;
+};
+struct DeviceMode_tB498C3EB23D3C791EDEB8D311D0D6B1DA51F3B29 
+{
+	int32_t ___value__;
+};
+struct SequenceType_t8726909632A2A1C467003F37E9BA7C18DFB168EC 
+{
+	int32_t ___value__;
+};
+struct InputSourceMode_tFA5D8EFCFC35FC9EC06FB82DE4805FF8C336AC50 
+{
+	int32_t ___value__;
+};
+struct InputMode_tA1FE8CD33609C5FA45BE47B528CB1F9BE7E7C556 
+{
+	int32_t ___value__;
+};
+struct CursorIcon_t1DF1308BBCF7A7177966E75FF562BBFDC708F1B0 
+{
+	int32_t ___value__;
+};
+struct KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD 
+{
+	int32_t ___key;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___value;
+};
+struct KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B 
+{
+	int32_t ___key;
+	RuntimeObject* ___value;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 
+{
+	String_t* ___m_Name;
+	String_t* ___m_Id;
+	String_t* ___m_Path;
+	String_t* ___m_Interactions;
+	String_t* ___m_Processors;
+	String_t* ___m_Groups;
+	String_t* ___m_Action;
+	int32_t ___m_Flags;
+	String_t* ___m_OverridePath;
+	String_t* ___m_OverrideInteractions;
+	String_t* ___m_OverrideProcessors;
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_pinvoke
+{
+	char* ___m_Name;
+	char* ___m_Id;
+	char* ___m_Path;
+	char* ___m_Interactions;
+	char* ___m_Processors;
+	char* ___m_Groups;
+	char* ___m_Action;
+	int32_t ___m_Flags;
+	char* ___m_OverridePath;
+	char* ___m_OverrideInteractions;
+	char* ___m_OverrideProcessors;
+};
+struct InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_marshaled_com
+{
+	Il2CppChar* ___m_Name;
+	Il2CppChar* ___m_Id;
+	Il2CppChar* ___m_Path;
+	Il2CppChar* ___m_Interactions;
+	Il2CppChar* ___m_Processors;
+	Il2CppChar* ___m_Groups;
+	Il2CppChar* ___m_Action;
+	int32_t ___m_Flags;
+	Il2CppChar* ___m_OverridePath;
+	Il2CppChar* ___m_OverrideInteractions;
+	Il2CppChar* ___m_OverrideProcessors;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B  : public RuntimeObject
+{
+	String_t* ___m_Name;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleInput;
+	int32_t ___m_SequenceType;
+	HandExpressionCapture_tA578F037613631E21136324B66C718373BD21578* ___m_Capture;
+	bool ___m_IsQuickAction;
+	HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F ___m_ExpressionName;
+};
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515  : public RuntimeObject
+{
+	int32_t ___m_InputSourceMode;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_InputActionPerformed;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_InputActionValue;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_InputActionReferencePerformed;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_InputActionReferenceValue;
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_ObjectReferenceObject;
+	bool ___m_ManualPerformed;
+	float ___m_ManualValue;
+	bool ___m_ManualQueuePerformed;
+	bool ___m_ManualQueueWasPerformedThisFrame;
+	bool ___m_ManualQueueWasCompletedThisFrame;
+	float ___m_ManualQueueValue;
+	int32_t ___m_ManualQueueTargetFrame;
+	int32_t ___m_ManualFramePerformed;
+	int32_t ___m_ManualFrameCompleted;
+	RuntimeObject* ___U3CbypassU3Ek__BackingField;
+	bool ___m_CallingBypass;
+	UnityObjectReferenceCache_2_t89FB64884388E678953FFA84ECE94DE3CB1D3E66* ___m_ObjectReference;
+	UnityObjectReferenceCache_1_t5037B37A78F59591F798651810A820937FB97158* ___m_InputActionReferencePerformedCache;
+	UnityObjectReferenceCache_1_t5037B37A78F59591F798651810A820937FB97158* ___m_InputActionReferenceValueCache;
+};
+struct XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A  : public RuntimeObject
+{
+	int32_t ___U3CdeviceModeU3Ek__BackingField;
+	int32_t ___U3CtargetedDeviceInputU3Ek__BackingField;
+	bool ___U3CisTranslatingRightU3Ek__BackingField;
+	bool ___U3CisTranslatingLeftU3Ek__BackingField;
+	bool ___U3CisTranslatingUpU3Ek__BackingField;
+	bool ___U3CisTranslatingDownU3Ek__BackingField;
+	bool ___U3CisTranslatingForwardU3Ek__BackingField;
+	bool ___U3CisTranslatingBackwardU3Ek__BackingField;
+	bool ___U3CisRotatingRightU3Ek__BackingField;
+	bool ___U3CisRotatingLeftU3Ek__BackingField;
+	bool ___U3CisRotatingUpU3Ek__BackingField;
+	bool ___U3CisRotatingDownU3Ek__BackingField;
+	bool ___U3CperformingLeftQuickActionU3Ek__BackingField;
+	bool ___U3CperformingRightQuickActionU3Ek__BackingField;
+	bool ___U3CleftDeviceHotkeyModifierPressedU3Ek__BackingField;
+	int32_t ___U3CleftControllerInputModeU3Ek__BackingField;
+	int32_t ___U3CrightControllerInputModeU3Ek__BackingField;
+	int32_t ___U3CactiveControllerHotkeyButtonsU3Ek__BackingField;
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___U3CleftHandExpressionU3Ek__BackingField;
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___U3CrightHandExpressionU3Ek__BackingField;
+	bool ___U3ChandExpressionToggleHeldU3Ek__BackingField;
+};
+struct XRSimulatedHandState_t23BB7525040906B00DF954B84354D038E16496F0 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CeulerU3Ek__BackingField;
+	bool ___U3CisTrackedU3Ek__BackingField;
+	HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F ___U3CexpressionNameU3Ek__BackingField;
+};
+struct XRSimulatedHandState_t23BB7525040906B00DF954B84354D038E16496F0_marshaled_pinvoke
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CeulerU3Ek__BackingField;
+	int32_t ___U3CisTrackedU3Ek__BackingField;
+	HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F_marshaled_pinvoke ___U3CexpressionNameU3Ek__BackingField;
+};
+struct XRSimulatedHandState_t23BB7525040906B00DF954B84354D038E16496F0_marshaled_com
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3Ek__BackingField;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CeulerU3Ek__BackingField;
+	int32_t ___U3CisTrackedU3Ek__BackingField;
+	HandExpressionName_t6A8653595F193468A2E582679422CB9B3E4AD36F_marshaled_com ___U3CexpressionNameU3Ek__BackingField;
+};
+struct Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4 
+{
+	Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* ____dictionary;
+	int32_t ____version;
+	int32_t ____index;
+	KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD ____current;
+	int32_t ____getEnumeratorRetType;
+};
+struct Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4 
+{
+	Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* ____dictionary;
+	int32_t ____version;
+	int32_t ____index;
+	KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B ____current;
+	int32_t ____getEnumeratorRetType;
+};
+struct Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 
+{
+	bool ___hasValue;
+	InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___value;
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_Asset;
+	String_t* ___m_ActionId;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_Action;
+};
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	RuntimeObject* ____actualValue;
+};
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeObject
+{
+	String_t* ___m_Name;
+	int32_t ___m_Type;
+	String_t* ___m_ExpectedControlType;
+	String_t* ___m_Id;
+	String_t* ___m_Processors;
+	String_t* ___m_Interactions;
+	InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* ___m_SingletonActionBindings;
+	int32_t ___m_Flags;
+	int32_t ___m_Priority;
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask;
+	int32_t ___m_BindingsStartIndex;
+	int32_t ___m_BindingsCount;
+	int32_t ___m_ControlStartIndex;
+	int32_t ___m_ControlCount;
+	int32_t ___m_ActionIndexInState;
+	InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* ___m_ActionMap;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnStarted;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnCanceled;
+	CallbackArray_1_tDFF8C4C6015023B6C2E70BAD26D8BC6BF00D8775 ___m_OnPerformed;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* ___m_SimulatedHandExpressions;
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___m_RestingHandExpression;
+	SimulatedDeviceLifecycleManager_tA9A19F0465A60403F4F454705C79D91A90AF448F* ___m_DeviceLifecycleManager;
+	HandPlaybackData_t3409D873CA2BF938E23D7FEFA929E78F8764A1DD ___m_LeftPlaybackData;
+	HandPlaybackData_t3409D873CA2BF938E23D7FEFA929E78F8764A1DD ___m_RightPlaybackData;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* ___m_XRHandTrackingEvents;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___m_HandMeshRenderer;
+	bool ___m_ShowMeshWhenTrackingIsAcquired;
+	bool ___m_HideMeshWhenTrackingIsLost;
+	bool ___m_HandIsTracked;
+};
+struct XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftHand;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightHand;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftController;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightController;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_TrackedHandModeStarted;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_TrackedHandModeEnded;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_MotionControllerModeStarted;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_MotionControllerModeEnded;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___m_HandSubsystem;
+	bool ___m_LoggedMissingHandSubsystem;
+	TrackedDeviceMonitor_t9664A1B9DC4D949162FB2E6E435640B686407962* ___m_TrackedDeviceMonitor;
+	InputDeviceMonitor_t6EDC57AF699FF3D1F95DD2E638416BC7A4FBC957* ___m_InputDeviceMonitor;
+	int32_t ___m_LeftInputMode;
+	int32_t ___m_RightInputMode;
+	Action_2_tEF565A96FD8C4A0BD0635243ED4EDFDBE2899890* ___leftInputModeChanged;
+	Action_2_tEF565A96FD8C4A0BD0635243ED4EDFDBE2899890* ___rightInputModeChanged;
+};
+struct XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_CameraTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_LeftControllerTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_RightControllerTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_LeftHandAimTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_RightHandAimTransform;
+	SimulatedDeviceLifecycleManager_tA9A19F0465A60403F4F454705C79D91A90AF448F* ___m_DeviceLifecycleManager;
+	SimulatedHandExpressionManager_t36B4B67C8EE0BBCCD4589B5390E3777A468F6869* ___m_HandExpressionManager;
+	SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* ___m_HandPlaybackManager;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_InteractionSimulatorUI;
+	bool ___m_HMDIsTracked;
+	uint32_t ___m_HMDTrackingState;
+	bool ___m_LeftControllerIsTracked;
+	uint32_t ___m_LeftControllerTrackingState;
+	bool ___m_RightControllerIsTracked;
+	uint32_t ___m_RightControllerTrackingState;
+	bool ___m_LeftHandIsTracked;
+	bool ___m_RightHandIsTracked;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___m_TranslateXInput;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___m_TranslateYInput;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___m_TranslateZInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleManipulateLeftInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleManipulateRightInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_LeftDeviceActionsInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_CycleDevicesInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_KeyboardRotationDeltaInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleMouseInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_MouseRotationDeltaInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_MouseScrollInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_GripInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_TriggerInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_PrimaryButtonInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_SecondaryButtonInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_MenuInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_Primary2DAxisClickInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_Secondary2DAxisClickInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_Primary2DAxisTouchInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_Secondary2DAxisTouchInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_PrimaryTouchInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_SecondaryTouchInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_XConstraintInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_YConstraintInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ZConstraintInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ResetInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_Axis2DInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_TogglePrimary2DAxisTargetInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleSecondary2DAxisTargetInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_CycleQuickActionInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_TogglePerformQuickActionInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleManipulateHeadInput;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_MouseClickInput;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_MousePointInput;
+	float ___m_GripAmount;
+	float ___m_TriggerAmount;
+	float ___m_TranslateXSpeed;
+	float ___m_TranslateYSpeed;
+	float ___m_TranslateZSpeed;
+	float ___m_BodyTranslateMultiplier;
+	float ___m_RotateXSensitivity;
+	float ___m_RotateYSensitivity;
+	float ___m_MouseScrollRotateSensitivity;
+	bool ___m_RotateYInvert;
+	int32_t ___m_TranslateSpace;
+	List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* ___m_QuickActionControllerInputModes;
+	bool ___m_UsePointAndClick;
+	float ___m_DeviceAimCameraRadius;
+	int32_t ___m_DefaultPointAndClickHandedness;
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___m_PointAndClickHandExpression;
+	int32_t ___m_RequestedTargetedDeviceInput;
+	bool ___m_TargetedDeviceInputRequested;
+	bool ___m_PointAndClickActive;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___m_CurrentState;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___m_PreviousState;
+	int32_t ___U3Caxis2DTargetsU3Ek__BackingField;
+	ValueTuple_2_tE3223708A074B01A40F57AEEB5BDDEE3001ECC1F ___m_CachedCamera;
+	float ___m_TranslateXValue;
+	float ___m_TranslateYValue;
+	float ___m_TranslateZValue;
+	bool ___m_ToggleMouseValue;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_RotationDeltaValue;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_MouseScrollValue;
+	bool ___m_XConstraintValue;
+	bool ___m_YConstraintValue;
+	bool ___m_ZConstraintValue;
+	bool ___m_ResetValue;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Axis2DValue;
+	bool ___m_LeftControllerButtonsFrozen;
+	bool ___m_RightControllerButtonsFrozen;
+	uint16_t ___m_LeftControllerFrozenButtons;
+	uint16_t ___m_RightControllerFrozenButtons;
+	int32_t ___m_LeftControllerInputModeIndex;
+	int32_t ___m_RightControllerInputModeIndex;
+	int32_t ___m_LeftHandExpressionIndex;
+	int32_t ___m_RightHandExpressionIndex;
+	bool ___m_ToggleManipulateWaitingForReleaseBoth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LeftControllerEuler;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RightControllerEuler;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_CenterEyeEuler;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_ScreenToWorldPoint;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RaycastDirVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_HitEndPoint;
+	XRSimulatedHMDState_t9E3C40E32E5F2F862C2EC9214C289A7794DEA65F ___m_HMDState;
+	XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8 ___m_LeftControllerState;
+	XRSimulatedControllerState_t252B09A03B71DC2643A2B740881F4E3C337C94E8 ___m_RightControllerState;
+	XRSimulatedHandState_t23BB7525040906B00DF954B84354D038E16496F0 ___m_LeftHandState;
+	XRSimulatedHandState_t23BB7525040906B00DF954B84354D038E16496F0 ___m_RightHandState;
+	int32_t ___m_PreviousTargetedDevices;
+	PhysicsScene_t55222DD37072E8560EE054A07C0E3FE391D9D9DE ___m_LocalPhysicsScene;
+	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* ___m_RaycastHits;
+	XRUIInputModule_tA641266A2621C1465F3C5433D747428A4CDA72F0* ___m_UIInputModule;
+	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___m_UIPointerEventData;
+	bool ___m_PerformingLeftPointAndClickGripInteraction;
+	bool ___m_PerformingRightPointAndClickGripInteraction;
+	bool ___m_PerformingLeftPointAndClickTriggerInteraction;
+	bool ___m_PerformingRightPointAndClickTriggerInteraction;
+	bool ___m_PerformingLeftQuickAction;
+	bool ___m_PerformingRightQuickAction;
+	bool ___m_OriginalInputModuleMouseValue;
+	bool ___m_OriginalInputModuleTouchValue;
+	bool ___m_OriginalInputModuleValuesCaptured;
+	bool ___m_InputModuleChangeLogged;
+	bool ___m_CanUsePointAndClickControllers;
+	bool ___m_CanUsePointAndClickHands;
+	bool ___m_MouseRotationActive;
+	float ___m_PreviousRaycastHitDistance;
+	RuntimeObject* ___m_DeviceAimRaycastFilter;
+	XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* ___m_InputModalityManager;
+	XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* ___m_XROrigin;
+	bool ___m_CameraTransformUserConfigured;
+};
+struct XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacLeftControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacRightControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacBothControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacLeftHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacRightHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacBothHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_MacHMDCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinLeftControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinRightControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinBothControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinLeftHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinRightHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinBothHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_WinHMDCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_LeftControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_RightControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_BothControllerCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_LeftHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_RightHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_BothHandCursor;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_HMDCursor;
+	int32_t ___m_CursorIcon;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_LeftControllerCursorOffset;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_LeftHandCursorOffset;
+	XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* ___m_Simulator;
+};
+struct XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HMDPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightHandPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftHandPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightControllerPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftControllerPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightOtherHandPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftOtherHandPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightOtherControllerPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftOtherControllerPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_BothControllersPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_BothHandsPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TriggerPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_TriggerBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GripPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_GripBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PrimaryPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_PrimaryBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_SecondaryPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_SecondaryBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_MenuPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_MenuBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Primary2DAxisClickPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_Primary2DAxisClickBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Secondary2DAxisClickPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_Secondary2DAxisClickBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Primary2DAxisTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_Primary2DAxisTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Secondary2DAxisTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_Secondary2DAxisTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PrimaryTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_PrimaryTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_SecondaryTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_SecondaryTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ControllerHotkeyPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_ControllerHotkeyBg;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_ControllerHotkeyIcon;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_ControllerHotkeyText;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_LeftControllerSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_RightControllerSprite;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ControllerInputRow;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherTriggerPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherTriggerBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherGripPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherGripBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherPrimaryPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherPrimaryBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherSecondaryPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherSecondaryBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherMenuPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherMenuBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherPrimary2DAxisClickPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherPrimary2DAxisClickBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherSecondary2DAxisClickPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherSecondary2DAxisClickBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherPrimary2DAxisTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherPrimary2DAxisTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherSecondary2DAxisTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherSecondary2DAxisTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherPrimaryTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherPrimaryTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherSecondaryTouchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherSecondaryTouchBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PokePanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_PokePanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PinchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_PinchPanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GrabPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_GrabPanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CustomPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HandHotkeyPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_HandHotkeyBg;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_HandHotkeyIcon;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_HandHotkeyText;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_LeftHandSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_RightHandSprite;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HandInputRow;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherIdlePanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherIdlePanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherPokePanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherPokePanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherPinchPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherPinchPanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherGrabPanel;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_OtherGrabPanelBg;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherCustomPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TranslateForwardPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TranslateBackwardPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TranslateUpPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TranslateDownPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TranslateLeftPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_TranslateRightPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RotateUpPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RotateDownPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RotateLeftPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RotateRightPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_OtherDeviceInputRow;
+	XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* ___m_Simulator;
+	Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* ___m_ControllerInputPanels;
+	Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* ___m_ControllerInputBgs;
+	Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* ___m_OtherControllerInputPanels;
+	Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* ___m_OtherControllerInputBgs;
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___m_HandExpressionPanels;
+	Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ___m_HandExpressionBgs;
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___m_OtherHandExpressionPanels;
+	Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ___m_OtherHandExpressionBgs;
+	Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* ___m_HotkeyInputReaders;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___m_ActiveHotkeyPanelInstances;
+	SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* ___m_HandPlaybackManager;
+};
+struct XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_InputSelectionMenu;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ClosedInputSelectionMenu;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ControllerActionsMenu;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ClosedControllerActionsMenu;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HandActionsMenu;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ClosedHandActionsMenu;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleActionMenu;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___m_ToggleInputSelectionMenu;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HighlightFullBodyPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HighlightLeftControllerPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HighlightRightControllerPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HighlightLeftHandPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HighlightRightHandPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HighlightHeadPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ControllerActionHighlightPanel;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_FirstControllerActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_SecondControllerActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_ThirdControllerActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_FourthControllerActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_FirstControllerBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_SecondControllerBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_ThirdControllerBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_FourthControllerBindingText;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstControllerBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_SecondControllerBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ThirdControllerBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FourthControllerBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftHandHighlightPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightHandHighlightPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftHandActionHighlightPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RightHandActionHighlightPanel;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_FirstHandActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_SecondHandActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_ThirdHandActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_FirstHandBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_SecondHandBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_ThirdHandBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_LeftFirstHandActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_LeftSecondHandActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_LeftThirdHandActionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_LeftFirstHandBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_LeftSecondHandBindingText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_LeftThirdHandBindingText;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstHandBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_SecondHandBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_ThirdHandBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftFirstHandBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftSecondHandBindingGO;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LeftThirdHandBindingGO;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_LeftHandIcon;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_RightHandIcon;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HandPackageWarningPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_InputModalityManagerWarningPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_InputMenuHandVisualizerWarningPanel;
+	XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* ___m_Simulator;
+	SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* ___m_HandPlaybackManager;
+	Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* ___m_ControllerInputRow;
+	Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* ___m_LeftHandExpressionRow;
+	Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* ___m_RightHandExpressionRow;
+	bool ___m_PreviousControllerMenuState;
+	bool ___m_PreviousHandMenuState;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___m_SecondaryTextures;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A_StaticFields
+{
+	ControllerInputModeU5BU5D_t054A23E8E4BD2BADB2A3C6198A8E0D9A5E1D7DDC* ___s_emptyArray;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_StaticFields
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___s_emptyArray;
+};
+struct List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576_StaticFields
+{
+	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB_StaticFields
+{
+	SimulatedHandExpressionU5BU5D_tD667BED8A9365959F91838A68E6FC96026F9D5B0* ___s_emptyArray;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InputActionEnableProfilerMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InputActionDisableProfilerMarker;
+};
+struct XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA_StaticFields
+{
+	BindableEnum_1_t3E1A071A68D0511716E071A3195156A38D3EBC71* ___s_CurrentInputMode;
+	List_1_tCC00F1EA7285A47DF2A9D8CE7E08BB3585EA8137* ___U3CactiveModalityManagersU3Ek__BackingField;
+	Action_2_t4C05283691BC66586830D8BF971A9EEA99B32EA5* ___activeModalityManagersChanged;
+};
+struct XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6_StaticFields
+{
+	XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* ___U3CinstanceU3Ek__BackingField;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___instanceChanged;
+};
+struct XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___k_DefaultPanelColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___k_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___k_EnabledColor;
+};
+struct XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_StaticFields
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___k_DisabledColor;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___s_TempNewSecondaryTextures;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* m_Items[1];
+
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ComponentLocatorUtility_1_TryFindComponent_m59FF38DBD350EF6445AC2926CA31B99BDE6485D8_gshared (RuntimeObject** ___0_component, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m9C4302CCAE3C1BF70D02091D0E0CED7663F18211_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, int32_t ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4 Dictionary_2_GetEnumerator_m4126F9137DF46492CEB1563FCCD5A16C5F99D686_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m183A70972A3287360EE9443997160D3AA6D4662D_gshared (Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B Enumerator_get_Current_m12EE850D56E586DF121B059557CEAF4A7472995B_gshared_inline (Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyValuePair_2_Deconstruct_m323231E561A22BE96CF62A87BB4D28111391BCBD_gshared (KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B* __this, int32_t* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m48EC022EB2EB605F29EE19F3A0A79E3CB05FD283_gshared (Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Item_mDE2F02C693FD9EAA8F93873E407BC46C47ACFC7A_gshared (List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD8A6CDD5C954C86D2150FCFF1B76EB62F35A881D_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, int32_t ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m9080410FAF175EB3313FCE9515BA3A9D8E11718F_gshared_inline (List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mCC9983804D8DC41E938E080075F9EA7BDD0C7059_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_mC515884C0546021A29DC0A00DBCABD89B1B65872_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, int32_t ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared (ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_tB299C06E8B49BF406A8E6B012CEB2F5086FD124D* Dictionary_2_get_Values_m88548D48A871D5B79DB4BAAB82C62D4D61568F64_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tF9B1C7464F1BFE1675CFE608CC62D4507968CF08 ValueCollection_GetEnumerator_m412091D90257E6493D8F9404FFC734832E1C5007_gshared (ValueCollection_tB299C06E8B49BF406A8E6B012CEB2F5086FD124D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m51A04B4A4A98EC6004015ECF7C9605316687CBD3_gshared (Enumerator_tF9B1C7464F1BFE1675CFE608CC62D4507968CF08* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m76B0ECD4B03E606A1CE3DF60589D2E97130B02CA_gshared_inline (Enumerator_tF9B1C7464F1BFE1675CFE608CC62D4507968CF08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m30C883F9DF743472B2102F74D70DA61074694D1E_gshared (Enumerator_tF9B1C7464F1BFE1675CFE608CC62D4507968CF08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChildren_TisRuntimeObject_mF44830CCE504347DFE1E61EC5F4E02A407D8122C_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m78DDC81EE49FB9D4194E83685FFED445DFDB75CA_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, int32_t ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m874C59716993973F0A52C848B20C70C26DB9BCF7_gshared (Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* __this, int32_t ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, int32_t ___0_cursorIcon, const RuntimeMethod* method) ;
+inline bool ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18 (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6**, const RuntimeMethod*))ComponentLocatorUtility_1_TryFindComponent_m59FF38DBD350EF6445AC2926CA31B99BDE6485D8_gshared)(___0_component, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulator_get_pointAndClickActive_mFF0C7737C800E7D214A16FF8E3FDD642C947E535_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorCursor_RotationInputIsPerformed_mE65AFF20D088EBBD49D7E102FACDE7EDF64FD6A4 (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulator_RotationInputIsPerformed_m498CA4A8E851EBF0F1D02B8BC719C6F97ECCDB92 (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_texture, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_hotspot, int32_t ___2_cursorMode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, RuntimeObject* ___1_actualValue, String_t* ___2_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+inline bool ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C**, const RuntimeMethod*))ComponentLocatorUtility_1_TryFindComponent_m59FF38DBD350EF6445AC2926CA31B99BDE6485D8_gshared)(___0_component, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_InitializeUIDictionaries_m46351CBD9DC7494C9D4953676F654DBEC49C223F (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ActivateControllerPanels_m5470C95D664B17809CD4FD4D7DF784B14DC6C07E (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ActivateHandPanels_mEE962ACC10B840E1F0C5250870B86EE6DA18C5E9 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_UpdateActiveDeviceModePanel_m7A8FA693FD374C49E1673E74057C9FEEA4E4209C (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_UpdateOtherDeviceModePanel_mD635EBA1FFF11CCC75EC83727DA4690BAA5CE85E (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleActiveDeviceModePanels_m9F8C60FC5E7D7D3FB3A53DC713698B455CF6ED5C (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleOtherDeviceModePanels_m1F59587C0F775A11CA802CEC19FADEF4182A1418 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleGeneralInputFeedback_mB55A8F82763885D74C4FA8867ABF2780BE4F430D (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleActiveInputModePanels_mC03B16F87F58AAF5AAA15E8C125120130448F135 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleOtherActiveInputModePanels_mFFB76649E4D2607C40BB05DB1B43A7DBE496FA68 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleDeviceHotkeyPanels_mA749DE2F71DFF96621590DBB8874EE6C82C05C90 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleHandHotkeyPanels_m43C1C9B3EF2496EC92AF2E35B884CF8F3D6D2051 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingRight_mC22E9BA21B03EF53C3033E4ECA79055F69F43489_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingLeft_mF988C9E6F28AAD691A6987BD9FC36B26F62E7878_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingForward_m3C6B02683E3E5875E7C5B847C8C2EE4EF61A0D4C_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingBackward_m23EB4C1BFEE391C13C578B1C342A00E93A715A03_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingUp_m6758A7D99FA32A0E4F011724C63D2E8907F84F49_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingDown_mAA1DF0DDEB3DBA3A91156A4614EEED22387C17D8_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingRight_m15FD66CA92934719D1B4F7A3205B2D299BCB9604_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingLeft_m58D383A056794F679EE27A4AE900FFBC90786AB5_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingUp_mA7017D947F59EA8557E127B001F2CD4E36FE9852_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingDown_m0FEEF853393A9E35D64EE84CA52A7A7DD3AACA31_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearActiveInputModePanels_m7393E32A93B8A3F582DAD0E191005F5BB634FBDA (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingHMD_mB0D649CC6ECAE7011A7CD18999DA2C150DDF1A9C (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearOtherInputModePanels_m6ADC7FB8CFAA94FF749FA02786B2E768B46D2261 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* XRInteractionSimulatorState_get_currentHandExpression_m981238CEA374EBC98002226FFAAA1C44B7CEE937 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingLeftDevice_m7A5906954D42FDF4B4CFC25B5BBF0C6FBB961749 (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_manipulatingRightDevice_m30C83F301BE913636B03CB800A845F4EF9839B1F (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightActiveControllerInputMode_m535555EEDE4A65E5824C95F2803FC2F1E516C094 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_highlightColor, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___1_current, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightActiveHandInputMode_mD3CFBB172302463FA853EA4EFC07E534E7DD311F (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_highlightColor, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___1_current, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_UpdateActiveInputModeHighlight_m02D999D63D02CA2442AEFA38075CC327A082F8BE (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_current, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SimulatedHandExpression_get_sequenceType_m2A7AD06DACCBDD365B517A250FFE6C19B78E38A1_inline (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_leftControllerInputMode_m13EED6634F54C0663793947C1E195ECB4ADFB037_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_rightControllerInputMode_m0FC9659129EFCCB442AE5B0CEF9F39B9B638635F_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearOtherActiveInputPanels_mFFE524F05E98231076C94002F2EC4B38E89FE7E3 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* __this, int32_t ___0_key, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*, int32_t, const RuntimeMethod*))Dictionary_2_get_Item_m9C4302CCAE3C1BF70D02091D0E0CED7663F18211_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightOtherControllerInputMode_mFB330E469BF9E6C2B5DD331C07EF42E38E152780 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, int32_t ___0_inputMode, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_highlightColor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25 (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightOtherHandInputMode_mBB91B8D0CA15C623D889A5E38B4D8DF6EC72D468 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, String_t* ___0_handExpressionName, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_highlightColor, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_activeControllerHotkeyButtons_mD859FD328B54861ABDBF28E612675AE1E369E3EE_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+inline Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27 (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline void List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+inline Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4 Dictionary_2_GetEnumerator_m22E9C5C0D18C22DA383F38BF24CCD61D236BF3A8 (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4 (*) (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F*, const RuntimeMethod*))Dictionary_2_GetEnumerator_m4126F9137DF46492CEB1563FCCD5A16C5F99D686_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m79217ADD3F299C9B19FE583F6512D90CD4FD5DF1 (Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4*, const RuntimeMethod*))Enumerator_Dispose_m183A70972A3287360EE9443997160D3AA6D4662D_gshared)(__this, method);
+}
+inline KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD Enumerator_get_Current_m434AE7EA66F4FA96308500A1099554FC4AECB4BB_inline (Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4* __this, const RuntimeMethod* method)
+{
+	return ((  KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD (*) (Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4*, const RuntimeMethod*))Enumerator_get_Current_m12EE850D56E586DF121B059557CEAF4A7472995B_gshared_inline)(__this, method);
+}
+inline void KeyValuePair_2_Deconstruct_m1956E58102443E31342BE231C57A144EB3E5FD3B (KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD* __this, int32_t* ___0_key, XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515** ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD*, int32_t*, XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515**, const RuntimeMethod*))KeyValuePair_2_Deconstruct_m323231E561A22BE96CF62A87BB4D28111391BCBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ApplyControllerHotkeyText_mC7CD8288968FA3132BE5B3226899BF4D85E8420A (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___0_inputReader, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___1_current, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared)(___0_original, ___1_parent, method);
+}
+inline void List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline bool Enumerator_MoveNext_m9FF8AEE1E32D596C30F327273E67DD0FFEBC032F (Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4*, const RuntimeMethod*))Enumerator_MoveNext_m48EC022EB2EB605F29EE19F3A0A79E3CB05FD283_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_handExpressionToggleHeld_mF3C383E43E9309CCAC4C3B5A1C1B8AF79F3CE9EB_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ApplyHandHotkeyText_m5F06CD16B6D4572569717176682B5CAD6D401888 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_current, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_leftDeviceHotkeyModifierPressed_m33DFDD01C18A3ABC0F256133A7AC24C425BD485E_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* SimulatedHandExpression_get_toggleInput_m16D8F8CDD24C1B3BE3B3FA26297FD684417B3F0C_inline (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputActionRebindingExtensions_GetBindingDisplayString_m316A3C960D797985D089B8BB435E668ACAA4DC2F (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___0_action, int32_t ___1_bindingIndex, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* XRInteractionSimulator_get_quickActionControllerInputModes_m53896B63465E11968A46321554D26D9631D5E68E_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16 (List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A*, int32_t, const RuntimeMethod*))List_1_get_Item_mDE2F02C693FD9EAA8F93873E407BC46C47ACFC7A_gshared)(__this, ___0_index, method);
+}
+inline bool Dictionary_2_TryGetValue_m7FA28303762766FE260FF53C6634F9355BEB35C8 (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* __this, int32_t ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*, int32_t, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD8A6CDD5C954C86D2150FCFF1B76EB62F35A881D_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetSiblingIndex_m8A3B81F08B93991C05BFA89ADA2146836C4FC4B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_inline (List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A*, const RuntimeMethod*))List_1_get_Count_m9080410FAF175EB3313FCE9515BA3A9D8E11718F_gshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* __this, const RuntimeMethod* method) ;
+inline SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218 (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* (*) (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SimulatedHandExpression_get_isQuickAction_mAA263E54E231BDA5576C8E76D43F86A748205397_inline (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) ;
+inline bool Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline int32_t List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_inline (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline void Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432 (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*, const RuntimeMethod*))Dictionary_2__ctor_mCC9983804D8DC41E938E080075F9EA7BDD0C7059_gshared)(__this, method);
+}
+inline void Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1 (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* __this, int32_t ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*, int32_t, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_Add_mC515884C0546021A29DC0A00DBCABD89B1B65872_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9 (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924*, const RuntimeMethod*))Dictionary_2__ctor_mCC9983804D8DC41E938E080075F9EA7BDD0C7059_gshared)(__this, method);
+}
+inline void Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43 (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* __this, int32_t ___0_key, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924*, int32_t, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E*, const RuntimeMethod*))Dictionary_2_Add_mC515884C0546021A29DC0A00DBCABD89B1B65872_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void Dictionary_2__ctor_mF514321EB8BECBC38C0E1E7A3BD1ECFF158E4A4F (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F*, const RuntimeMethod*))Dictionary_2__ctor_mCC9983804D8DC41E938E080075F9EA7BDD0C7059_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_triggerInput_mDDD941B1135E1617AF9FDF4123C3122F4DF4EC61_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+inline void Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9 (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* __this, int32_t ___0_key, XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F*, int32_t, XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515*, const RuntimeMethod*))Dictionary_2_Add_mC515884C0546021A29DC0A00DBCABD89B1B65872_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_gripInput_m0B61567D62CBAD704CF6294C5532DE53D4B8370F_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primaryButtonInput_m888BC37EE782D5B81C4418B0A91C2CA46676CC1C_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondaryButtonInput_mEDE5093D0E853559F4C40472AEB4B9D55B8E910C_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_menuInput_m84C9A16C0D5A7BCD241B8F27E93DB501C9462110_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primary2DAxisClickInput_mFD83EAEDE0665CBDA9C5AA082102845E99D0A82F_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondary2DAxisClickInput_m524E294AB96C3A999582475309DF62B2799CD64B_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primary2DAxisTouchInput_m75D8BAD5A09A5C7B1BDD1040E32A8CD6B6D5DA4A_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondary2DAxisTouchInput_m510BA4AD356D1F4B1CCA38FE8CD01AD0CDB67E93_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primaryTouchInput_m4A2DB06C2088902E437C0DBCE0C04A9C578514F9_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondaryTouchInput_m98FBE1F8591F31F54F616ED5BD6D8FC7D9FDB4A7_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) ;
+inline void Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+inline void Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+inline void Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029 (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* __this, String_t* ___0_key, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*, String_t*, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_InitializeCustomHandExpressionPanels_mFD0E7902A649802FBBE47106F8BF1D279B43D794 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) ;
+inline Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3 (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 (*) (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC (Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_inline (Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4* __this, const RuntimeMethod* method)
+{
+	return ((  SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* (*) (Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_InstantiateHandPanelObjects_mD239005C2C1E5E0A981081E77CC2BD43D2A8006E (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_handExpression, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_customPanel, Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___2_panels, Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ___3_bgs, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3 (Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline bool Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* GameObject_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m768372D99692DF7D0AC1318EE6ABCCDB2A885C92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* GameObject_AddComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA327C9E1CA12BC531D587E7567F2067B96E6B6A0 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared)(__this, method);
+}
+inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_fontStyle_m5ABEF66BFC88E7E0A950E2817E4978FF472F6C1D (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+inline void Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562 (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, String_t* ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void Dictionary_2_set_Item_mAA75678DF1D2E3191C5CFBA7D4AF0963A005B1F3 (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* __this, String_t* ___0_key, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*, String_t*, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearHighlightedControllerPanels_mE59C1C105FEE78B06537AD6105CE69225C3480EB (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* ___0_bgs, const RuntimeMethod* method) ;
+inline bool Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325 (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* __this, int32_t ___0_key, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924*, int32_t, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD8A6CDD5C954C86D2150FCFF1B76EB62F35A881D_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearHighlightedHandPanels_mB8590B6FC458CC3B268C3660E27C1915B6D4CAD0 (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ___0_bgs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+inline bool Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* __this, String_t* ___0_key, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*, String_t*, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* Dictionary_2_get_Values_mCCC41FF246D656F5F707EF1522F1C279DAA5343F (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* __this, const RuntimeMethod* method)
+{
+	return ((  ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
+}
+inline Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05 ValueCollection_GetEnumerator_mBEBB5769586D6C240A83E6E9457137C4DD2C3921 (ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05 (*) (ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1*, const RuntimeMethod*))ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m696B5831B239FA49B7C6E9E829D5C2BA96B0E1AF (Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05*, const RuntimeMethod*))Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Enumerator_get_Current_mD7296BB33D16F06FD06E6077D093543842DCAE4F_inline (Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05* __this, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05*, const RuntimeMethod*))Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m82EA4A043BD1FC4DB303D820966EBFBD9916A134 (Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05*, const RuntimeMethod*))Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared)(__this, method);
+}
+inline ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F* Dictionary_2_get_Values_m44BAAB077510C95A89590C32AF5D36664D031A11 (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* __this, const RuntimeMethod* method)
+{
+	return ((  ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F* (*) (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
+}
+inline Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1 ValueCollection_GetEnumerator_m21633EA46BD56950D03DEDDA3ADE44B2DEA8AC0C (ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1 (*) (ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F*, const RuntimeMethod*))ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mF9B5DD4FC53CB2A9E6659950BA66050A197FC7A9 (Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1*, const RuntimeMethod*))Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared)(__this, method);
+}
+inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* Enumerator_get_Current_m48A40A69DBFACC803599C22E7CE1D2AD4FCABF19_inline (Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1* __this, const RuntimeMethod* method)
+{
+	return ((  Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* (*) (Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1*, const RuntimeMethod*))Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_mDD55A50B8787B45E0B64C668ACF4A3C5855A3F7E (Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1*, const RuntimeMethod*))Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared)(__this, method);
+}
+inline ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24* Dictionary_2_get_Values_mA56B0D41B4B7E81F55E79D36E56A934977485B55 (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* __this, const RuntimeMethod* method)
+{
+	return ((  ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24* (*) (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924*, const RuntimeMethod*))Dictionary_2_get_Values_m88548D48A871D5B79DB4BAAB82C62D4D61568F64_gshared)(__this, method);
+}
+inline Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD ValueCollection_GetEnumerator_mF5DED5B7A248BFD82A24983BDB70FBB3285F238A (ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD (*) (ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24*, const RuntimeMethod*))ValueCollection_GetEnumerator_m412091D90257E6493D8F9404FFC734832E1C5007_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mB20C5569DF7EA0E5FC2A766BFC5C4A9C5BAC7BC6 (Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD*, const RuntimeMethod*))Enumerator_Dispose_m51A04B4A4A98EC6004015ECF7C9605316687CBD3_gshared)(__this, method);
+}
+inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* Enumerator_get_Current_m00C7464FDCAB2413EC07E130F2F10BFC87669B96_inline (Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD* __this, const RuntimeMethod* method)
+{
+	return ((  Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* (*) (Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD*, const RuntimeMethod*))Enumerator_get_Current_m76B0ECD4B03E606A1CE3DF60589D2E97130B02CA_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m773ABBB02CDE3AE8AD2C4839DF832A1C96C9FFA5 (Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD*, const RuntimeMethod*))Enumerator_MoveNext_m30C883F9DF743472B2102F74D70DA61074694D1E_gshared)(__this, method);
+}
+inline void List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_InitializeQuickActionPanels_mD8CBE8EEDA390B8D3A71B7E426E09E1D90567603 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_SetHandPackageWarning_mDAF8DD7B52E1B7DC247793711C703B08A43AF567 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_CheckHandVisualizer_mAA7F7989D66CDD888DE4F1947480DDA75D3B84A9 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+inline bool ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C (XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA**, const RuntimeMethod*))ComponentLocatorUtility_1_TryFindComponent_m59FF38DBD350EF6445AC2926CA31B99BDE6485D8_gshared)(___0_component, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* XRInputModalityManager_get_leftHand_m402022E4787271D565BD5222D7A9C65C66F8C428_inline (XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* XRInputModalityManager_get_rightHand_m66D448E794A2E2D604B990E7D633014BDF9F14D9_inline (XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* __this, const RuntimeMethod* method) ;
+inline XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method)
+{
+	return ((  XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, bool, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mF44830CCE504347DFE1E61EC5F4E02A407D8122C_gshared)(__this, ___0_includeInactive, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_InitializeControllerQuickActionPanels_m6748EFB8D63669A0F1FB08D0FE24EC4438E1B19F (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_InitializeHandQuickActionPanels_m10F9019295D101833F531A58FFB51BCA4AD0FABF (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+inline void Dictionary_2_set_Item_m0A602774FBD9AB5FF2D9A2B44290BBED926D328F (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* __this, int32_t ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*, int32_t, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_set_Item_m78DDC81EE49FB9D4194E83685FFED445DFDB75CA_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_GetControllerQuickActionNames_mB5CFD66AA45C5DAB88B8B940AA05F266C38DD189 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, int32_t ___0_inputMode, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___1_actionText, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___2_bindingText, const RuntimeMethod* method) ;
+inline void List_1__ctor_mF61B1B410A25CD383FBC3D17D504599976EDB605 (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1_Add_mEBB9929154E25FFDF116FD4EED24E80B1416C73F_inline (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* __this, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB*, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0 (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* __this, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_key, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762*, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599 (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___0_reader, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInputButtonReader_get_inputSourceMode_m9C09E595B3C587F18D2290E4BF9964A4DCC2623F_inline (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* XRInputButtonReader_get_inputActionPerformed_m669E42BD3FAAEA4A7C7549A31CACEC9489242A42_inline (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleHighlightedDevicePanels_m2DF45DF95E4D9F46FEF6E6B7D8B7AEE43BE2A534 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleHighlightedControllerActionPanels_m4E76328FDA07F841307C6569D8FC4EDC01A5C47F (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleHighlightedHandActionPanels_m89AD3CD4BA3077B038BA5595030245E377D5D288 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleActiveMenus_m8AC9C23C8537EECE5B76EC74A1BCE6F2AEE3A366 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInputButtonReader_ReadWasPerformedThisFrame_mD45A7388B19EE02420E9F3D19C98F03FFBDA7A93 (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_OpenCloseControllerActionsMenu_m49732ECEB875246EF31C69887EE4BC9988F97899 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_OpenCloseHandActionsMenu_m742765217774D37018C6F5B6FC9D0B0CC98D60B1 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_OpenCloseInputSelectionMenu_m1266CDBD993FBBDF3371BF192801A4E375DB254A (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_ClearHighlightedDevicePanels_m71FC44914FB0FEADCFD97154508307CDA3B832F2 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) ;
+inline bool Dictionary_2_ContainsKey_m60E768E192B32C68E19C6650B57A9BCE2D514D83 (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* __this, int32_t ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*, int32_t, const RuntimeMethod*))Dictionary_2_ContainsKey_m874C59716993973F0A52C848B20C70C26DB9BCF7_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_UpdateHandActionHighlight_mEFC9351F8B4259DCB7523F3354B859A5A136FE38 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_expression, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_highlightPanel, Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* ___2_rowDict, const RuntimeMethod* method) ;
+inline bool Dictionary_2_ContainsKey_m2B6027DC7F08AB12F38EE38624B7E7C52170DBC5 (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* __this, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762*, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Dictionary_2_get_Item_m1149C9D2CE832ECDBC2F0663EE3E1899C56C0D27 (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* __this, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_key, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762*, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
+}
+inline void Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 99707
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor_Awake_m28F01A4A5310744FD883C7D96F78FF763AB0C215 (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral004E46028C04C2879AE89DC348E83BE7C8567133);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B7D5D5BEC356A40AA2066870E8762B795956772);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral343DBB9F26F3F5FD3FA573454E399ECE32D1686F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral34DE36C5F4C3148AB9A0B13318278CE7BD7FFBF0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70B0FB66B2629F1CCE79FABB33D56EE6CF667AB9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F266D8739915EDF143F00287BC27A2EB2A875AA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA7A4F3BB7215A06D414D0E587447A679AF6BDC9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:106>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = __this->___m_WinLeftControllerCursor;
+		__this->___m_LeftControllerCursor = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LeftControllerCursor), (void*)L_0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:107>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_1 = __this->___m_WinRightControllerCursor;
+		__this->___m_RightControllerCursor = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RightControllerCursor), (void*)L_1);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:108>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = __this->___m_WinBothControllerCursor;
+		__this->___m_BothControllerCursor = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BothControllerCursor), (void*)L_2);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:109>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_3 = __this->___m_WinLeftHandCursor;
+		__this->___m_LeftHandCursor = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LeftHandCursor), (void*)L_3);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:110>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_4 = __this->___m_WinRightHandCursor;
+		__this->___m_RightHandCursor = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RightHandCursor), (void*)L_4);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:111>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_5 = __this->___m_WinBothHandCursor;
+		__this->___m_BothHandCursor = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BothHandCursor), (void*)L_5);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:112>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = __this->___m_WinHMDCursor;
+		__this->___m_HMDCursor = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HMDCursor), (void*)L_6);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:115>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_7 = __this->___m_LeftControllerCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:117>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = __this->___m_LeftControllerCursor;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = VirtualFuncInvoker0< bool >::Invoke(11, L_9);
+		if (L_10)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:118>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral343DBB9F26F3F5FD3FA573454E399ECE32D1686F, __this, NULL);
+		goto IL_0098;
+	}
+
+IL_007c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:120>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_11 = __this->___m_LeftControllerCursor;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_11);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_13), ((float)L_12), (0.0f), NULL);
+		__this->___m_LeftControllerCursorOffset = L_13;
+	}
+
+IL_0098:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:123>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_14 = __this->___m_RightControllerCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = __this->___m_RightControllerCursor;
+		NullCheck(L_16);
+		bool L_17;
+		L_17 = VirtualFuncInvoker0< bool >::Invoke(11, L_16);
+		if (L_17)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:124>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral70B0FB66B2629F1CCE79FABB33D56EE6CF667AB9, __this, NULL);
+	}
+
+IL_00be:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:126>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = __this->___m_BothControllerCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_19)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = __this->___m_BothControllerCursor;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = VirtualFuncInvoker0< bool >::Invoke(11, L_20);
+		if (L_21)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:127>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral34DE36C5F4C3148AB9A0B13318278CE7BD7FFBF0, __this, NULL);
+	}
+
+IL_00e4:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:129>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_22 = __this->___m_LeftHandCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_23)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:131>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_24 = __this->___m_LeftHandCursor;
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = VirtualFuncInvoker0< bool >::Invoke(11, L_24);
+		if (L_25)
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:132>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral8F266D8739915EDF143F00287BC27A2EB2A875AA, __this, NULL);
+		goto IL_0128;
+	}
+
+IL_010c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:134>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_26 = __this->___m_LeftHandCursor;
+		NullCheck(L_26);
+		int32_t L_27;
+		L_27 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_26);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28;
+		memset((&L_28), 0, sizeof(L_28));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_28), ((float)L_27), (0.0f), NULL);
+		__this->___m_LeftHandCursorOffset = L_28;
+	}
+
+IL_0128:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:137>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_29 = __this->___m_RightHandCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_30;
+		L_30 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_30)
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_31 = __this->___m_RightHandCursor;
+		NullCheck(L_31);
+		bool L_32;
+		L_32 = VirtualFuncInvoker0< bool >::Invoke(11, L_31);
+		if (L_32)
+		{
+			goto IL_014e;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:138>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral0B7D5D5BEC356A40AA2066870E8762B795956772, __this, NULL);
+	}
+
+IL_014e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:140>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_33 = __this->___m_BothHandCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_34;
+		L_34 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_33, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_34)
+		{
+			goto IL_0174;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_35 = __this->___m_BothHandCursor;
+		NullCheck(L_35);
+		bool L_36;
+		L_36 = VirtualFuncInvoker0< bool >::Invoke(11, L_35);
+		if (L_36)
+		{
+			goto IL_0174;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:141>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteralDA7A4F3BB7215A06D414D0E587447A679AF6BDC9, __this, NULL);
+	}
+
+IL_0174:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:143>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_37 = __this->___m_HMDCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_38)
+		{
+			goto IL_019a;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_39 = __this->___m_HMDCursor;
+		NullCheck(L_39);
+		bool L_40;
+		L_40 = VirtualFuncInvoker0< bool >::Invoke(11, L_39);
+		if (L_40)
+		{
+			goto IL_019a;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:144>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral004E46028C04C2879AE89DC348E83BE7C8567133, __this, NULL);
+	}
+
+IL_019a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:145>
+		return;
+	}
+}
+// Method Definition Index: 99708
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor_OnDisable_mB5018C0ADB9252737A21DA665188F42D2377BFE0 (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:152>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:153>
+		return;
+	}
+}
+// Method Definition Index: 99709
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor_Start_mB06B4373DC55720667DA63ECF90ECD2957AE30C7 (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A4220765AE8ACCE7B3600C2AAB979CCBBE522DD);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:160>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6** L_0 = (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6**)(&__this->___m_Simulator);
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18(L_0, ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:162>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral9A4220765AE8ACCE7B3600C2AAB979CCBBE522DD, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:163>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:165>
+		return;
+	}
+}
+// Method Definition Index: 99710
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor_Update_mD345D8920A1EA94AB1B3AE3863E18B9DE1409D4E (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:172>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = XRInteractionSimulator_get_pointAndClickActive_mFF0C7737C800E7D214A16FF8E3FDD642C947E535_inline(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:174>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 0, NULL);
+		return;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:178>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:179>
+		bool L_4;
+		L_4 = XRInteractionSimulatorCursor_RotationInputIsPerformed_mE65AFF20D088EBBD49D7E102FACDE7EDF64FD6A4(__this, NULL);
+		if (!L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:180>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 1, NULL);
+		return;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:181>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_5 = V_0;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_7 = V_0;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:182>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 4, NULL);
+		return;
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:183>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_9 = V_0;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:184>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 2, NULL);
+		return;
+	}
+
+IL_0059:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:185>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_11 = V_0;
+		NullCheck(L_11);
+		bool L_12;
+		L_12 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:186>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 3, NULL);
+		return;
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:187>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_13 = V_0;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_15 = V_0;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:188>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 7, NULL);
+		return;
+	}
+
+IL_0081:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:189>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_17 = V_0;
+		NullCheck(L_17);
+		bool L_18;
+		L_18 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_17, NULL);
+		if (!L_18)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:190>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 5, NULL);
+		return;
+	}
+
+IL_0091:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:191>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_19 = V_0;
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_19, NULL);
+		if (!L_20)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:192>
+		XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C(__this, 6, NULL);
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 99711
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInteractionSimulatorCursor_RotationInputIsPerformed_mE65AFF20D088EBBD49D7E102FACDE7EDF64FD6A4 (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:196>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = XRInteractionSimulator_RotationInputIsPerformed_m498CA4A8E851EBF0F1D02B8BC719C6F97ECCDB92(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 99712
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, int32_t ___0_cursorIcon, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:200>
+		int32_t L_0 = __this->___m_CursorIcon;
+		int32_t L_1 = ___0_cursorIcon;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:201>
+		return;
+	}
+
+IL_000a:
+	{
+		int32_t L_2 = ___0_cursorIcon;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0035;
+			}
+			case 1:
+			{
+				goto IL_0046;
+			}
+			case 2:
+			{
+				goto IL_007d;
+			}
+			case 3:
+			{
+				goto IL_00b5;
+			}
+			case 4:
+			{
+				goto IL_00ec;
+			}
+			case 5:
+			{
+				goto IL_0123;
+			}
+			case 6:
+			{
+				goto IL_0158;
+			}
+			case 7:
+			{
+				goto IL_0186;
+			}
+		}
+	}
+	{
+		goto IL_01b4;
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:206>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86((Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL, L_3, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:207>
+		goto IL_01ca;
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:210>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_4 = __this->___m_HMDCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = __this->___m_HMDCursor;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = VirtualFuncInvoker0< bool >::Invoke(11, L_6);
+		if (!L_7)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:211>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___m_HMDCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
+		L_9 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_8, L_9, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:212>
+		goto IL_01ca;
+	}
+
+IL_007d:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:215>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10 = __this->___m_LeftControllerCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12 = __this->___m_LeftControllerCursor;
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = VirtualFuncInvoker0< bool >::Invoke(11, L_12);
+		if (!L_13)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:216>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_14 = __this->___m_LeftControllerCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = __this->___m_LeftControllerCursorOffset;
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_14, L_15, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:217>
+		goto IL_01ca;
+	}
+
+IL_00b5:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:220>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = __this->___m_RightControllerCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_17)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = __this->___m_RightControllerCursor;
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = VirtualFuncInvoker0< bool >::Invoke(11, L_18);
+		if (!L_19)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:221>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = __this->___m_RightControllerCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
+		L_21 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_20, L_21, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:222>
+		goto IL_01ca;
+	}
+
+IL_00ec:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:225>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_22 = __this->___m_BothControllerCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_23)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_24 = __this->___m_BothControllerCursor;
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = VirtualFuncInvoker0< bool >::Invoke(11, L_24);
+		if (!L_25)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:226>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_26 = __this->___m_BothControllerCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
+		L_27 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_26, L_27, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:227>
+		goto IL_01ca;
+	}
+
+IL_0123:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:230>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_28 = __this->___m_LeftHandCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_29;
+		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_29)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_30 = __this->___m_LeftHandCursor;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = VirtualFuncInvoker0< bool >::Invoke(11, L_30);
+		if (!L_31)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:231>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_32 = __this->___m_LeftHandCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = __this->___m_LeftHandCursorOffset;
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_32, L_33, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:232>
+		goto IL_01ca;
+	}
+
+IL_0158:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:235>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_34 = __this->___m_RightHandCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_35;
+		L_35 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_34, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_35)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_36 = __this->___m_RightHandCursor;
+		NullCheck(L_36);
+		bool L_37;
+		L_37 = VirtualFuncInvoker0< bool >::Invoke(11, L_36);
+		if (!L_37)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:236>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_38 = __this->___m_RightHandCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39;
+		L_39 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_38, L_39, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:237>
+		goto IL_01ca;
+	}
+
+IL_0186:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:240>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_40 = __this->___m_BothHandCursor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_41;
+		L_41 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_40, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_41)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_42 = __this->___m_BothHandCursor;
+		NullCheck(L_42);
+		bool L_43;
+		L_43 = VirtualFuncInvoker0< bool >::Invoke(11, L_42);
+		if (!L_43)
+		{
+			goto IL_01ca;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:241>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_44 = __this->___m_BothHandCursor;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_45;
+		L_45 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		Cursor_SetCursor_m00781B5A9FDF84759E2D8869F08E6120062FCE86(L_44, L_45, 0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:242>
+		goto IL_01ca;
+	}
+
+IL_01b4:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:245>
+		int32_t L_46 = ___0_cursorIcon;
+		int32_t L_47 = L_46;
+		RuntimeObject* L_48 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CursorIcon_t1DF1308BBCF7A7177966E75FF562BBFDC708F1B0_il2cpp_TypeInfo_var)), &L_47);
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_49 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_49, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF64624A0B069CAC4738EE9D8D93AD33AAD7B58B0)), L_48, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8208BC96A53100BEB0BD8E99BF3AA3F0BCB47C66)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_49, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XRInteractionSimulatorCursor_SetCursor_mE9977BDD3A89954D3407A5C207342103F950A35C_RuntimeMethod_var)));
+	}
+
+IL_01ca:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:248>
+		int32_t L_50 = ___0_cursorIcon;
+		__this->___m_CursorIcon = L_50;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorCursor.cs:249>
+		return;
+	}
+}
+// Method Definition Index: 99713
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorCursor__ctor_mA8692F83B5D3C78FE00074FD1BE39633F5CC56F8 (XRInteractionSimulatorCursor_t38B39B1C8A05567C69C7069220E5124312DAB86F* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 99714
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_Start_m39778FFE429CE0BADF7527864F56F62263C6D9C8 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t05EBCF598E52A4871757D70BBD4B79CCE2655095_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral35C4430E130D7BC5D2FCA72D64F2DDE0E9F8E086);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B01F97DD9ACC81F94C626F0F771121D300FB271);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:299>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6** L_0 = (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6**)(&__this->___m_Simulator);
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18(L_0, ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var);
+		if (L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:301>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral9B01F97DD9ACC81F94C626F0F771121D300FB271, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:302>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:303>
+		return;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:306>
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C** L_3 = (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C**)(&__this->___m_HandPlaybackManager);
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t05EBCF598E52A4871757D70BBD4B79CCE2655095_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A(L_3, ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A_RuntimeMethod_var);
+		if (L_4)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:308>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral35C4430E130D7BC5D2FCA72D64F2DDE0E9F8E086, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:309>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:310>
+		return;
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:313>
+		XRInteractionSimulatorInputFeedbackUI_InitializeUIDictionaries_m46351CBD9DC7494C9D4953676F654DBEC49C223F(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:314>
+		XRInteractionSimulatorInputFeedbackUI_ActivateControllerPanels_m5470C95D664B17809CD4FD4D7DF784B14DC6C07E(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:315>
+		XRInteractionSimulatorInputFeedbackUI_ActivateHandPanels_mEE962ACC10B840E1F0C5250870B86EE6DA18C5E9(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:317>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_6 = __this->___m_Simulator;
+		NullCheck(L_6);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_7;
+		L_7 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_6, NULL);
+		V_0 = L_7;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:318>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_UpdateActiveDeviceModePanel_m7A8FA693FD374C49E1673E74057C9FEEA4E4209C(__this, L_8, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:319>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_9 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_UpdateOtherDeviceModePanel_mD635EBA1FFF11CCC75EC83727DA4690BAA5CE85E(__this, L_9, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:320>
+		return;
+	}
+}
+// Method Definition Index: 99715
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_Update_m5A4610CA21C72CB0B3687C32F62D5482ABB6E033 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:327>
+		XRInteractionSimulatorInputFeedbackUI_HandleActiveDeviceModePanels_m9F8C60FC5E7D7D3FB3A53DC713698B455CF6ED5C(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:328>
+		XRInteractionSimulatorInputFeedbackUI_HandleOtherDeviceModePanels_m1F59587C0F775A11CA802CEC19FADEF4182A1418(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:329>
+		XRInteractionSimulatorInputFeedbackUI_HandleGeneralInputFeedback_mB55A8F82763885D74C4FA8867ABF2780BE4F430D(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:330>
+		XRInteractionSimulatorInputFeedbackUI_HandleActiveInputModePanels_mC03B16F87F58AAF5AAA15E8C125120130448F135(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:331>
+		XRInteractionSimulatorInputFeedbackUI_HandleOtherActiveInputModePanels_mFFB76649E4D2607C40BB05DB1B43A7DBE496FA68(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:333>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:334>
+		XRInteractionSimulatorInputFeedbackUI_HandleDeviceHotkeyPanels_mA749DE2F71DFF96621590DBB8874EE6C82C05C90(__this, NULL);
+		return;
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:335>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_3 = __this->___m_Simulator;
+		NullCheck(L_3);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4;
+		L_4 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_3, NULL);
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_4, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:336>
+		XRInteractionSimulatorInputFeedbackUI_HandleHandHotkeyPanels_m43C1C9B3EF2496EC92AF2E35B884CF8F3D6D2051(__this, NULL);
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:337>
+		return;
+	}
+}
+// Method Definition Index: 99716
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleGeneralInputFeedback_mB55A8F82763885D74C4FA8867ABF2780BE4F430D (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:341>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:343>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_TranslateRightPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3 = V_0;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = XRInteractionSimulatorState_get_isTranslatingRight_mC22E9BA21B03EF53C3033E4ECA79055F69F43489_inline(L_3, NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, L_4, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:344>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_TranslateLeftPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_0;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = XRInteractionSimulatorState_get_isTranslatingLeft_mF988C9E6F28AAD691A6987BD9FC36B26F62E7878_inline(L_6, NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, L_7, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:345>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_TranslateForwardPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_9 = V_0;
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = XRInteractionSimulatorState_get_isTranslatingForward_m3C6B02683E3E5875E7C5B847C8C2EE4EF61A0D4C_inline(L_9, NULL);
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, L_10, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:346>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___m_TranslateBackwardPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = XRInteractionSimulatorState_get_isTranslatingBackward_m23EB4C1BFEE391C13C578B1C342A00E93A715A03_inline(L_12, NULL);
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, L_13, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:347>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_TranslateUpPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_15 = V_0;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = XRInteractionSimulatorState_get_isTranslatingUp_m6758A7D99FA32A0E4F011724C63D2E8907F84F49_inline(L_15, NULL);
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, L_16, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:348>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___m_TranslateDownPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_18 = V_0;
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = XRInteractionSimulatorState_get_isTranslatingDown_mAA1DF0DDEB3DBA3A91156A4614EEED22387C17D8_inline(L_18, NULL);
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, L_19, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:349>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_RotateRightPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_21 = V_0;
+		NullCheck(L_21);
+		bool L_22;
+		L_22 = XRInteractionSimulatorState_get_isRotatingRight_m15FD66CA92934719D1B4F7A3205B2D299BCB9604_inline(L_21, NULL);
+		NullCheck(L_20);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, L_22, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:350>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___m_RotateLeftPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_24 = V_0;
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = XRInteractionSimulatorState_get_isRotatingLeft_m58D383A056794F679EE27A4AE900FFBC90786AB5_inline(L_24, NULL);
+		NullCheck(L_23);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, L_25, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:351>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___m_RotateUpPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_27 = V_0;
+		NullCheck(L_27);
+		bool L_28;
+		L_28 = XRInteractionSimulatorState_get_isRotatingUp_mA7017D947F59EA8557E127B001F2CD4E36FE9852_inline(L_27, NULL);
+		NullCheck(L_26);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, L_28, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:352>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___m_RotateDownPanel;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_30 = V_0;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = XRInteractionSimulatorState_get_isRotatingDown_m0FEEF853393A9E35D64EE84CA52A7A7DD3AACA31_inline(L_30, NULL);
+		NullCheck(L_29);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, L_31, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:353>
+		return;
+	}
+}
+// Method Definition Index: 99717
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleActiveDeviceModePanels_m9F8C60FC5E7D7D3FB3A53DC713698B455CF6ED5C (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:357>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:358>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:360>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:361>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_8, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_1;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_10, NULL);
+		if ((!(((uint32_t)L_9) == ((uint32_t)L_11))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:362>
+		return;
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:364>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_UpdateActiveDeviceModePanel_m7A8FA693FD374C49E1673E74057C9FEEA4E4209C(__this, L_12, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:365>
+		return;
+	}
+}
+// Method Definition Index: 99718
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_UpdateActiveDeviceModePanel_m7A8FA693FD374C49E1673E74057C9FEEA4E4209C (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_state, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:369>
+		XRInteractionSimulatorInputFeedbackUI_ClearActiveInputModePanels_m7393E32A93B8A3F582DAD0E191005F5BB634FBDA(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:371>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_0 = ___0_state;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_2 = ___0_state;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = XRInteractionSimulatorState_get_manipulatingHMD_mB0D649CC6ECAE7011A7CD18999DA2C150DDF1A9C(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0023;
+		}
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:372>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_HMDPanel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
+		return;
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:373>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_5 = ___0_state;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_7 = ___0_state;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:374>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___m_BothControllersPanel;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:375>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = ___0_state;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:376>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_LeftControllerPanel;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		return;
+	}
+
+IL_0055:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:377>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_13 = ___0_state;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:378>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___m_RightControllerPanel;
+		NullCheck(L_15);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)1, NULL);
+		return;
+	}
+
+IL_006a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:379>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_16 = ___0_state;
+		NullCheck(L_16);
+		bool L_17;
+		L_17 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_16, NULL);
+		if (!L_17)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_18 = ___0_state;
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:380>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_BothHandsPanel;
+		NullCheck(L_20);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
+		return;
+	}
+
+IL_0087:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:381>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_21 = ___0_state;
+		NullCheck(L_21);
+		bool L_22;
+		L_22 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_21, NULL);
+		if (!L_22)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:382>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___m_LeftHandPanel;
+		NullCheck(L_23);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)1, NULL);
+		return;
+	}
+
+IL_009c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:383>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_24 = ___0_state;
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_24, NULL);
+		if (!L_25)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:384>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___m_RightHandPanel;
+		NullCheck(L_26);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)1, NULL);
+	}
+
+IL_00b0:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:385>
+		return;
+	}
+}
+// Method Definition Index: 99719
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleOtherDeviceModePanels_m1F59587C0F775A11CA802CEC19FADEF4182A1418 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:389>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:390>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:392>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:393>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_8, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_1;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_10, NULL);
+		if ((!(((uint32_t)L_9) == ((uint32_t)L_11))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:394>
+		return;
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:396>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_UpdateOtherDeviceModePanel_mD635EBA1FFF11CCC75EC83727DA4690BAA5CE85E(__this, L_12, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:397>
+		return;
+	}
+}
+// Method Definition Index: 99720
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_UpdateOtherDeviceModePanel_mD635EBA1FFF11CCC75EC83727DA4690BAA5CE85E (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_state, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:401>
+		XRInteractionSimulatorInputFeedbackUI_ClearOtherInputModePanels_m6ADC7FB8CFAA94FF749FA02786B2E768B46D2261(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:403>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_0 = ___0_state;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_2 = ___0_state;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:404>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_RightOtherControllerPanel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
+		return;
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:405>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_5 = ___0_state;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_7 = ___0_state;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:406>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___m_LeftOtherControllerPanel;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:407>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = ___0_state;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = ___0_state;
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_12, NULL);
+		if (L_13)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:408>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_RightOtherHandPanel;
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
+		return;
+	}
+
+IL_005d:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:409>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_15 = ___0_state;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_17 = ___0_state;
+		NullCheck(L_17);
+		bool L_18;
+		L_18 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_17, NULL);
+		if (L_18)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:410>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_LeftOtherHandPanel;
+		NullCheck(L_19);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:411>
+		return;
+	}
+}
+// Method Definition Index: 99721
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleActiveInputModePanels_mC03B16F87F58AAF5AAA15E8C125120130448F135 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B27_0 = 0;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:415>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:416>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:418>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_6, NULL);
+		V_2 = (bool)((((int32_t)((((int32_t)L_5) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:419>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_8, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_1;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_10, NULL);
+		V_3 = (bool)((((int32_t)((((int32_t)L_9) == ((int32_t)L_11))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:420>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_12, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_14, NULL);
+		V_4 = (bool)((((int32_t)((((int32_t)L_13) == ((int32_t)L_15))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:421>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_16 = V_0;
+		NullCheck(L_16);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_17;
+		L_17 = XRInteractionSimulatorState_get_currentHandExpression_m981238CEA374EBC98002226FFAAA1C44B7CEE937(L_16, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_18 = V_1;
+		NullCheck(L_18);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_19;
+		L_19 = XRInteractionSimulatorState_get_currentHandExpression_m981238CEA374EBC98002226FFAAA1C44B7CEE937(L_18, NULL);
+		V_5 = (bool)((((int32_t)((((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_17) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_19))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:422>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:423>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_20 = V_0;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_20, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_22 = V_1;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_22, NULL);
+		if ((!(((uint32_t)L_21) == ((uint32_t)L_23))))
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_24 = V_0;
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_24, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_26 = V_1;
+		NullCheck(L_26);
+		bool L_27;
+		L_27 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_26, NULL);
+		G_B3_0 = ((((int32_t)((((int32_t)L_25) == ((int32_t)L_27))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0084;
+	}
+
+IL_0083:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0084:
+	{
+		V_6 = (bool)G_B3_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:425>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_28 = V_0;
+		NullCheck(L_28);
+		bool L_29;
+		L_29 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_28, NULL);
+		if (L_29)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_30 = V_0;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = XRInteractionSimulatorState_get_manipulatingHMD_mB0D649CC6ECAE7011A7CD18999DA2C150DDF1A9C(L_30, NULL);
+		if (!L_31)
+		{
+			goto IL_00bb;
+		}
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:427>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___m_ControllerInputRow;
+		NullCheck(L_32);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:428>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___m_HandInputRow;
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:429>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___m_OtherDeviceInputRow;
+		NullCheck(L_34);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_34, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:430>
+		return;
+	}
+
+IL_00bb:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:433>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_35 = V_0;
+		NullCheck(L_35);
+		int32_t L_36;
+		L_36 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_35, NULL);
+		V_7 = (bool)((((int32_t)L_36) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:434>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_37 = V_0;
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_37, NULL);
+		V_8 = (bool)((((int32_t)L_38) == ((int32_t)1))? 1 : 0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:435>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:436>
+		bool L_39 = V_2;
+		if (L_39)
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40 = __this->___m_ControllerInputRow;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_40, NULL);
+		bool L_42 = V_7;
+		if ((!(((uint32_t)L_41) == ((uint32_t)L_42))))
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = __this->___m_HandInputRow;
+		NullCheck(L_43);
+		bool L_44;
+		L_44 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_43, NULL);
+		bool L_45 = V_8;
+		G_B10_0 = ((((int32_t)((((int32_t)L_44) == ((int32_t)L_45))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00f8;
+	}
+
+IL_00f7:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_00f8:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:438>
+		if (!G_B10_0)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:440>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46 = __this->___m_ControllerInputRow;
+		bool L_47 = V_7;
+		NullCheck(L_46);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_46, L_47, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:441>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_48 = __this->___m_HandInputRow;
+		bool L_49 = V_8;
+		NullCheck(L_48);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_48, L_49, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:442>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = __this->___m_OtherDeviceInputRow;
+		NullCheck(L_50);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_50, (bool)1, NULL);
+	}
+
+IL_0120:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:445>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:446>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_51 = V_0;
+		NullCheck(L_51);
+		bool L_52;
+		L_52 = XRInteractionSimulatorState_get_manipulatingLeftDevice_m7A5906954D42FDF4B4CFC25B5BBF0C6FBB961749(L_51, NULL);
+		if (!L_52)
+		{
+			goto IL_0130;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_53 = V_0;
+		NullCheck(L_53);
+		bool L_54;
+		L_54 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_53, NULL);
+		if (!L_54)
+		{
+			goto IL_0140;
+		}
+	}
+
+IL_0130:
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_55 = V_0;
+		NullCheck(L_55);
+		bool L_56;
+		L_56 = XRInteractionSimulatorState_get_manipulatingRightDevice_m30C83F301BE913636B03CB800A845F4EF9839B1F(L_55, NULL);
+		if (!L_56)
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_57 = V_0;
+		NullCheck(L_57);
+		bool L_58;
+		L_58 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_57, NULL);
+		if (L_58)
+		{
+			goto IL_0176;
+		}
+	}
+
+IL_0140:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:448>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_59 = V_0;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_59, NULL);
+		bool L_61 = V_4;
+		if (!((int32_t)(((((int32_t)L_60) == ((int32_t)0))? 1 : 0)&(int32_t)L_61)))
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:449>
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_62 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_SelectedColor;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_63 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_HighlightActiveControllerInputMode_m535555EEDE4A65E5824C95F2803FC2F1E516C094(__this, L_62, L_63, NULL);
+		goto IL_0176;
+	}
+
+IL_015c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:450>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_64 = V_0;
+		NullCheck(L_64);
+		int32_t L_65;
+		L_65 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_64, NULL);
+		bool L_66 = V_5;
+		if (!((int32_t)(((((int32_t)L_65) == ((int32_t)1))? 1 : 0)&(int32_t)L_66)))
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:451>
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_67 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_SelectedColor;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_68 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_HighlightActiveHandInputMode_mD3CFBB172302463FA853EA4EFC07E534E7DD311F(__this, L_67, L_68, NULL);
+	}
+
+IL_0176:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:454>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:455>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:456>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:457>
+		bool L_69 = V_6;
+		if (L_69)
+		{
+			goto IL_0197;
+		}
+	}
+	{
+		bool L_70 = V_3;
+		if (!L_70)
+		{
+			goto IL_0194;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_71 = V_0;
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_71, NULL);
+		if ((((int32_t)L_72) == ((int32_t)2)))
+		{
+			goto IL_0191;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_73 = V_0;
+		NullCheck(L_73);
+		int32_t L_74;
+		L_74 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_73, NULL);
+		G_B27_0 = ((((int32_t)L_74) == ((int32_t)4))? 1 : 0);
+		goto IL_0198;
+	}
+
+IL_0191:
+	{
+		G_B27_0 = 1;
+		goto IL_0198;
+	}
+
+IL_0194:
+	{
+		G_B27_0 = 0;
+		goto IL_0198;
+	}
+
+IL_0197:
+	{
+		G_B27_0 = 1;
+	}
+
+IL_0198:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:459>
+		if (!G_B27_0)
+		{
+			goto IL_01a1;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:460>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_75 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_UpdateActiveInputModeHighlight_m02D999D63D02CA2442AEFA38075CC327A082F8BE(__this, L_75, NULL);
+	}
+
+IL_01a1:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:461>
+		return;
+	}
+}
+// Method Definition Index: 99722
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_UpdateActiveInputModeHighlight_m02D999D63D02CA2442AEFA38075CC327A082F8BE (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_current, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B6_0 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B9_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B8_0 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B10_0;
+	memset((&G_B10_0), 0, sizeof(G_B10_0));
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B10_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:465>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:466>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_0 = ___0_current;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = XRInteractionSimulatorState_get_manipulatingLeftDevice_m7A5906954D42FDF4B4CFC25B5BBF0C6FBB961749(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_2 = ___0_current;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_0023;
+		}
+	}
+
+IL_0010:
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = ___0_current;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = XRInteractionSimulatorState_get_manipulatingRightDevice_m30C83F301BE913636B03CB800A845F4EF9839B1F(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = ___0_current;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_6, NULL);
+		G_B6_0 = ((int32_t)(L_7));
+		goto IL_0024;
+	}
+
+IL_0020:
+	{
+		G_B6_0 = 0;
+		goto IL_0024;
+	}
+
+IL_0023:
+	{
+		G_B6_0 = 1;
+	}
+
+IL_0024:
+	{
+		V_0 = (bool)G_B6_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:468>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = ___0_current;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_8, NULL);
+		if (L_9)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:470>
+		bool L_10 = V_0;
+		if (L_10)
+		{
+			G_B9_0 = __this;
+			goto IL_0038;
+		}
+		G_B8_0 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_SelectedColor;
+		G_B10_0 = L_11;
+		G_B10_1 = G_B8_0;
+		goto IL_003d;
+	}
+
+IL_0038:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor;
+		G_B10_0 = L_12;
+		G_B10_1 = G_B9_0;
+	}
+
+IL_003d:
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_13 = ___0_current;
+		NullCheck(G_B10_1);
+		XRInteractionSimulatorInputFeedbackUI_HighlightActiveControllerInputMode_m535555EEDE4A65E5824C95F2803FC2F1E516C094(G_B10_1, G_B10_0, L_13, NULL);
+		return;
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:472>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_14 = ___0_current;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_14, NULL);
+		if ((!(((uint32_t)L_15) == ((uint32_t)1))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:474>
+		bool L_16 = V_0;
+		if (!L_16)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_17 = ___0_current;
+		NullCheck(L_17);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_18;
+		L_18 = XRInteractionSimulatorState_get_currentHandExpression_m981238CEA374EBC98002226FFAAA1C44B7CEE937(L_17, NULL);
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = SimulatedHandExpression_get_sequenceType_m2A7AD06DACCBDD365B517A250FFE6C19B78E38A1_inline(L_18, NULL);
+		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:475>
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_21 = ___0_current;
+		XRInteractionSimulatorInputFeedbackUI_HighlightActiveHandInputMode_mD3CFBB172302463FA853EA4EFC07E534E7DD311F(__this, L_20, L_21, NULL);
+		return;
+	}
+
+IL_006b:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:477>
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_SelectedColor;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_23 = ___0_current;
+		XRInteractionSimulatorInputFeedbackUI_HighlightActiveHandInputMode_mD3CFBB172302463FA853EA4EFC07E534E7DD311F(__this, L_22, L_23, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:479>
+		return;
+	}
+}
+// Method Definition Index: 99723
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleOtherActiveInputModePanels_mFFB76649E4D2607C40BB05DB1B43A7DBE496FA68 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	int32_t G_B9_0 = 0;
+	int32_t G_B15_0 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B15_1 = NULL;
+	int32_t G_B14_0 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B14_1 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B16_0;
+	memset((&G_B16_0), 0, sizeof(G_B16_0));
+	int32_t G_B16_1 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B16_2 = NULL;
+	int32_t G_B21_0 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B21_1 = NULL;
+	int32_t G_B20_0 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B20_1 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B22_0;
+	memset((&G_B22_0), 0, sizeof(G_B22_0));
+	int32_t G_B22_1 = 0;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B22_2 = NULL;
+	String_t* G_B27_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B27_1 = NULL;
+	String_t* G_B26_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B26_1 = NULL;
+	String_t* G_B28_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B28_1 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B29_0;
+	memset((&G_B29_0), 0, sizeof(G_B29_0));
+	String_t* G_B29_1 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B29_2 = NULL;
+	String_t* G_B34_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B34_1 = NULL;
+	String_t* G_B33_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B33_1 = NULL;
+	String_t* G_B35_0 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B35_1 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B36_0;
+	memset((&G_B36_0), 0, sizeof(G_B36_0));
+	String_t* G_B36_1 = NULL;
+	XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* G_B36_2 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:483>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:484>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:485>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:486>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:487>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:488>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:489>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:490>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:491>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:492>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:493>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_8, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_1;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_10, NULL);
+		if ((!(((uint32_t)L_9) == ((uint32_t)L_11))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = XRInteractionSimulatorState_get_leftControllerInputMode_m13EED6634F54C0663793947C1E195ECB4ADFB037_inline(L_12, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = XRInteractionSimulatorState_get_leftControllerInputMode_m13EED6634F54C0663793947C1E195ECB4ADFB037_inline(L_14, NULL);
+		if ((!(((uint32_t)L_13) == ((uint32_t)L_15))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_16 = V_0;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = XRInteractionSimulatorState_get_rightControllerInputMode_m0FC9659129EFCCB442AE5B0CEF9F39B9B638635F_inline(L_16, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_18 = V_1;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = XRInteractionSimulatorState_get_rightControllerInputMode_m0FC9659129EFCCB442AE5B0CEF9F39B9B638635F_inline(L_18, NULL);
+		if ((!(((uint32_t)L_17) == ((uint32_t)L_19))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_20 = V_0;
+		NullCheck(L_20);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_21;
+		L_21 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_20, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_22 = V_1;
+		NullCheck(L_22);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_23;
+		L_23 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_22, NULL);
+		if ((!(((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_21) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_23))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_24 = V_0;
+		NullCheck(L_24);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_25;
+		L_25 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_24, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_26 = V_1;
+		NullCheck(L_26);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_27;
+		L_27 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_26, NULL);
+		if ((!(((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_25) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_27))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_28 = V_0;
+		NullCheck(L_28);
+		bool L_29;
+		L_29 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_28, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_30, NULL);
+		if ((!(((uint32_t)L_29) == ((uint32_t)L_31))))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_32 = V_0;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_32, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_34 = V_1;
+		NullCheck(L_34);
+		bool L_35;
+		L_35 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_34, NULL);
+		G_B9_0 = ((((int32_t)((((int32_t)L_33) == ((int32_t)L_35))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_008e;
+	}
+
+IL_008d:
+	{
+		G_B9_0 = 1;
+	}
+
+IL_008e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:495>
+		if (G_B9_0)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:496>
+		return;
+	}
+
+IL_0091:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:498>
+		XRInteractionSimulatorInputFeedbackUI_ClearOtherActiveInputPanels_mFFE524F05E98231076C94002F2EC4B38E89FE7E3(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:500>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_36 = V_0;
+		NullCheck(L_36);
+		bool L_37;
+		L_37 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_36, NULL);
+		if (!L_37)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_38 = V_0;
+		NullCheck(L_38);
+		bool L_39;
+		L_39 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_38, NULL);
+		if (L_39)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:502>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_40 = __this->___m_OtherControllerInputPanels;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_41 = V_0;
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = XRInteractionSimulatorState_get_rightControllerInputMode_m0FC9659129EFCCB442AE5B0CEF9F39B9B638635F_inline(L_41, NULL);
+		NullCheck(L_40);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43;
+		L_43 = Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B(L_40, L_42, Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B_RuntimeMethod_var);
+		NullCheck(L_43);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_43, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:503>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:504>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_44 = V_0;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = XRInteractionSimulatorState_get_rightControllerInputMode_m0FC9659129EFCCB442AE5B0CEF9F39B9B638635F_inline(L_44, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_46 = V_0;
+		NullCheck(L_46);
+		bool L_47;
+		L_47 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_46, NULL);
+		if (L_47)
+		{
+			G_B15_0 = L_45;
+			G_B15_1 = __this;
+			goto IL_00d4;
+		}
+		G_B14_0 = L_45;
+		G_B14_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor;
+		G_B16_0 = L_48;
+		G_B16_1 = G_B14_0;
+		G_B16_2 = G_B14_1;
+		goto IL_00d9;
+	}
+
+IL_00d4:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_49 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor;
+		G_B16_0 = L_49;
+		G_B16_1 = G_B15_0;
+		G_B16_2 = G_B15_1;
+	}
+
+IL_00d9:
+	{
+		NullCheck(G_B16_2);
+		XRInteractionSimulatorInputFeedbackUI_HighlightOtherControllerInputMode_mFB330E469BF9E6C2B5DD331C07EF42E38E152780(G_B16_2, G_B16_1, G_B16_0, NULL);
+		return;
+	}
+
+IL_00df:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:506>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_50 = V_0;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_50, NULL);
+		if (!L_51)
+		{
+			goto IL_0127;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_52 = V_0;
+		NullCheck(L_52);
+		bool L_53;
+		L_53 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_52, NULL);
+		if (L_53)
+		{
+			goto IL_0127;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:508>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_54 = __this->___m_OtherControllerInputPanels;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_55 = V_0;
+		NullCheck(L_55);
+		int32_t L_56;
+		L_56 = XRInteractionSimulatorState_get_leftControllerInputMode_m13EED6634F54C0663793947C1E195ECB4ADFB037_inline(L_55, NULL);
+		NullCheck(L_54);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57;
+		L_57 = Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B(L_54, L_56, Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B_RuntimeMethod_var);
+		NullCheck(L_57);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_57, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:509>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:510>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_58 = V_0;
+		NullCheck(L_58);
+		int32_t L_59;
+		L_59 = XRInteractionSimulatorState_get_leftControllerInputMode_m13EED6634F54C0663793947C1E195ECB4ADFB037_inline(L_58, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_60 = V_0;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_60, NULL);
+		if (L_61)
+		{
+			G_B21_0 = L_59;
+			G_B21_1 = __this;
+			goto IL_011c;
+		}
+		G_B20_0 = L_59;
+		G_B20_1 = __this;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_62 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor;
+		G_B22_0 = L_62;
+		G_B22_1 = G_B20_0;
+		G_B22_2 = G_B20_1;
+		goto IL_0121;
+	}
+
+IL_011c:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_63 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor;
+		G_B22_0 = L_63;
+		G_B22_1 = G_B21_0;
+		G_B22_2 = G_B21_1;
+	}
+
+IL_0121:
+	{
+		NullCheck(G_B22_2);
+		XRInteractionSimulatorInputFeedbackUI_HighlightOtherControllerInputMode_mFB330E469BF9E6C2B5DD331C07EF42E38E152780(G_B22_2, G_B22_1, G_B22_0, NULL);
+		return;
+	}
+
+IL_0127:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:512>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_64 = V_0;
+		NullCheck(L_64);
+		bool L_65;
+		L_65 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_64, NULL);
+		if (!L_65)
+		{
+			goto IL_0187;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_66 = V_0;
+		NullCheck(L_66);
+		bool L_67;
+		L_67 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_66, NULL);
+		if (L_67)
+		{
+			goto IL_0187;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:514>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_68 = __this->___m_OtherHandExpressionPanels;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_69 = V_0;
+		NullCheck(L_69);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_70;
+		L_70 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_69, NULL);
+		NullCheck(L_70);
+		String_t* L_71;
+		L_71 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_70, NULL);
+		NullCheck(L_68);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_72;
+		L_72 = Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586(L_68, L_71, Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586_RuntimeMethod_var);
+		NullCheck(L_72);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_72, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:515>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:516>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_73 = V_0;
+		NullCheck(L_73);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_74;
+		L_74 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_73, NULL);
+		NullCheck(L_74);
+		String_t* L_75;
+		L_75 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_74, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_76 = V_0;
+		NullCheck(L_76);
+		bool L_77;
+		L_77 = XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline(L_76, NULL);
+		if (!L_77)
+		{
+			G_B27_0 = L_75;
+			G_B27_1 = __this;
+			goto IL_0175;
+		}
+		G_B26_0 = L_75;
+		G_B26_1 = __this;
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_78 = V_0;
+		NullCheck(L_78);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_79;
+		L_79 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_78, NULL);
+		NullCheck(L_79);
+		int32_t L_80;
+		L_80 = SimulatedHandExpression_get_sequenceType_m2A7AD06DACCBDD365B517A250FFE6C19B78E38A1_inline(L_79, NULL);
+		if ((((int32_t)L_80) == ((int32_t)1)))
+		{
+			G_B28_0 = G_B26_0;
+			G_B28_1 = G_B26_1;
+			goto IL_017c;
+		}
+		G_B27_0 = G_B26_0;
+		G_B27_1 = G_B26_1;
+	}
+
+IL_0175:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_81 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor;
+		G_B29_0 = L_81;
+		G_B29_1 = G_B27_0;
+		G_B29_2 = G_B27_1;
+		goto IL_0181;
+	}
+
+IL_017c:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_82 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor;
+		G_B29_0 = L_82;
+		G_B29_1 = G_B28_0;
+		G_B29_2 = G_B28_1;
+	}
+
+IL_0181:
+	{
+		NullCheck(G_B29_2);
+		XRInteractionSimulatorInputFeedbackUI_HighlightOtherHandInputMode_mBB91B8D0CA15C623D889A5E38B4D8DF6EC72D468(G_B29_2, G_B29_1, G_B29_0, NULL);
+		return;
+	}
+
+IL_0187:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:518>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_83 = V_0;
+		NullCheck(L_83);
+		bool L_84;
+		L_84 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_83, NULL);
+		if (!L_84)
+		{
+			goto IL_01e6;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_85 = V_0;
+		NullCheck(L_85);
+		bool L_86;
+		L_86 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_85, NULL);
+		if (L_86)
+		{
+			goto IL_01e6;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:520>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_87 = __this->___m_OtherHandExpressionPanels;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_88 = V_0;
+		NullCheck(L_88);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_89;
+		L_89 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_88, NULL);
+		NullCheck(L_89);
+		String_t* L_90;
+		L_90 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_89, NULL);
+		NullCheck(L_87);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_91;
+		L_91 = Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586(L_87, L_90, Dictionary_2_get_Item_m5A8F8BCAC50C5D5AB2722BBD41A340E4F6E47586_RuntimeMethod_var);
+		NullCheck(L_91);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_91, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:521>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:522>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_92 = V_0;
+		NullCheck(L_92);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_93;
+		L_93 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_92, NULL);
+		NullCheck(L_93);
+		String_t* L_94;
+		L_94 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_93, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_95 = V_0;
+		NullCheck(L_95);
+		bool L_96;
+		L_96 = XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline(L_95, NULL);
+		if (!L_96)
+		{
+			G_B34_0 = L_94;
+			G_B34_1 = __this;
+			goto IL_01d5;
+		}
+		G_B33_0 = L_94;
+		G_B33_1 = __this;
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_97 = V_0;
+		NullCheck(L_97);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_98;
+		L_98 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_97, NULL);
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = SimulatedHandExpression_get_sequenceType_m2A7AD06DACCBDD365B517A250FFE6C19B78E38A1_inline(L_98, NULL);
+		if ((((int32_t)L_99) == ((int32_t)1)))
+		{
+			G_B35_0 = G_B33_0;
+			G_B35_1 = G_B33_1;
+			goto IL_01dc;
+		}
+		G_B34_0 = G_B33_0;
+		G_B34_1 = G_B33_1;
+	}
+
+IL_01d5:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_100 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor;
+		G_B36_0 = L_100;
+		G_B36_1 = G_B34_0;
+		G_B36_2 = G_B34_1;
+		goto IL_01e1;
+	}
+
+IL_01dc:
+	{
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_101 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor;
+		G_B36_0 = L_101;
+		G_B36_1 = G_B35_0;
+		G_B36_2 = G_B35_1;
+	}
+
+IL_01e1:
+	{
+		NullCheck(G_B36_2);
+		XRInteractionSimulatorInputFeedbackUI_HighlightOtherHandInputMode_mBB91B8D0CA15C623D889A5E38B4D8DF6EC72D468(G_B36_2, G_B36_1, G_B36_0, NULL);
+	}
+
+IL_01e6:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:524>
+		return;
+	}
+}
+// Method Definition Index: 99724
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleDeviceHotkeyPanels_mA749DE2F71DFF96621590DBB8874EE6C82C05C90 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m22E9C5C0D18C22DA383F38BF24CCD61D236BF3A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m79217ADD3F299C9B19FE583F6512D90CD4FD5DF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m9FF8AEE1E32D596C30F327273E67DD0FFEBC032F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m434AE7EA66F4FA96308500A1099554FC4AECB4BB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_Deconstruct_m1956E58102443E31342BE231C57A144EB3E5FD3B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* V_5 = NULL;
+	KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t V_7 = 0;
+	XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* V_8 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_9 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:528>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:529>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:531>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_activeControllerHotkeyButtons_mD859FD328B54861ABDBF28E612675AE1E369E3EE_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_activeControllerHotkeyButtons_mD859FD328B54861ABDBF28E612675AE1E369E3EE_inline(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:532>
+		return;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:534>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_8 = __this->___m_ActiveHotkeyPanelInstances;
+		NullCheck(L_8);
+		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_9;
+		L_9 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_8, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		V_2 = L_9;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_004c:
+			{
+				Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_2), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0041_1;
+			}
+
+IL_0035_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:534>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+				L_10 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_2), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:536>
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_10, NULL);
+			}
+
+IL_0041_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:534>
+				bool L_11;
+				L_11 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_2), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+				if (L_11)
+				{
+					goto IL_0035_1;
+				}
+			}
+			{
+				goto IL_005a;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:539>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_12 = __this->___m_ActiveHotkeyPanelInstances;
+		NullCheck(L_12);
+		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_12, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:541>
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_13 = __this->___m_HotkeyInputReaders;
+		NullCheck(L_13);
+		Enumerator_tDD4B2AEC07C6B5D67787D66535BC0471202647A4 L_14;
+		L_14 = Dictionary_2_GetEnumerator_m22E9C5C0D18C22DA383F38BF24CCD61D236BF3A8(L_13, Dictionary_2_GetEnumerator_m22E9C5C0D18C22DA383F38BF24CCD61D236BF3A8_RuntimeMethod_var);
+		V_3 = L_14;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00e0:
+			{
+				Enumerator_Dispose_m79217ADD3F299C9B19FE583F6512D90CD4FD5DF1((&V_3), Enumerator_Dispose_m79217ADD3F299C9B19FE583F6512D90CD4FD5DF1_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_00d5_1;
+			}
+
+IL_0073_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:541>
+				KeyValuePair_2_t7C466BD73BE602B6A8443BBF200CF95034725BBD L_15;
+				L_15 = Enumerator_get_Current_m434AE7EA66F4FA96308500A1099554FC4AECB4BB_inline((&V_3), Enumerator_get_Current_m434AE7EA66F4FA96308500A1099554FC4AECB4BB_RuntimeMethod_var);
+				V_6 = L_15;
+				KeyValuePair_2_Deconstruct_m1956E58102443E31342BE231C57A144EB3E5FD3B((&V_6), (&V_7), (&V_8), KeyValuePair_2_Deconstruct_m1956E58102443E31342BE231C57A144EB3E5FD3B_RuntimeMethod_var);
+				int32_t L_16 = V_7;
+				V_4 = L_16;
+				XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_17 = V_8;
+				V_5 = L_17;
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:543>
+				XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_18 = V_0;
+				NullCheck(L_18);
+				int32_t L_19;
+				L_19 = XRInteractionSimulatorState_get_activeControllerHotkeyButtons_mD859FD328B54861ABDBF28E612675AE1E369E3EE_inline(L_18, NULL);
+				int32_t L_20 = V_4;
+				if (!((int32_t)((int32_t)L_19&(int32_t)L_20)))
+				{
+					goto IL_00d5_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:546>
+				XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_21 = V_5;
+				XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_22 = V_0;
+				XRInteractionSimulatorInputFeedbackUI_ApplyControllerHotkeyText_mC7CD8288968FA3132BE5B3226899BF4D85E8420A(__this, L_21, L_22, NULL);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:547>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___m_ControllerHotkeyPanel;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___m_ControllerHotkeyPanel;
+				NullCheck(L_24);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
+				L_25 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_24, NULL);
+				NullCheck(L_25);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+				L_26 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_25, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
+				L_27 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_23, L_26, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+				V_9 = L_27;
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:548>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_9;
+				NullCheck(L_28);
+				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)1, NULL);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:549>
+				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_29 = __this->___m_ActiveHotkeyPanelInstances;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_9;
+				NullCheck(L_29);
+				List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_29, L_30, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+			}
+
+IL_00d5_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:541>
+				bool L_31;
+				L_31 = Enumerator_MoveNext_m9FF8AEE1E32D596C30F327273E67DD0FFEBC032F((&V_3), Enumerator_MoveNext_m9FF8AEE1E32D596C30F327273E67DD0FFEBC032F_RuntimeMethod_var);
+				if (L_31)
+				{
+					goto IL_0073_1;
+				}
+			}
+			{
+				goto IL_00ee;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00ee:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:551>
+		return;
+	}
+}
+// Method Definition Index: 99725
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HandleHandHotkeyPanels_m43C1C9B3EF2496EC92AF2E35B884CF8F3D6D2051 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:555>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:556>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:558>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = XRInteractionSimulatorState_get_handExpressionToggleHeld_mF3C383E43E9309CCAC4C3B5A1C1B8AF79F3CE9EB_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = XRInteractionSimulatorState_get_handExpressionToggleHeld_mF3C383E43E9309CCAC4C3B5A1C1B8AF79F3CE9EB_inline(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:559>
+		return;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:561>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = XRInteractionSimulatorState_get_handExpressionToggleHeld_mF3C383E43E9309CCAC4C3B5A1C1B8AF79F3CE9EB_inline(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:563>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_0;
+		XRInteractionSimulatorInputFeedbackUI_ApplyHandHotkeyText_m5F06CD16B6D4572569717176682B5CAD6D401888(__this, L_10, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:564>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___m_HandHotkeyPanel;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:568>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_HandHotkeyPanel;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:570>
+		return;
+	}
+}
+// Method Definition Index: 99726
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ApplyHandHotkeyText_m5F06CD16B6D4572569717176682B5CAD6D401888 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___0_current, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B5_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B4_0 = NULL;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B6_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B6_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:574>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:575>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:576>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_0 = ___0_current;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = XRInteractionSimulatorState_get_leftDeviceHotkeyModifierPressed_m33DFDD01C18A3ABC0F256133A7AC24C425BD485E_inline(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_2 = ___0_current;
+		NullCheck(L_2);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_3;
+		L_3 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_2, NULL);
+		NullCheck(L_3);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_4;
+		L_4 = SimulatedHandExpression_get_toggleInput_m16D8F8CDD24C1B3BE3B3FA26297FD684417B3F0C_inline(L_3, NULL);
+		NullCheck(L_4);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_5;
+		L_5 = XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline(L_4, NULL);
+		NullCheck(L_5);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
+		L_6 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_5, NULL);
+		String_t* L_7;
+		L_7 = InputActionRebindingExtensions_GetBindingDisplayString_m316A3C960D797985D089B8BB435E668ACAA4DC2F(L_6, 0, 0, NULL);
+		G_B3_0 = L_7;
+		goto IL_0042;
+	}
+
+IL_0026:
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = ___0_current;
+		NullCheck(L_8);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_9;
+		L_9 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_8, NULL);
+		NullCheck(L_9);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_10;
+		L_10 = SimulatedHandExpression_get_toggleInput_m16D8F8CDD24C1B3BE3B3FA26297FD684417B3F0C_inline(L_9, NULL);
+		NullCheck(L_10);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_11;
+		L_11 = XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline(L_10, NULL);
+		NullCheck(L_11);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_12;
+		L_12 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_11, NULL);
+		String_t* L_13;
+		L_13 = InputActionRebindingExtensions_GetBindingDisplayString_m316A3C960D797985D089B8BB435E668ACAA4DC2F(L_12, 0, 0, NULL);
+		G_B3_0 = L_13;
+	}
+
+IL_0042:
+	{
+		V_0 = G_B3_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:577>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = __this->___m_HandHotkeyIcon;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_15 = ___0_current;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = XRInteractionSimulatorState_get_leftDeviceHotkeyModifierPressed_m33DFDD01C18A3ABC0F256133A7AC24C425BD485E_inline(L_15, NULL);
+		if (L_16)
+		{
+			G_B5_0 = L_14;
+			goto IL_0059;
+		}
+		G_B4_0 = L_14;
+	}
+	{
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_17 = __this->___m_RightHandSprite;
+		G_B6_0 = L_17;
+		G_B6_1 = G_B4_0;
+		goto IL_005f;
+	}
+
+IL_0059:
+	{
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_18 = __this->___m_LeftHandSprite;
+		G_B6_0 = L_18;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_005f:
+	{
+		NullCheck(G_B6_1);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B6_1, G_B6_0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:578>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = __this->___m_HandHotkeyText;
+		String_t* L_20 = V_0;
+		NullCheck(L_19);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_19, L_20);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:579>
+		return;
+	}
+}
+// Method Definition Index: 99727
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ApplyControllerHotkeyText_mC7CD8288968FA3132BE5B3226899BF4D85E8420A (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___0_inputReader, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___1_current, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B2_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B1_0 = NULL;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B3_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B3_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:583>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = ___0_inputReader;
+		NullCheck(L_0);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_1;
+		L_1 = XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline(L_0, NULL);
+		NullCheck(L_1);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
+		L_2 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_1, NULL);
+		String_t* L_3;
+		L_3 = InputActionRebindingExtensions_GetBindingDisplayString_m316A3C960D797985D089B8BB435E668ACAA4DC2F(L_2, 0, 0, NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:584>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___m_ControllerHotkeyIcon;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_5 = ___1_current;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = XRInteractionSimulatorState_get_leftDeviceHotkeyModifierPressed_m33DFDD01C18A3ABC0F256133A7AC24C425BD485E_inline(L_5, NULL);
+		if (L_6)
+		{
+			G_B2_0 = L_4;
+			goto IL_0029;
+		}
+		G_B1_0 = L_4;
+	}
+	{
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_7 = __this->___m_RightControllerSprite;
+		G_B3_0 = L_7;
+		G_B3_1 = G_B1_0;
+		goto IL_002f;
+	}
+
+IL_0029:
+	{
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_8 = __this->___m_LeftControllerSprite;
+		G_B3_0 = L_8;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002f:
+	{
+		NullCheck(G_B3_1);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B3_1, G_B3_0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:585>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___m_ControllerHotkeyText;
+		String_t* L_10 = V_0;
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_10);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:586>
+		return;
+	}
+}
+// Method Definition Index: 99728
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ActivateControllerPanels_m5470C95D664B17809CD4FD4D7DF784B14DC6C07E (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m7FA28303762766FE260FF53C6634F9355BEB35C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAF9DA912DC3C077F0657D5120AC08832986289D1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB98523776617D55526B05EA8A133E8678AAB489);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	String_t* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:590>
+		V_0 = 0;
+		goto IL_0073;
+	}
+
+IL_0004:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:592>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_0 = __this->___m_ControllerInputPanels;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_1 = __this->___m_Simulator;
+		NullCheck(L_1);
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_2;
+		L_2 = XRInteractionSimulator_get_quickActionControllerInputModes_m53896B63465E11968A46321554D26D9631D5E68E_inline(L_1, NULL);
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4;
+		L_4 = List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16(L_2, L_3, List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var);
+		NullCheck(L_0);
+		bool L_5;
+		L_5 = Dictionary_2_TryGetValue_m7FA28303762766FE260FF53C6634F9355BEB35C8(L_0, L_4, (&V_1), Dictionary_2_TryGetValue_m7FA28303762766FE260FF53C6634F9355BEB35C8_RuntimeMethod_var);
+		if (L_5)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:594>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_6 = __this->___m_Simulator;
+		NullCheck(L_6);
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_7;
+		L_7 = XRInteractionSimulator_get_quickActionControllerInputModes_m53896B63465E11968A46321554D26D9631D5E68E_inline(L_6, NULL);
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9;
+		L_9 = List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16(L_7, L_8, List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var);
+		V_3 = L_9;
+		Il2CppFakeBox<int32_t> L_10(ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var, (&V_3));
+		String_t* L_11;
+		L_11 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_10), NULL);
+		V_2 = L_11;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:595>
+		String_t* L_12 = V_2;
+		String_t* L_13;
+		L_13 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBB98523776617D55526B05EA8A133E8678AAB489, L_12, _stringLiteralAF9DA912DC3C077F0657D5120AC08832986289D1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_13, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:596>
+		goto IL_006f;
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:599>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:600>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_1;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
+		int32_t L_17 = V_0;
+		NullCheck(L_16);
+		Transform_SetSiblingIndex_m8A3B81F08B93991C05BFA89ADA2146836C4FC4B2(L_16, L_17, NULL);
+	}
+
+IL_006f:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:590>
+		int32_t L_18 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_0073:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:590>
+		int32_t L_19 = V_0;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_20 = __this->___m_Simulator;
+		NullCheck(L_20);
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_21;
+		L_21 = XRInteractionSimulator_get_quickActionControllerInputModes_m53896B63465E11968A46321554D26D9631D5E68E_inline(L_20, NULL);
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_inline(L_21, List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_RuntimeMethod_var);
+		if ((((int32_t)L_19) < ((int32_t)L_22)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:602>
+		return;
+	}
+}
+// Method Definition Index: 99729
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ActivateHandPanels_mEE962ACC10B840E1F0C5250870B86EE6DA18C5E9 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7B259D4E1F882969C812706070AD1BE2C4E459E4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB98523776617D55526B05EA8A133E8678AAB489);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:606>
+		V_0 = 0;
+		goto IL_0072;
+	}
+
+IL_0004:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:608>
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_0 = __this->___m_HandPlaybackManager;
+		NullCheck(L_0);
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_1;
+		L_1 = SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline(L_0, NULL);
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_3;
+		L_3 = List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218(L_1, L_2, List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218_RuntimeMethod_var);
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = SimulatedHandExpression_get_isQuickAction_mAA263E54E231BDA5576C8E76D43F86A748205397_inline(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:610>
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_5 = __this->___m_HandPlaybackManager;
+		NullCheck(L_5);
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_6;
+		L_6 = SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline(L_5, NULL);
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_8;
+		L_8 = List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218(L_6, L_7, List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218_RuntimeMethod_var);
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_8, NULL);
+		V_1 = L_9;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:612>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_10 = __this->___m_HandExpressionPanels;
+		String_t* L_11 = V_1;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7(L_10, L_11, (&V_2), Dictionary_2_TryGetValue_m7043C03525859EDF5C3CFA2345CA65F7146CADC7_RuntimeMethod_var);
+		if (L_12)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:614>
+		String_t* L_13 = V_1;
+		String_t* L_14;
+		L_14 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBB98523776617D55526B05EA8A133E8678AAB489, L_13, _stringLiteral7B259D4E1F882969C812706070AD1BE2C4E459E4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_14, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:615>
+		goto IL_006e;
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:618>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_2;
+		NullCheck(L_15);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:619>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_2;
+		NullCheck(L_16);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
+		L_17 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_16, NULL);
+		int32_t L_18 = V_0;
+		NullCheck(L_17);
+		Transform_SetSiblingIndex_m8A3B81F08B93991C05BFA89ADA2146836C4FC4B2(L_17, L_18, NULL);
+	}
+
+IL_006e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:606>
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:606>
+		int32_t L_20 = V_0;
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_21 = __this->___m_HandPlaybackManager;
+		NullCheck(L_21);
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_22;
+		L_22 = SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline(L_21, NULL);
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_inline(L_22, List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_RuntimeMethod_var);
+		if ((((int32_t)L_20) < ((int32_t)L_23)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:622>
+		return;
+	}
+}
+// Method Definition Index: 99730
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_InitializeUIDictionaries_m46351CBD9DC7494C9D4953676F654DBEC49C223F (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mF514321EB8BECBC38C0E1E7A3BD1ECFF158E4A4F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC55A66E8C45F6BE1AEB0798146BECF865D46D3E2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCCCDD19BAC8E228E10128C1D017E557BF3B69BEA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE17E01A6CDB454BE09B74C544A2901D6C9F990AF);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:626>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:627>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:628>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:629>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:630>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:631>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:632>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:633>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:634>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:635>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:636>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:637>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:638>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:639>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_0 = (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*)il2cpp_codegen_object_new(Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432(L_0, Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_1 = L_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_TriggerPanel;
+		NullCheck(L_1);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_1, 1, L_2, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_3 = L_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_GripPanel;
+		NullCheck(L_3);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_3, 2, L_4, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_5 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_PrimaryPanel;
+		NullCheck(L_5);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_5, 3, L_6, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_7 = L_5;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_SecondaryPanel;
+		NullCheck(L_7);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_7, 4, L_8, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_9 = L_7;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___m_MenuPanel;
+		NullCheck(L_9);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_9, 5, L_10, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_11 = L_9;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_Primary2DAxisClickPanel;
+		NullCheck(L_11);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_11, 6, L_12, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_13 = L_11;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_Secondary2DAxisClickPanel;
+		NullCheck(L_13);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_13, 7, L_14, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_15 = L_13;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___m_Primary2DAxisTouchPanel;
+		NullCheck(L_15);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_15, 8, L_16, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_17 = L_15;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_Secondary2DAxisTouchPanel;
+		NullCheck(L_17);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_17, ((int32_t)9), L_18, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_19 = L_17;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_PrimaryTouchPanel;
+		NullCheck(L_19);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_19, ((int32_t)10), L_20, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_21 = L_19;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_SecondaryTouchPanel;
+		NullCheck(L_21);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_21, ((int32_t)11), L_22, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		__this->___m_ControllerInputPanels = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ControllerInputPanels), (void*)L_21);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:641>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:642>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:643>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:644>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:645>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:646>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:647>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:648>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:649>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:650>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:651>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:652>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:653>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:654>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_23 = (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*)il2cpp_codegen_object_new(Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432(L_23, Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_24 = L_23;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_OtherTriggerPanel;
+		NullCheck(L_24);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_24, 1, L_25, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_26 = L_24;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___m_OtherGripPanel;
+		NullCheck(L_26);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_26, 2, L_27, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_28 = L_26;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___m_OtherPrimaryPanel;
+		NullCheck(L_28);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_28, 3, L_29, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_30 = L_28;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___m_OtherSecondaryPanel;
+		NullCheck(L_30);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_30, 4, L_31, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_32 = L_30;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___m_OtherMenuPanel;
+		NullCheck(L_32);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_32, 5, L_33, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_34 = L_32;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___m_OtherPrimary2DAxisClickPanel;
+		NullCheck(L_34);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_34, 6, L_35, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_36 = L_34;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___m_OtherSecondary2DAxisClickPanel;
+		NullCheck(L_36);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_36, 7, L_37, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_38 = L_36;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = __this->___m_OtherPrimary2DAxisTouchPanel;
+		NullCheck(L_38);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_38, 8, L_39, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_40 = L_38;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___m_OtherSecondary2DAxisTouchPanel;
+		NullCheck(L_40);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_40, ((int32_t)9), L_41, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_42 = L_40;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = __this->___m_OtherPrimaryTouchPanel;
+		NullCheck(L_42);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_42, ((int32_t)10), L_43, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_44 = L_42;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = __this->___m_OtherSecondaryTouchPanel;
+		NullCheck(L_44);
+		Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1(L_44, ((int32_t)11), L_45, Dictionary_2_Add_m567754FA78B93567B86F0D1DA224968ED3118CA1_RuntimeMethod_var);
+		__this->___m_OtherControllerInputPanels = L_44;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OtherControllerInputPanels), (void*)L_44);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:656>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:657>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:658>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:659>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:660>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:661>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:662>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:663>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:664>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:665>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:666>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:667>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:668>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:669>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_46 = (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924*)il2cpp_codegen_object_new(Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9(L_46, Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_47 = L_46;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_48 = __this->___m_TriggerBg;
+		NullCheck(L_47);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_47, 1, L_48, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_49 = L_47;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_50 = __this->___m_GripBg;
+		NullCheck(L_49);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_49, 2, L_50, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_51 = L_49;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_52 = __this->___m_PrimaryBg;
+		NullCheck(L_51);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_51, 3, L_52, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_53 = L_51;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_54 = __this->___m_SecondaryBg;
+		NullCheck(L_53);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_53, 4, L_54, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_55 = L_53;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_56 = __this->___m_MenuBg;
+		NullCheck(L_55);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_55, 5, L_56, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_57 = L_55;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_58 = __this->___m_Primary2DAxisClickBg;
+		NullCheck(L_57);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_57, 6, L_58, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_59 = L_57;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_60 = __this->___m_Secondary2DAxisClickBg;
+		NullCheck(L_59);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_59, 7, L_60, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_61 = L_59;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_62 = __this->___m_Primary2DAxisTouchBg;
+		NullCheck(L_61);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_61, 8, L_62, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_63 = L_61;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_64 = __this->___m_Secondary2DAxisTouchBg;
+		NullCheck(L_63);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_63, ((int32_t)9), L_64, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_65 = L_63;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_66 = __this->___m_PrimaryTouchBg;
+		NullCheck(L_65);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_65, ((int32_t)10), L_66, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_67 = L_65;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_68 = __this->___m_SecondaryTouchBg;
+		NullCheck(L_67);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_67, ((int32_t)11), L_68, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		__this->___m_ControllerInputBgs = L_67;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ControllerInputBgs), (void*)L_67);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:671>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:672>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:673>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:674>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:675>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:676>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:677>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:678>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:679>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:680>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:681>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:682>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:683>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:684>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_69 = (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924*)il2cpp_codegen_object_new(Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9(L_69, Dictionary_2__ctor_mEB408C1D9A7F1045E8BC2FA3C1B2DDA5A15FB5E9_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_70 = L_69;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_71 = __this->___m_OtherTriggerBg;
+		NullCheck(L_70);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_70, 1, L_71, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_72 = L_70;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_73 = __this->___m_OtherGripBg;
+		NullCheck(L_72);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_72, 2, L_73, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_74 = L_72;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_75 = __this->___m_OtherPrimaryBg;
+		NullCheck(L_74);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_74, 3, L_75, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_76 = L_74;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_77 = __this->___m_OtherSecondaryBg;
+		NullCheck(L_76);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_76, 4, L_77, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_78 = L_76;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_79 = __this->___m_OtherMenuBg;
+		NullCheck(L_78);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_78, 5, L_79, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_80 = L_78;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_81 = __this->___m_OtherPrimary2DAxisClickBg;
+		NullCheck(L_80);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_80, 6, L_81, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_82 = L_80;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_83 = __this->___m_OtherSecondary2DAxisClickBg;
+		NullCheck(L_82);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_82, 7, L_83, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_84 = L_82;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_85 = __this->___m_OtherPrimary2DAxisTouchBg;
+		NullCheck(L_84);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_84, 8, L_85, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_86 = L_84;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_87 = __this->___m_OtherSecondary2DAxisTouchBg;
+		NullCheck(L_86);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_86, ((int32_t)9), L_87, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_88 = L_86;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_89 = __this->___m_OtherPrimaryTouchBg;
+		NullCheck(L_88);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_88, ((int32_t)10), L_89, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_90 = L_88;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_91 = __this->___m_OtherSecondaryTouchBg;
+		NullCheck(L_90);
+		Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43(L_90, ((int32_t)11), L_91, Dictionary_2_Add_m7DD16E93AFD7BC49F4D42A0117001A126AE17C43_RuntimeMethod_var);
+		__this->___m_OtherControllerInputBgs = L_90;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OtherControllerInputBgs), (void*)L_90);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:686>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:687>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:688>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:689>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:690>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:691>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:692>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:693>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:694>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:695>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:696>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:697>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:698>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:699>
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_92 = (Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F*)il2cpp_codegen_object_new(Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mF514321EB8BECBC38C0E1E7A3BD1ECFF158E4A4F(L_92, Dictionary_2__ctor_mF514321EB8BECBC38C0E1E7A3BD1ECFF158E4A4F_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_93 = L_92;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_94 = __this->___m_Simulator;
+		NullCheck(L_94);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_95;
+		L_95 = XRInteractionSimulator_get_triggerInput_mDDD941B1135E1617AF9FDF4123C3122F4DF4EC61_inline(L_94, NULL);
+		NullCheck(L_93);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_93, 1, L_95, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_96 = L_93;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_97 = __this->___m_Simulator;
+		NullCheck(L_97);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_98;
+		L_98 = XRInteractionSimulator_get_gripInput_m0B61567D62CBAD704CF6294C5532DE53D4B8370F_inline(L_97, NULL);
+		NullCheck(L_96);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_96, 2, L_98, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_99 = L_96;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_100 = __this->___m_Simulator;
+		NullCheck(L_100);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_101;
+		L_101 = XRInteractionSimulator_get_primaryButtonInput_m888BC37EE782D5B81C4418B0A91C2CA46676CC1C_inline(L_100, NULL);
+		NullCheck(L_99);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_99, 4, L_101, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_102 = L_99;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_103 = __this->___m_Simulator;
+		NullCheck(L_103);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_104;
+		L_104 = XRInteractionSimulator_get_secondaryButtonInput_mEDE5093D0E853559F4C40472AEB4B9D55B8E910C_inline(L_103, NULL);
+		NullCheck(L_102);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_102, 8, L_104, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_105 = L_102;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_106 = __this->___m_Simulator;
+		NullCheck(L_106);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_107;
+		L_107 = XRInteractionSimulator_get_menuInput_m84C9A16C0D5A7BCD241B8F27E93DB501C9462110_inline(L_106, NULL);
+		NullCheck(L_105);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_105, ((int32_t)16), L_107, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_108 = L_105;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_109 = __this->___m_Simulator;
+		NullCheck(L_109);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_110;
+		L_110 = XRInteractionSimulator_get_primary2DAxisClickInput_mFD83EAEDE0665CBDA9C5AA082102845E99D0A82F_inline(L_109, NULL);
+		NullCheck(L_108);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_108, ((int32_t)32), L_110, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_111 = L_108;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_112 = __this->___m_Simulator;
+		NullCheck(L_112);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_113;
+		L_113 = XRInteractionSimulator_get_secondary2DAxisClickInput_m524E294AB96C3A999582475309DF62B2799CD64B_inline(L_112, NULL);
+		NullCheck(L_111);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_111, ((int32_t)64), L_113, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_114 = L_111;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_115 = __this->___m_Simulator;
+		NullCheck(L_115);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_116;
+		L_116 = XRInteractionSimulator_get_primary2DAxisTouchInput_m75D8BAD5A09A5C7B1BDD1040E32A8CD6B6D5DA4A_inline(L_115, NULL);
+		NullCheck(L_114);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_114, ((int32_t)128), L_116, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_117 = L_114;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_118 = __this->___m_Simulator;
+		NullCheck(L_118);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_119;
+		L_119 = XRInteractionSimulator_get_secondary2DAxisTouchInput_m510BA4AD356D1F4B1CCA38FE8CD01AD0CDB67E93_inline(L_118, NULL);
+		NullCheck(L_117);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_117, ((int32_t)256), L_119, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_120 = L_117;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_121 = __this->___m_Simulator;
+		NullCheck(L_121);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_122;
+		L_122 = XRInteractionSimulator_get_primaryTouchInput_m4A2DB06C2088902E437C0DBCE0C04A9C578514F9_inline(L_121, NULL);
+		NullCheck(L_120);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_120, ((int32_t)512), L_122, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		Dictionary_2_t46AC1CB29C56113A9E66722799908F45BD01A52F* L_123 = L_120;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_124 = __this->___m_Simulator;
+		NullCheck(L_124);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_125;
+		L_125 = XRInteractionSimulator_get_secondaryTouchInput_m98FBE1F8591F31F54F616ED5BD6D8FC7D9FDB4A7_inline(L_124, NULL);
+		NullCheck(L_123);
+		Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9(L_123, ((int32_t)1024), L_125, Dictionary_2_Add_m98B76EBBBB2D1922D3031EE007F444EBD9B4DEF9_RuntimeMethod_var);
+		__this->___m_HotkeyInputReaders = L_123;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HotkeyInputReaders), (void*)L_123);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:701>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:702>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:703>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:704>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:705>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:706>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_126 = (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*)il2cpp_codegen_object_new(Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B(L_126, Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_127 = L_126;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_128 = __this->___m_PokePanel;
+		NullCheck(L_127);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_127, _stringLiteralC55A66E8C45F6BE1AEB0798146BECF865D46D3E2, L_128, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_129 = L_127;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_130 = __this->___m_PinchPanel;
+		NullCheck(L_129);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_129, _stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D, L_130, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_131 = L_129;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_132 = __this->___m_GrabPanel;
+		NullCheck(L_131);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_131, _stringLiteralE17E01A6CDB454BE09B74C544A2901D6C9F990AF, L_132, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		__this->___m_HandExpressionPanels = L_131;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HandExpressionPanels), (void*)L_131);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:708>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:709>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:710>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:711>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:712>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:713>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:714>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_133 = (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*)il2cpp_codegen_object_new(Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B(L_133, Dictionary_2__ctor_m85AB837A51705B9DF96923F388345B9461B9882B_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_134 = L_133;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_135 = __this->___m_OtherIdlePanel;
+		NullCheck(L_134);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_134, _stringLiteralCCCDD19BAC8E228E10128C1D017E557BF3B69BEA, L_135, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_136 = L_134;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_137 = __this->___m_OtherPokePanel;
+		NullCheck(L_136);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_136, _stringLiteralC55A66E8C45F6BE1AEB0798146BECF865D46D3E2, L_137, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_138 = L_136;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_139 = __this->___m_OtherPinchPanel;
+		NullCheck(L_138);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_138, _stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D, L_139, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_140 = L_138;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_141 = __this->___m_OtherGrabPanel;
+		NullCheck(L_140);
+		Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_140, _stringLiteralE17E01A6CDB454BE09B74C544A2901D6C9F990AF, L_141, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+		__this->___m_OtherHandExpressionPanels = L_140;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OtherHandExpressionPanels), (void*)L_140);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:716>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:717>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:718>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:719>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:720>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:721>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_142 = (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*)il2cpp_codegen_object_new(Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E(L_142, Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E_RuntimeMethod_var);
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_143 = L_142;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_144 = __this->___m_PokePanelBg;
+		NullCheck(L_143);
+		Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029(L_143, _stringLiteralC55A66E8C45F6BE1AEB0798146BECF865D46D3E2, L_144, Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_145 = L_143;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_146 = __this->___m_PinchPanelBg;
+		NullCheck(L_145);
+		Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029(L_145, _stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D, L_146, Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_147 = L_145;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_148 = __this->___m_GrabPanelBg;
+		NullCheck(L_147);
+		Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029(L_147, _stringLiteralE17E01A6CDB454BE09B74C544A2901D6C9F990AF, L_148, Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		__this->___m_HandExpressionBgs = L_147;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HandExpressionBgs), (void*)L_147);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:723>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:724>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:725>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:726>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:727>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:728>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_149 = (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4*)il2cpp_codegen_object_new(Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E(L_149, Dictionary_2__ctor_mD044D66214789EE5BE5C3724C1B0DACABA31715E_RuntimeMethod_var);
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_150 = L_149;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_151 = __this->___m_OtherPokePanelBg;
+		NullCheck(L_150);
+		Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029(L_150, _stringLiteralC55A66E8C45F6BE1AEB0798146BECF865D46D3E2, L_151, Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_152 = L_150;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_153 = __this->___m_OtherPinchPanelBg;
+		NullCheck(L_152);
+		Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029(L_152, _stringLiteral7E85ECCB7093F5018C9F13499309750C0A65403D, L_153, Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_154 = L_152;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_155 = __this->___m_OtherGrabPanelBg;
+		NullCheck(L_154);
+		Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029(L_154, _stringLiteralE17E01A6CDB454BE09B74C544A2901D6C9F990AF, L_155, Dictionary_2_Add_mA7C7B4674FC5708B41BB6436F46D25D95613C029_RuntimeMethod_var);
+		__this->___m_OtherHandExpressionBgs = L_154;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OtherHandExpressionBgs), (void*)L_154);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:730>
+		XRInteractionSimulatorInputFeedbackUI_InitializeCustomHandExpressionPanels_mFD0E7902A649802FBBE47106F8BF1D279B43D794(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:731>
+		return;
+	}
+}
+// Method Definition Index: 99731
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_InitializeCustomHandExpressionPanels_mFD0E7902A649802FBBE47106F8BF1D279B43D794 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:735>
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_0 = __this->___m_HandPlaybackManager;
+		NullCheck(L_0);
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_1;
+		L_1 = SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline(L_0, NULL);
+		NullCheck(L_1);
+		Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 L_2;
+		L_2 = List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3(L_1, List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0054:
+			{
+				Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC((&V_0), Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0049_1;
+			}
+
+IL_0013_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:735>
+				SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_3;
+				L_3 = Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_inline((&V_0), Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_RuntimeMethod_var);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:737>
+				SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_4 = L_3;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_CustomPanel;
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_6 = __this->___m_HandExpressionPanels;
+				Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_7 = __this->___m_HandExpressionBgs;
+				il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+				XRInteractionSimulatorInputFeedbackUI_InstantiateHandPanelObjects_mD239005C2C1E5E0A981081E77CC2BD43D2A8006E(L_4, L_5, L_6, L_7, NULL);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:738>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_OtherCustomPanel;
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_9 = __this->___m_OtherHandExpressionPanels;
+				Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_10 = __this->___m_OtherHandExpressionBgs;
+				XRInteractionSimulatorInputFeedbackUI_InstantiateHandPanelObjects_mD239005C2C1E5E0A981081E77CC2BD43D2A8006E(L_4, L_8, L_9, L_10, NULL);
+			}
+
+IL_0049_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:735>
+				bool L_11;
+				L_11 = Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3((&V_0), Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3_RuntimeMethod_var);
+				if (L_11)
+				{
+					goto IL_0013_1;
+				}
+			}
+			{
+				goto IL_0062;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:740>
+		return;
+	}
+}
+// Method Definition Index: 99732
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_InstantiateHandPanelObjects_mD239005C2C1E5E0A981081E77CC2BD43D2A8006E (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_handExpression, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_customPanel, Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ___2_panels, Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ___3_bgs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mAA75678DF1D2E3191C5CFBA7D4AF0963A005B1F3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA327C9E1CA12BC531D587E7567F2067B96E6B6A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m768372D99692DF7D0AC1318EE6ABCCDB2A885C92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1A82671F2C34BEA09C35354DDB899812746CBCF9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2474EB85E7EEF13C75BB9EE2A361443B79F99AC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA54E9D992F03ED29AD46BA3E6D5F9C1FC0A2AF6);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_1 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* V_2 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:744>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_0 = ___2_panels;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_1 = ___0_handExpression;
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_1, NULL);
+		NullCheck(L_0);
+		bool L_3;
+		L_3 = Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52(L_0, L_2, Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+		if (L_3)
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_4 = ___0_handExpression;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = SimulatedHandExpression_get_isQuickAction_mAA263E54E231BDA5576C8E76D43F86A748205397_inline(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:746>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___1_customPanel;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___1_customPanel;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_6, L_9, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		V_0 = L_10;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:747>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_12 = ___0_handExpression;
+		NullCheck(L_12);
+		String_t* L_13;
+		L_13 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_12, NULL);
+		String_t* L_14;
+		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_13, _stringLiteralA2474EB85E7EEF13C75BB9EE2A361443B79F99AC, NULL);
+		NullCheck(L_11);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_11, L_14, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:749>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_0;
+		NullCheck(L_15);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_16;
+		L_16 = GameObject_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m768372D99692DF7D0AC1318EE6ABCCDB2A885C92(L_15, GameObject_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m768372D99692DF7D0AC1318EE6ABCCDB2A885C92_RuntimeMethod_var);
+		V_1 = L_16;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:750>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17 = V_1;
+		bool L_18;
+		L_18 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:752>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_19, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_0;
+		NullCheck(L_20);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_19, L_21, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:753>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_22;
+		NullCheck(L_23);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_23, _stringLiteralBA54E9D992F03ED29AD46BA3E6D5F9C1FC0A2AF6, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:754>
+		NullCheck(L_23);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_24;
+		L_24 = GameObject_AddComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA327C9E1CA12BC531D587E7567F2067B96E6B6A0(L_23, GameObject_AddComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA327C9E1CA12BC531D587E7567F2067B96E6B6A0_RuntimeMethod_var);
+		V_1 = L_24;
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:757>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_0;
+		NullCheck(L_25);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26;
+		L_26 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_25, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
+		V_2 = L_26;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:758>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_28;
+		L_28 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_28)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:760>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_29, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_0;
+		NullCheck(L_30);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
+		L_31 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_30, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32;
+		L_32 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_29, L_31, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:761>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32;
+		NullCheck(L_33);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_33, _stringLiteral1A82671F2C34BEA09C35354DDB899812746CBCF9, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:762>
+		NullCheck(L_33);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34;
+		L_34 = GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9(L_33, GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9_RuntimeMethod_var);
+		V_2 = L_34;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:763>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = V_2;
+		NullCheck(L_35);
+		Text_set_fontStyle_m5ABEF66BFC88E7E0A950E2817E4978FF472F6C1D(L_35, 1, NULL);
+	}
+
+IL_00ad:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:765>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_36 = V_2;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_37 = ___0_handExpression;
+		NullCheck(L_37);
+		String_t* L_38;
+		L_38 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_37, NULL);
+		NullCheck(L_36);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_36, L_38);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:767>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_39 = ___2_panels;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_40 = ___0_handExpression;
+		NullCheck(L_40);
+		String_t* L_41;
+		L_41 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_40, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42 = V_0;
+		NullCheck(L_39);
+		Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562(L_39, L_41, L_42, Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:768>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_43 = ___3_bgs;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_44 = ___0_handExpression;
+		NullCheck(L_44);
+		String_t* L_45;
+		L_45 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_44, NULL);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_46 = V_1;
+		NullCheck(L_43);
+		Dictionary_2_set_Item_mAA75678DF1D2E3191C5CFBA7D4AF0963A005B1F3(L_43, L_45, L_46, Dictionary_2_set_Item_mAA75678DF1D2E3191C5CFBA7D4AF0963A005B1F3_RuntimeMethod_var);
+	}
+
+IL_00d3:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:770>
+		return;
+	}
+}
+// Method Definition Index: 99733
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightActiveControllerInputMode_m535555EEDE4A65E5824C95F2803FC2F1E516C094 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_highlightColor, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___1_current, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A1DAE5E910FABCC1A858A6B94A58B139012C8B5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_0 = NULL;
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:774>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_0 = __this->___m_ControllerInputBgs;
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		XRInteractionSimulatorInputFeedbackUI_ClearHighlightedControllerPanels_mE59C1C105FEE78B06537AD6105CE69225C3480EB(L_0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:776>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_1 = __this->___m_ControllerInputBgs;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_2 = ___1_current;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_2, NULL);
+		NullCheck(L_1);
+		bool L_4;
+		L_4 = Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325(L_1, L_3, (&V_0), Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325_RuntimeMethod_var);
+		if (L_4)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:778>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_5 = ___1_current;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_5, NULL);
+		V_2 = L_6;
+		Il2CppFakeBox<int32_t> L_7(ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var, (&V_2));
+		String_t* L_8;
+		L_8 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_7), NULL);
+		V_1 = L_8;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:779>
+		String_t* L_9 = V_1;
+		String_t* L_10;
+		L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3, L_9, _stringLiteral7A1DAE5E910FABCC1A858A6B94A58B139012C8B5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_10, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:780>
+		return;
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:783>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = V_0;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ___0_highlightColor;
+		NullCheck(L_11);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_11, L_12);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:784>
+		return;
+	}
+}
+// Method Definition Index: 99734
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightOtherControllerInputMode_mFB330E469BF9E6C2B5DD331C07EF42E38E152780 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, int32_t ___0_inputMode, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_highlightColor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A1DAE5E910FABCC1A858A6B94A58B139012C8B5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:788>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_0 = __this->___m_OtherControllerInputBgs;
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		XRInteractionSimulatorInputFeedbackUI_ClearHighlightedControllerPanels_mE59C1C105FEE78B06537AD6105CE69225C3480EB(L_0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:790>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_1 = __this->___m_OtherControllerInputBgs;
+		int32_t L_2 = ___0_inputMode;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325(L_1, L_2, (&V_0), Dictionary_2_TryGetValue_m0F8CB1EE550BA369E0270729E4AE2E800834A325_RuntimeMethod_var);
+		if (L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:792>
+		Il2CppFakeBox<int32_t> L_4(ControllerInputMode_t3B0B0DE9DF7ABD10DB79D32A8E92BFBD0BF769B0_il2cpp_TypeInfo_var, (&___0_inputMode));
+		String_t* L_5;
+		L_5 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_4), NULL);
+		V_1 = L_5;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:793>
+		String_t* L_6 = V_1;
+		String_t* L_7;
+		L_7 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3, L_6, _stringLiteral7A1DAE5E910FABCC1A858A6B94A58B139012C8B5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_7, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:794>
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:797>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = V_0;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___1_highlightColor;
+		NullCheck(L_8);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_8, L_9);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:798>
+		return;
+	}
+}
+// Method Definition Index: 99735
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightActiveHandInputMode_mD3CFBB172302463FA853EA4EFC07E534E7DD311F (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_highlightColor, XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* ___1_current, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral984698CE256D6E878C92C50047E8264D7AF62834);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:802>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_0 = __this->___m_HandExpressionBgs;
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		XRInteractionSimulatorInputFeedbackUI_ClearHighlightedHandPanels_mB8590B6FC458CC3B268C3660E27C1915B6D4CAD0(L_0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:804>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1 = ___1_current;
+		NullCheck(L_1);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_2;
+		L_2 = XRInteractionSimulatorState_get_currentHandExpression_m981238CEA374EBC98002226FFAAA1C44B7CEE937(L_1, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_2, NULL);
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_4 = __this->___m_HandPlaybackManager;
+		NullCheck(L_4);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_5;
+		L_5 = SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline(L_4, NULL);
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_5, NULL);
+		bool L_7;
+		L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:805>
+		return;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:807>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = ___1_current;
+		NullCheck(L_8);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_9;
+		L_9 = XRInteractionSimulatorState_get_currentHandExpression_m981238CEA374EBC98002226FFAAA1C44B7CEE937(L_8, NULL);
+		NullCheck(L_9);
+		String_t* L_10;
+		L_10 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_9, NULL);
+		V_0 = L_10;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:808>
+		String_t* L_11 = V_0;
+		bool L_12;
+		L_12 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:809>
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:811>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_13 = __this->___m_HandExpressionBgs;
+		String_t* L_14 = V_0;
+		NullCheck(L_13);
+		bool L_15;
+		L_15 = Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD(L_13, L_14, (&V_1), Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD_RuntimeMethod_var);
+		if (L_15)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:813>
+		String_t* L_16 = V_0;
+		String_t* L_17;
+		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3, L_16, _stringLiteral984698CE256D6E878C92C50047E8264D7AF62834, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_17, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:814>
+		return;
+	}
+
+IL_006a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:817>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_18 = V_1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19 = ___0_highlightColor;
+		NullCheck(L_18);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_18, L_19);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:818>
+		return;
+	}
+}
+// Method Definition Index: 99736
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_HighlightOtherHandInputMode_mBB91B8D0CA15C623D889A5E38B4D8DF6EC72D468 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, String_t* ___0_handExpressionName, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_highlightColor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral984698CE256D6E878C92C50047E8264D7AF62834);
+		s_Il2CppMethodInitialized = true;
+	}
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:822>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_0 = __this->___m_OtherHandExpressionBgs;
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		XRInteractionSimulatorInputFeedbackUI_ClearHighlightedHandPanels_mB8590B6FC458CC3B268C3660E27C1915B6D4CAD0(L_0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:824>
+		String_t* L_1 = ___0_handExpressionName;
+		bool L_2;
+		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:825>
+		return;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:827>
+		String_t* L_3 = ___0_handExpressionName;
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_4 = __this->___m_HandPlaybackManager;
+		NullCheck(L_4);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_5;
+		L_5 = SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline(L_4, NULL);
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_5, NULL);
+		bool L_7;
+		L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:828>
+		return;
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:830>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_8 = __this->___m_OtherHandExpressionBgs;
+		String_t* L_9 = ___0_handExpressionName;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD(L_8, L_9, (&V_0), Dictionary_2_TryGetValue_mFF3C69865DF625EBC0E3875DA7AE5B2683E466CD_RuntimeMethod_var);
+		if (L_10)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:832>
+		String_t* L_11 = ___0_handExpressionName;
+		String_t* L_12;
+		L_12 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7C33C5B9E69D83A52F4A12D9F90B169F959F12F3, L_11, _stringLiteral984698CE256D6E878C92C50047E8264D7AF62834, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_12, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:833>
+		return;
+	}
+
+IL_0054:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:836>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13 = V_0;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = ___1_highlightColor;
+		NullCheck(L_13);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_13, L_14);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:837>
+		return;
+	}
+}
+// Method Definition Index: 99737
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearActiveInputModePanels_m7393E32A93B8A3F582DAD0E191005F5BB634FBDA (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:841>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_BothControllersPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:842>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___m_LeftControllerPanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:843>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_RightControllerPanel;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:844>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_BothHandsPanel;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:845>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_LeftHandPanel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:846>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_RightHandPanel;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:847>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_HMDPanel;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:848>
+		return;
+	}
+}
+// Method Definition Index: 99738
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearOtherInputModePanels_m6ADC7FB8CFAA94FF749FA02786B2E768B46D2261 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:852>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_LeftOtherControllerPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:853>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___m_RightOtherControllerPanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:854>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_LeftOtherHandPanel;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:855>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_RightOtherHandPanel;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:856>
+		return;
+	}
+}
+// Method Definition Index: 99739
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearOtherActiveInputPanels_mFFE524F05E98231076C94002F2EC4B38E89FE7E3 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Values_mCCC41FF246D656F5F707EF1522F1C279DAA5343F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m696B5831B239FA49B7C6E9E829D5C2BA96B0E1AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m82EA4A043BD1FC4DB303D820966EBFBD9916A134_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mD7296BB33D16F06FD06E6077D093543842DCAE4F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueCollection_GetEnumerator_mBEBB5769586D6C240A83E6E9457137C4DD2C3921_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:860>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_OtherTriggerPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:861>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___m_OtherGripPanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:862>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_OtherPrimaryPanel;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:863>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_OtherSecondaryPanel;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:864>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_OtherMenuPanel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:865>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_OtherPrimary2DAxisClickPanel;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:866>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_OtherSecondary2DAxisClickPanel;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:867>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___m_OtherPrimary2DAxisTouchPanel;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:868>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_OtherSecondary2DAxisTouchPanel;
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:869>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___m_OtherPrimaryTouchPanel;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:870>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___m_OtherSecondaryTouchPanel;
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:872>
+		Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_11 = __this->___m_OtherHandExpressionPanels;
+		NullCheck(L_11);
+		ValueCollection_tAA4B91D1FC6E3150E12FB777D5C1A8530004C5D1* L_12;
+		L_12 = Dictionary_2_get_Values_mCCC41FF246D656F5F707EF1522F1C279DAA5343F(L_11, Dictionary_2_get_Values_mCCC41FF246D656F5F707EF1522F1C279DAA5343F_RuntimeMethod_var);
+		NullCheck(L_12);
+		Enumerator_t44F706C297E7C39CC8E9C45CF3D7CF388A1A9A05 L_13;
+		L_13 = ValueCollection_GetEnumerator_mBEBB5769586D6C240A83E6E9457137C4DD2C3921(L_12, ValueCollection_GetEnumerator_mBEBB5769586D6C240A83E6E9457137C4DD2C3921_RuntimeMethod_var);
+		V_0 = L_13;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00af:
+			{
+				Enumerator_Dispose_m696B5831B239FA49B7C6E9E829D5C2BA96B0E1AF((&V_0), Enumerator_Dispose_m696B5831B239FA49B7C6E9E829D5C2BA96B0E1AF_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_00a4_1;
+			}
+
+IL_0097_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:872>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+				L_14 = Enumerator_get_Current_mD7296BB33D16F06FD06E6077D093543842DCAE4F_inline((&V_0), Enumerator_get_Current_mD7296BB33D16F06FD06E6077D093543842DCAE4F_RuntimeMethod_var);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:874>
+				NullCheck(L_14);
+				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
+			}
+
+IL_00a4_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:872>
+				bool L_15;
+				L_15 = Enumerator_MoveNext_m82EA4A043BD1FC4DB303D820966EBFBD9916A134((&V_0), Enumerator_MoveNext_m82EA4A043BD1FC4DB303D820966EBFBD9916A134_RuntimeMethod_var);
+				if (L_15)
+				{
+					goto IL_0097_1;
+				}
+			}
+			{
+				goto IL_00bd;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00bd:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:876>
+		return;
+	}
+}
+// Method Definition Index: 99740
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearHighlightedHandPanels_mB8590B6FC458CC3B268C3660E27C1915B6D4CAD0 (Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* ___0_bgs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Values_m44BAAB077510C95A89590C32AF5D36664D031A11_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mF9B5DD4FC53CB2A9E6659950BA66050A197FC7A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mDD55A50B8787B45E0B64C668ACF4A3C5855A3F7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m48A40A69DBFACC803599C22E7CE1D2AD4FCABF19_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueCollection_GetEnumerator_m21633EA46BD56950D03DEDDA3ADE44B2DEA8AC0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:880>
+		Dictionary_2_tE26C5FF539AE0A1A9C8E93A9CCB271AD9393E4F4* L_0 = ___0_bgs;
+		NullCheck(L_0);
+		ValueCollection_tE1549C5B4300ACB34C5DD96AE0AA30DA6775290F* L_1;
+		L_1 = Dictionary_2_get_Values_m44BAAB077510C95A89590C32AF5D36664D031A11(L_0, Dictionary_2_get_Values_m44BAAB077510C95A89590C32AF5D36664D031A11_RuntimeMethod_var);
+		NullCheck(L_1);
+		Enumerator_t0A931753744D828BD1228C8F750806E07203CCC1 L_2;
+		L_2 = ValueCollection_GetEnumerator_m21633EA46BD56950D03DEDDA3ADE44B2DEA8AC0C(L_1, ValueCollection_GetEnumerator_m21633EA46BD56950D03DEDDA3ADE44B2DEA8AC0C_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002a:
+			{
+				Enumerator_Dispose_mF9B5DD4FC53CB2A9E6659950BA66050A197FC7A9((&V_0), Enumerator_Dispose_mF9B5DD4FC53CB2A9E6659950BA66050A197FC7A9_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001f_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:880>
+				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3;
+				L_3 = Enumerator_get_Current_m48A40A69DBFACC803599C22E7CE1D2AD4FCABF19_inline((&V_0), Enumerator_get_Current_m48A40A69DBFACC803599C22E7CE1D2AD4FCABF19_RuntimeMethod_var);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:882>
+				il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor;
+				NullCheck(L_3);
+				VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_4);
+			}
+
+IL_001f_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:880>
+				bool L_5;
+				L_5 = Enumerator_MoveNext_mDD55A50B8787B45E0B64C668ACF4A3C5855A3F7E((&V_0), Enumerator_MoveNext_mDD55A50B8787B45E0B64C668ACF4A3C5855A3F7E_RuntimeMethod_var);
+				if (L_5)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0038;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:884>
+		return;
+	}
+}
+// Method Definition Index: 99741
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI_ClearHighlightedControllerPanels_mE59C1C105FEE78B06537AD6105CE69225C3480EB (Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* ___0_bgs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Values_mA56B0D41B4B7E81F55E79D36E56A934977485B55_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB20C5569DF7EA0E5FC2A766BFC5C4A9C5BAC7BC6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m773ABBB02CDE3AE8AD2C4839DF832A1C96C9FFA5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m00C7464FDCAB2413EC07E130F2F10BFC87669B96_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueCollection_GetEnumerator_mF5DED5B7A248BFD82A24983BDB70FBB3285F238A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:888>
+		Dictionary_2_t2763C88487A42081551B2236DA81D137F431A924* L_0 = ___0_bgs;
+		NullCheck(L_0);
+		ValueCollection_t59D6C549BE94E24C5411C8EB13AF38FC8152DB24* L_1;
+		L_1 = Dictionary_2_get_Values_mA56B0D41B4B7E81F55E79D36E56A934977485B55(L_0, Dictionary_2_get_Values_mA56B0D41B4B7E81F55E79D36E56A934977485B55_RuntimeMethod_var);
+		NullCheck(L_1);
+		Enumerator_t267897DE1640B8848C0F742736F126CCBEE7DFFD L_2;
+		L_2 = ValueCollection_GetEnumerator_mF5DED5B7A248BFD82A24983BDB70FBB3285F238A(L_1, ValueCollection_GetEnumerator_mF5DED5B7A248BFD82A24983BDB70FBB3285F238A_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002a:
+			{
+				Enumerator_Dispose_mB20C5569DF7EA0E5FC2A766BFC5C4A9C5BAC7BC6((&V_0), Enumerator_Dispose_mB20C5569DF7EA0E5FC2A766BFC5C4A9C5BAC7BC6_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001f_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:888>
+				Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3;
+				L_3 = Enumerator_get_Current_m00C7464FDCAB2413EC07E130F2F10BFC87669B96_inline((&V_0), Enumerator_get_Current_m00C7464FDCAB2413EC07E130F2F10BFC87669B96_RuntimeMethod_var);
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:890>
+				il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor;
+				NullCheck(L_3);
+				VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_4);
+			}
+
+IL_001f_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:888>
+				bool L_5;
+				L_5 = Enumerator_MoveNext_m773ABBB02CDE3AE8AD2C4839DF832A1C96C9FFA5((&V_0), Enumerator_MoveNext_m773ABBB02CDE3AE8AD2C4839DF832A1C96C9FFA5_RuntimeMethod_var);
+				if (L_5)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0038;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:892>
+		return;
+	}
+}
+// Method Definition Index: 99742
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI__ctor_mE50D4F39784B6F6D83B1345730B433137957E637 (XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:284>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		__this->___m_ActiveHotkeyPanelInstances = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActiveHotkeyPanelInstances), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 99743
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorInputFeedbackUI__cctor_m10AE547EE4B8369881A6A2CBE761BFC82DF74270 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:289>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_0), (0.333333343f), (0.333333343f), (0.333333343f), NULL);
+		((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_DefaultPanelColor = L_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:290>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_1), (0.309803933f), (0.396078438f), (0.498039216f), NULL);
+		((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_SelectedColor = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorInputFeedbackUI.cs:291>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_2), (0.533333361f), (0.533333361f), (0.533333361f), NULL);
+		((XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorInputFeedbackUI_tFC599F5EBD7CBFDD65D4D357E99A25FAF6DB8649_il2cpp_TypeInfo_var))->___k_EnabledColor = L_2;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 99744
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_Start_mB748D5E22A312AD164FFF992BAED833351FD87B2 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t05EBCF598E52A4871757D70BBD4B79CCE2655095_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral35C4430E130D7BC5D2FCA72D64F2DDE0E9F8E086);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7B1F8C33B58654442858CB02AAE962D8C05DF4E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B01F97DD9ACC81F94C626F0F771121D300FB271);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:210>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6** L_0 = (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6**)(&__this->___m_Simulator);
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t7C9173616F975D8503CAA7CDBD527B3C7294D732_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18(L_0, ComponentLocatorUtility_1_TryFindComponent_m80F59D98F1F7F90AEFE3A07EE66A9CFCC3C44C18_RuntimeMethod_var);
+		if (L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:212>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral9B01F97DD9ACC81F94C626F0F771121D300FB271, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:213>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:214>
+		return;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:217>
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C** L_3 = (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C**)(&__this->___m_HandPlaybackManager);
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t05EBCF598E52A4871757D70BBD4B79CCE2655095_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A(L_3, ComponentLocatorUtility_1_TryFindComponent_m4750667832CDCFEB65DAF405CB824583B2496F6A_RuntimeMethod_var);
+		if (L_4)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:219>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral35C4430E130D7BC5D2FCA72D64F2DDE0E9F8E086, __this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:220>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:221>
+		return;
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:224>
+		XRInteractionSimulatorPlayModeMenu_InitializeQuickActionPanels_mD8CBE8EEDA390B8D3A71B7E426E09E1D90567603(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:228>
+		XRInteractionSimulatorPlayModeMenu_SetHandPackageWarning_mDAF8DD7B52E1B7DC247793711C703B08A43AF567(__this, _stringLiteral7B1F8C33B58654442858CB02AAE962D8C05DF4E8, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:237>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_HandPackageWarningPanel;
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_6, NULL);
+		if (L_7)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_InputModalityManagerWarningPanel;
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_8, NULL);
+		if (L_9)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:238>
+		XRInteractionSimulatorPlayModeMenu_CheckHandVisualizer_mAA7F7989D66CDD888DE4F1947480DDA75D3B84A9(__this, NULL);
+	}
+
+IL_007b:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:240>
+		return;
+	}
+}
+// Method Definition Index: 99745
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_SetHandPackageWarning_mDAF8DD7B52E1B7DC247793711C703B08A43AF567 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, String_t* ___0_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:244>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_HandPackageWarningPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:245>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = __this->___m_LeftHandIcon;
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ((XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var))->___k_DisabledColor;
+		NullCheck(L_1);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_1, L_2);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:246>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___m_RightHandIcon;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ((XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var))->___k_DisabledColor;
+		NullCheck(L_3);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_4);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:248>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_HandPackageWarningPanel;
+		NullCheck(L_5);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6;
+		L_6 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_5, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
+		V_0 = L_6;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:249>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:250>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = V_0;
+		String_t* L_10 = ___0_message;
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_10);
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:251>
+		return;
+	}
+}
+// Method Definition Index: 99746
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_CheckInputModalityManager_mE7E9221255226F7280FDC3D515CDEF08F127CC23 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t223E729C926C47834DFBE6DFF75E2E1D372BCF3F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:255>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:256>
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t223E729C926C47834DFBE6DFF75E2E1D372BCF3F_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C((&V_0), ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C_RuntimeMethod_var);
+		if (!L_0)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_1 = V_0;
+		NullCheck(L_1);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = XRInputModalityManager_get_leftHand_m402022E4787271D565BD5222D7A9C65C66F8C428_inline(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_4 = V_0;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = XRInputModalityManager_get_rightHand_m66D448E794A2E2D604B990E7D633014BDF9F14D9_inline(L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:258>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___m_InputModalityManagerWarningPanel;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:259>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___m_LeftHandIcon;
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ((XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var))->___k_DisabledColor;
+		NullCheck(L_8);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_8, L_9);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:260>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10 = __this->___m_RightHandIcon;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ((XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var))->___k_DisabledColor;
+		NullCheck(L_10);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_10, L_11);
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:262>
+		return;
+	}
+}
+// Method Definition Index: 99747
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_CheckHandVisualizer_mAA7F7989D66CDD888DE4F1947480DDA75D3B84A9 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComponentLocatorUtility_1_t223E729C926C47834DFBE6DFF75E2E1D372BCF3F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* V_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:267>
+		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_t223E729C926C47834DFBE6DFF75E2E1D372BCF3F_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C((&V_0), ComponentLocatorUtility_1_TryFindComponent_mD6D892BE1901AFB33B918B273D6F6AACE890104C_RuntimeMethod_var);
+		if (!L_0)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:269>
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_1 = V_0;
+		NullCheck(L_1);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = XRInputModalityManager_get_leftHand_m402022E4787271D565BD5222D7A9C65C66F8C428_inline(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_4 = V_0;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = XRInputModalityManager_get_rightHand_m66D448E794A2E2D604B990E7D633014BDF9F14D9_inline(L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:270>
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:272>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:273>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:274>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:275>
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_7 = V_0;
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = XRInputModalityManager_get_leftHand_m402022E4787271D565BD5222D7A9C65C66F8C428_inline(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_10 = V_0;
+		NullCheck(L_10);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
+		L_11 = XRInputModalityManager_get_leftHand_m402022E4787271D565BD5222D7A9C65C66F8C428_inline(L_10, NULL);
+		NullCheck(L_11);
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_12;
+		L_12 = GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06(L_11, (bool)1, GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_13)
+		{
+			goto IL_006a;
+		}
+	}
+
+IL_0048:
+	{
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_14 = V_0;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = XRInputModalityManager_get_rightHand_m66D448E794A2E2D604B990E7D633014BDF9F14D9_inline(L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* L_17 = V_0;
+		NullCheck(L_17);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = XRInputModalityManager_get_rightHand_m66D448E794A2E2D604B990E7D633014BDF9F14D9_inline(L_17, NULL);
+		NullCheck(L_18);
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_19;
+		L_19 = GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06(L_18, (bool)1, GameObject_GetComponentInChildren_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m16E7E311C1F19D7C9E8E41A29E461B8CDCE52D06_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_20)
+		{
+			goto IL_006b;
+		}
+	}
+
+IL_006a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:277>
+		return;
+	}
+
+IL_006b:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:280>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___m_InputMenuHandVisualizerWarningPanel;
+		NullCheck(L_21);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)1, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:282>
+		return;
+	}
+}
+// Method Definition Index: 99748
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_InitializeQuickActionPanels_mD8CBE8EEDA390B8D3A71B7E426E09E1D90567603 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:287>
+		XRInteractionSimulatorPlayModeMenu_InitializeControllerQuickActionPanels_m6748EFB8D63669A0F1FB08D0FE24EC4438E1B19F(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:288>
+		XRInteractionSimulatorPlayModeMenu_InitializeHandQuickActionPanels_m10F9019295D101833F531A58FFB51BCA4AD0FABF(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:289>
+		return;
+	}
+}
+// Method Definition Index: 99749
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_InitializeControllerQuickActionPanels_m6748EFB8D63669A0F1FB08D0FE24EC4438E1B19F (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m0A602774FBD9AB5FF2D9A2B44290BBED926D328F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_0 = NULL;
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_1 = NULL;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_2 = NULL;
+	List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:293>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_0 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)4);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_1 = L_0;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___m_FirstControllerActionText;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_2);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_3 = L_1;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_SecondControllerActionText;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_4);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_5 = L_3;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_ThirdControllerActionText;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_6);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_6);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_7 = L_5;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___m_FourthControllerActionText;
+		NullCheck(L_7);
+		ArrayElementTypeCheck (L_7, L_8);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_8);
+		V_0 = L_7;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:294>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_9 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)4);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_10 = L_9;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___m_FirstControllerBindingText;
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_11);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_12 = L_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___m_SecondControllerBindingText;
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_13);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(1), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_13);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_14 = L_12;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___m_ThirdControllerBindingText;
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, L_15);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_15);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_16 = L_14;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___m_FourthControllerBindingText;
+		NullCheck(L_16);
+		ArrayElementTypeCheck (L_16, L_17);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_17);
+		V_1 = L_16;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:295>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_18 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)4);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_19 = L_18;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_FirstControllerBindingGO;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(0), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_20);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_21 = L_19;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_SecondControllerBindingGO;
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(1), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_22);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_23 = L_21;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___m_ThirdControllerBindingGO;
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(2), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_24);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_25 = L_23;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___m_FourthControllerBindingGO;
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(3), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_26);
+		V_2 = L_25;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:297>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_27 = __this->___m_Simulator;
+		NullCheck(L_27);
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_28;
+		L_28 = XRInteractionSimulator_get_quickActionControllerInputModes_m53896B63465E11968A46321554D26D9631D5E68E_inline(L_27, NULL);
+		V_3 = L_28;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:298>
+		V_4 = 0;
+		goto IL_00ef;
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:300>
+		int32_t L_29 = V_4;
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_30 = V_3;
+		NullCheck(L_30);
+		int32_t L_31;
+		L_31 = List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_inline(L_30, List_1_get_Count_m6559586E0523BD01B7C361F7EB014142140D43D1_RuntimeMethod_var);
+		if ((((int32_t)L_29) >= ((int32_t)L_31)))
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:302>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_32 = __this->___m_ControllerInputRow;
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_33 = V_3;
+		int32_t L_34 = V_4;
+		NullCheck(L_33);
+		int32_t L_35;
+		L_35 = List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16(L_33, L_34, List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_36 = V_0;
+		int32_t L_37 = V_4;
+		NullCheck(L_36);
+		int32_t L_38 = L_37;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		NullCheck(L_39);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40;
+		L_40 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_39, NULL);
+		NullCheck(L_32);
+		Dictionary_2_set_Item_m0A602774FBD9AB5FF2D9A2B44290BBED926D328F(L_32, L_35, L_40, Dictionary_2_set_Item_m0A602774FBD9AB5FF2D9A2B44290BBED926D328F_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:303>
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_41 = V_3;
+		int32_t L_42 = V_4;
+		NullCheck(L_41);
+		int32_t L_43;
+		L_43 = List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16(L_41, L_42, List_1_get_Item_mA54A5FF58CB79AE4FDD32D06F562E99B706ADC16_RuntimeMethod_var);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_44 = V_0;
+		int32_t L_45 = V_4;
+		NullCheck(L_44);
+		int32_t L_46 = L_45;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_48 = V_1;
+		int32_t L_49 = V_4;
+		NullCheck(L_48);
+		int32_t L_50 = L_49;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		XRInteractionSimulatorPlayModeMenu_GetControllerQuickActionNames_mB5CFD66AA45C5DAB88B8B940AA05F266C38DD189(__this, L_43, L_47, L_51, NULL);
+		goto IL_00e9;
+	}
+
+IL_00d0:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:307>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_52 = V_0;
+		int32_t L_53 = V_4;
+		NullCheck(L_52);
+		int32_t L_54 = L_53;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_55 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
+		NullCheck(L_55);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56;
+		L_56 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_55, NULL);
+		NullCheck(L_56);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:308>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_57 = V_2;
+		int32_t L_58 = V_4;
+		NullCheck(L_57);
+		int32_t L_59 = L_58;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_59));
+		NullCheck(L_60);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_60, (bool)0, NULL);
+	}
+
+IL_00e9:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:298>
+		int32_t L_61 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_61, 1));
+	}
+
+IL_00ef:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:298>
+		int32_t L_62 = V_4;
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_63 = V_0;
+		NullCheck(L_63);
+		if ((((int32_t)L_62) < ((int32_t)((int32_t)(((RuntimeArray*)L_63)->max_length)))))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:311>
+		return;
+	}
+}
+// Method Definition Index: 99750
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_InitializeHandQuickActionPanels_m10F9019295D101833F531A58FFB51BCA4AD0FABF (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mEBB9929154E25FFDF116FD4EED24E80B1416C73F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mF61B1B410A25CD383FBC3D17D504599976EDB605_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_0 = NULL;
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_1 = NULL;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_2 = NULL;
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_3 = NULL;
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_4 = NULL;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_5 = NULL;
+	List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* V_6 = NULL;
+	Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* V_8 = NULL;
+	int32_t V_9 = 0;
+	SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* V_10 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:315>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_0 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)3);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_1 = L_0;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___m_FirstHandActionText;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_2);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_3 = L_1;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_SecondHandActionText;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_4);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_5 = L_3;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___m_ThirdHandActionText;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_6);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_6);
+		V_0 = L_5;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:316>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_7 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)3);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_8 = L_7;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___m_FirstHandBindingText;
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_9);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_9);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_10 = L_8;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___m_SecondHandBindingText;
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_11);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_12 = L_10;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___m_ThirdHandBindingText;
+		NullCheck(L_12);
+		ArrayElementTypeCheck (L_12, L_13);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(2), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_13);
+		V_1 = L_12;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:317>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_14 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)3);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_15 = L_14;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___m_FirstHandBindingGO;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_16);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_17 = L_15;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_SecondHandBindingGO;
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(1), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_18);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_19 = L_17;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_ThirdHandBindingGO;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(2), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_20);
+		V_2 = L_19;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:318>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_21 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)3);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_22 = L_21;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = __this->___m_LeftFirstHandActionText;
+		NullCheck(L_22);
+		ArrayElementTypeCheck (L_22, L_23);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(0), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_23);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_24 = L_22;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___m_LeftSecondHandActionText;
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_25);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(1), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_25);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_26 = L_24;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_27 = __this->___m_LeftThirdHandActionText;
+		NullCheck(L_26);
+		ArrayElementTypeCheck (L_26, L_27);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(2), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_27);
+		V_3 = L_26;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:319>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_28 = (TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353*)SZArrayNew(TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353_il2cpp_TypeInfo_var, (uint32_t)3);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_29 = L_28;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___m_LeftFirstHandBindingText;
+		NullCheck(L_29);
+		ArrayElementTypeCheck (L_29, L_30);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(0), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_30);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_31 = L_29;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_32 = __this->___m_LeftSecondHandBindingText;
+		NullCheck(L_31);
+		ArrayElementTypeCheck (L_31, L_32);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(1), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_32);
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_33 = L_31;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34 = __this->___m_LeftThirdHandBindingText;
+		NullCheck(L_33);
+		ArrayElementTypeCheck (L_33, L_34);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(2), (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)L_34);
+		V_4 = L_33;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:320>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_35 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)3);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_36 = L_35;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___m_LeftFirstHandBindingGO;
+		NullCheck(L_36);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(0), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_37);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_38 = L_36;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = __this->___m_LeftSecondHandBindingGO;
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(1), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_39);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_40 = L_38;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___m_LeftThirdHandBindingGO;
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(2), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_41);
+		V_5 = L_40;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:322>
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_42 = (List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB*)il2cpp_codegen_object_new(List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB_il2cpp_TypeInfo_var);
+		List_1__ctor_mF61B1B410A25CD383FBC3D17D504599976EDB605(L_42, List_1__ctor_mF61B1B410A25CD383FBC3D17D504599976EDB605_RuntimeMethod_var);
+		V_6 = L_42;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:323>
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_43 = __this->___m_HandPlaybackManager;
+		NullCheck(L_43);
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_44;
+		L_44 = SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline(L_43, NULL);
+		NullCheck(L_44);
+		Enumerator_t8C712F2C26CEF26DCA712C48FFE4A9A2DC563DD4 L_45;
+		L_45 = List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3(L_44, List_1_GetEnumerator_mF61F7B7E9D0FE6AD8512CE1AACF929B88940B5E3_RuntimeMethod_var);
+		V_7 = L_45;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_010f:
+			{
+				Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC((&V_7), Enumerator_Dispose_m1FD5F3E77AD6EFF1B84E757C0A8290FD4A6E76BC_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0104_1;
+			}
+
+IL_00e9_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:323>
+				SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_46;
+				L_46 = Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_inline((&V_7), Enumerator_get_Current_m4A65B43BF22E381A31A06C1AA297355AFC0E45E3_RuntimeMethod_var);
+				V_8 = L_46;
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:325>
+				SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_47 = V_8;
+				NullCheck(L_47);
+				bool L_48;
+				L_48 = SimulatedHandExpression_get_isQuickAction_mAA263E54E231BDA5576C8E76D43F86A748205397_inline(L_47, NULL);
+				if (!L_48)
+				{
+					goto IL_0104_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:326>
+				List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_49 = V_6;
+				SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_50 = V_8;
+				NullCheck(L_49);
+				List_1_Add_mEBB9929154E25FFDF116FD4EED24E80B1416C73F_inline(L_49, L_50, List_1_Add_mEBB9929154E25FFDF116FD4EED24E80B1416C73F_RuntimeMethod_var);
+			}
+
+IL_0104_1:
+			{
+				//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:323>
+				bool L_51;
+				L_51 = Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3((&V_7), Enumerator_MoveNext_m07FA9DF005D9AB0160CD2DC95CD471A0B00148C3_RuntimeMethod_var);
+				if (L_51)
+				{
+					goto IL_00e9_1;
+				}
+			}
+			{
+				goto IL_011d;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_011d:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:329>
+		V_9 = 0;
+		goto IL_01f0;
+	}
+
+IL_0125:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:331>
+		int32_t L_52 = V_9;
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_53 = V_6;
+		NullCheck(L_53);
+		int32_t L_54;
+		L_54 = List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_inline(L_53, List_1_get_Count_mBA178C8337E36766F00D82CD285F93C5C9221122_RuntimeMethod_var);
+		if ((((int32_t)L_52) >= ((int32_t)L_54)))
+		{
+			goto IL_01b7;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:333>
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_55 = V_6;
+		int32_t L_56 = V_9;
+		NullCheck(L_55);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_57;
+		L_57 = List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218(L_55, L_56, List_1_get_Item_mC8E2B526617E102413524B974CA6F8CD43BDE218_RuntimeMethod_var);
+		V_10 = L_57;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:334>
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_58 = __this->___m_RightHandExpressionRow;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_59 = V_10;
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_60 = V_0;
+		int32_t L_61 = V_9;
+		NullCheck(L_60);
+		int32_t L_62 = L_61;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_63 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_62));
+		NullCheck(L_63);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_64;
+		L_64 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_63, NULL);
+		NullCheck(L_58);
+		Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0(L_58, L_59, L_64, Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:335>
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_65 = __this->___m_LeftHandExpressionRow;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_66 = V_10;
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_67 = V_3;
+		int32_t L_68 = V_9;
+		NullCheck(L_67);
+		int32_t L_69 = L_68;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_70 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
+		NullCheck(L_70);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71;
+		L_71 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_70, NULL);
+		NullCheck(L_65);
+		Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0(L_65, L_66, L_71, Dictionary_2_set_Item_m4B384DAA8BEC1DE340978D100C45B056C44232C0_RuntimeMethod_var);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:337>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_72 = V_0;
+		int32_t L_73 = V_9;
+		NullCheck(L_72);
+		int32_t L_74 = L_73;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_75 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_74));
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_76 = V_10;
+		NullCheck(L_76);
+		String_t* L_77;
+		L_77 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_76, NULL);
+		NullCheck(L_75);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_75, L_77);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:338>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_78 = V_1;
+		int32_t L_79 = V_9;
+		NullCheck(L_78);
+		int32_t L_80 = L_79;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_81 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_80));
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_82 = V_10;
+		NullCheck(L_82);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_83;
+		L_83 = SimulatedHandExpression_get_toggleInput_m16D8F8CDD24C1B3BE3B3FA26297FD684417B3F0C_inline(L_82, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_84;
+		L_84 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_83, NULL);
+		NullCheck(L_81);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_81, L_84);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:339>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_85 = V_3;
+		int32_t L_86 = V_9;
+		NullCheck(L_85);
+		int32_t L_87 = L_86;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_88 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_89 = V_10;
+		NullCheck(L_89);
+		String_t* L_90;
+		L_90 = SimulatedHandExpression_get_name_m279D799ACC79B6AED59153B6DFBB07E3DEEBFB25(L_89, NULL);
+		NullCheck(L_88);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_88, L_90);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:340>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_91 = V_4;
+		int32_t L_92 = V_9;
+		NullCheck(L_91);
+		int32_t L_93 = L_92;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_94 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_93));
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_95 = V_10;
+		NullCheck(L_95);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_96;
+		L_96 = SimulatedHandExpression_get_toggleInput_m16D8F8CDD24C1B3BE3B3FA26297FD684417B3F0C_inline(L_95, NULL);
+		String_t* L_97;
+		L_97 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_96, NULL);
+		NullCheck(L_94);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_94, L_97);
+		goto IL_01ea;
+	}
+
+IL_01b7:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:344>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_98 = V_0;
+		int32_t L_99 = V_9;
+		NullCheck(L_98);
+		int32_t L_100 = L_99;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_101 = (L_98)->GetAt(static_cast<il2cpp_array_size_t>(L_100));
+		NullCheck(L_101);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102;
+		L_102 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_101, NULL);
+		NullCheck(L_102);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_102, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:345>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_103 = V_2;
+		int32_t L_104 = V_9;
+		NullCheck(L_103);
+		int32_t L_105 = L_104;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
+		NullCheck(L_106);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_106, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:346>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_107 = V_3;
+		int32_t L_108 = V_9;
+		NullCheck(L_107);
+		int32_t L_109 = L_108;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_110 = (L_107)->GetAt(static_cast<il2cpp_array_size_t>(L_109));
+		NullCheck(L_110);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_111;
+		L_111 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_110, NULL);
+		NullCheck(L_111);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_111, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:347>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_112 = V_5;
+		int32_t L_113 = V_9;
+		NullCheck(L_112);
+		int32_t L_114 = L_113;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_115 = (L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+		NullCheck(L_115);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_115, (bool)0, NULL);
+	}
+
+IL_01ea:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:329>
+		int32_t L_116 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_116, 1));
+	}
+
+IL_01f0:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:329>
+		int32_t L_117 = V_9;
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_118 = V_0;
+		NullCheck(L_118);
+		if ((((int32_t)L_117) < ((int32_t)((int32_t)(((RuntimeArray*)L_118)->max_length)))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:350>
+		return;
+	}
+}
+// Method Definition Index: 99751
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_GetControllerQuickActionNames_mB5CFD66AA45C5DAB88B8B940AA05F266C38DD189 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, int32_t ___0_inputMode, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___1_actionText, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___2_bindingText, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C10E47675493434D04CD8025C8303AF94F7BA5A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3684ADE2EBE44A6703D093C6C0CA1269732F2A2A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43D7320EE62A97791EB076D31E576CD4476FECC5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral548D93DDB2AC6B24373148B19D9A625571AB2318);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral738F291E53E97C08DAE378C71EF70A60E31AE900);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral771164B92ED409CF835FF6B84C4E6F812CBC1E80);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral89D87E1E07C139494154DAE8FB018F9C11DF3C94);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8EB708D108C7B62CE04DC0BA4842EEB0B619DBB6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA885C2D1E637D04BB43B8E224604BC0613A6F590);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB8B6946864938B469F6FE8B7D06E359A80AD980F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD54C90B5A6D47F6579672102C3331CD0652644E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___0_inputMode;
+		switch (L_0)
+		{
+			case 0:
+			{
+				goto IL_0037;
+			}
+			case 1:
+			{
+				goto IL_004e;
+			}
+			case 2:
+			{
+				goto IL_0070;
+			}
+			case 3:
+			{
+				goto IL_0092;
+			}
+			case 4:
+			{
+				goto IL_00b4;
+			}
+			case 5:
+			{
+				goto IL_00d6;
+			}
+			case 6:
+			{
+				goto IL_00f8;
+			}
+			case 7:
+			{
+				goto IL_011a;
+			}
+			case 8:
+			{
+				goto IL_013c;
+			}
+			case 9:
+			{
+				goto IL_015e;
+			}
+			case 10:
+			{
+				goto IL_0180;
+			}
+			case 11:
+			{
+				goto IL_01a2;
+			}
+		}
+	}
+	{
+		return;
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:357>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = ___1_actionText;
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_1, _stringLiteral548D93DDB2AC6B24373148B19D9A625571AB2318);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:358>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = ___2_bindingText;
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, _stringLiteral738F291E53E97C08DAE378C71EF70A60E31AE900);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:359>
+		return;
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:361>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = ___1_actionText;
+		NullCheck(L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:362>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_5 = __this->___m_Simulator;
+		NullCheck(L_5);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_6;
+		L_6 = XRInteractionSimulator_get_triggerInput_mDDD941B1135E1617AF9FDF4123C3122F4DF4EC61_inline(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_7;
+		L_7 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_6, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, L_7);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:363>
+		return;
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:365>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = ___1_actionText;
+		NullCheck(L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_8, _stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:366>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_10 = __this->___m_Simulator;
+		NullCheck(L_10);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_11;
+		L_11 = XRInteractionSimulator_get_gripInput_m0B61567D62CBAD704CF6294C5532DE53D4B8370F_inline(L_10, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_12;
+		L_12 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_11, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_12);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:367>
+		return;
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:369>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = ___1_actionText;
+		NullCheck(L_13);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_13, _stringLiteralFD54C90B5A6D47F6579672102C3331CD0652644E);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:370>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_15 = __this->___m_Simulator;
+		NullCheck(L_15);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_16;
+		L_16 = XRInteractionSimulator_get_primaryButtonInput_m888BC37EE782D5B81C4418B0A91C2CA46676CC1C_inline(L_15, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_17;
+		L_17 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_16, NULL);
+		NullCheck(L_14);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_14, L_17);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:371>
+		return;
+	}
+
+IL_00b4:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:373>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = ___1_actionText;
+		NullCheck(L_18);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_18, _stringLiteral771164B92ED409CF835FF6B84C4E6F812CBC1E80);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:374>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_20 = __this->___m_Simulator;
+		NullCheck(L_20);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_21;
+		L_21 = XRInteractionSimulator_get_secondaryButtonInput_mEDE5093D0E853559F4C40472AEB4B9D55B8E910C_inline(L_20, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_22;
+		L_22 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_21, NULL);
+		NullCheck(L_19);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_19, L_22);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:375>
+		return;
+	}
+
+IL_00d6:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:377>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_23 = ___1_actionText;
+		NullCheck(L_23);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_23, _stringLiteral0C10E47675493434D04CD8025C8303AF94F7BA5A);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:378>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_24 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_25 = __this->___m_Simulator;
+		NullCheck(L_25);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_26;
+		L_26 = XRInteractionSimulator_get_menuInput_m84C9A16C0D5A7BCD241B8F27E93DB501C9462110_inline(L_25, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_27;
+		L_27 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_26, NULL);
+		NullCheck(L_24);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_24, L_27);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:379>
+		return;
+	}
+
+IL_00f8:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:381>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = ___1_actionText;
+		NullCheck(L_28);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_28, _stringLiteral3684ADE2EBE44A6703D093C6C0CA1269732F2A2A);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:382>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_29 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_30 = __this->___m_Simulator;
+		NullCheck(L_30);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_31;
+		L_31 = XRInteractionSimulator_get_primary2DAxisClickInput_mFD83EAEDE0665CBDA9C5AA082102845E99D0A82F_inline(L_30, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_32;
+		L_32 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_31, NULL);
+		NullCheck(L_29);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_29, L_32);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:383>
+		return;
+	}
+
+IL_011a:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:385>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = ___1_actionText;
+		NullCheck(L_33);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_33, _stringLiteral8EB708D108C7B62CE04DC0BA4842EEB0B619DBB6);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:386>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_35 = __this->___m_Simulator;
+		NullCheck(L_35);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_36;
+		L_36 = XRInteractionSimulator_get_secondary2DAxisClickInput_m524E294AB96C3A999582475309DF62B2799CD64B_inline(L_35, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_37;
+		L_37 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_36, NULL);
+		NullCheck(L_34);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_34, L_37);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:387>
+		return;
+	}
+
+IL_013c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:389>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_38 = ___1_actionText;
+		NullCheck(L_38);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_38, _stringLiteralB8B6946864938B469F6FE8B7D06E359A80AD980F);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:390>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_40 = __this->___m_Simulator;
+		NullCheck(L_40);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_41;
+		L_41 = XRInteractionSimulator_get_primary2DAxisTouchInput_m75D8BAD5A09A5C7B1BDD1040E32A8CD6B6D5DA4A_inline(L_40, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_42;
+		L_42 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_41, NULL);
+		NullCheck(L_39);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_39, L_42);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:391>
+		return;
+	}
+
+IL_015e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:393>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = ___1_actionText;
+		NullCheck(L_43);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_43, _stringLiteralA885C2D1E637D04BB43B8E224604BC0613A6F590);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:394>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_44 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_45 = __this->___m_Simulator;
+		NullCheck(L_45);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_46;
+		L_46 = XRInteractionSimulator_get_secondary2DAxisTouchInput_m510BA4AD356D1F4B1CCA38FE8CD01AD0CDB67E93_inline(L_45, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_47;
+		L_47 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_46, NULL);
+		NullCheck(L_44);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_44, L_47);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:395>
+		return;
+	}
+
+IL_0180:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:397>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_48 = ___1_actionText;
+		NullCheck(L_48);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_48, _stringLiteral43D7320EE62A97791EB076D31E576CD4476FECC5);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:398>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_49 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_50 = __this->___m_Simulator;
+		NullCheck(L_50);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_51;
+		L_51 = XRInteractionSimulator_get_primaryTouchInput_m4A2DB06C2088902E437C0DBCE0C04A9C578514F9_inline(L_50, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_52;
+		L_52 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_51, NULL);
+		NullCheck(L_49);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_49, L_52);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:399>
+		return;
+	}
+
+IL_01a2:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:401>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_53 = ___1_actionText;
+		NullCheck(L_53);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_53, _stringLiteral89D87E1E07C139494154DAE8FB018F9C11DF3C94);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:402>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_54 = ___2_bindingText;
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_55 = __this->___m_Simulator;
+		NullCheck(L_55);
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_56;
+		L_56 = XRInteractionSimulator_get_secondaryTouchInput_m98FBE1F8591F31F54F616ED5BD6D8FC7D9FDB4A7_inline(L_55, NULL);
+		il2cpp_codegen_runtime_class_init_inline(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		String_t* L_57;
+		L_57 = XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599(L_56, NULL);
+		NullCheck(L_54);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_54, L_57);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:408>
+		return;
+	}
+}
+// Method Definition Index: 99752
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRInteractionSimulatorPlayModeMenu_GetBindingString_m333F43F8997AF28F62A3E3424479EB5DCD989599 (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* ___0_reader, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_0 = NULL;
+	int32_t V_1 = 0;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B7_0 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:412>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = ___0_reader;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:413>
+		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
+		return L_1;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:416>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_2 = ___0_reader;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = XRInputButtonReader_get_inputSourceMode_m9C09E595B3C587F18D2290E4BF9964A4DCC2623F_inline(L_2, NULL);
+		V_1 = L_3;
+		int32_t L_4 = V_1;
+		if ((((int32_t)L_4) == ((int32_t)1)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:419>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_6 = ___0_reader;
+		NullCheck(L_6);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_7;
+		L_7 = XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline(L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_8)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		G_B7_0 = ((InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)(NULL));
+		goto IL_0034;
+	}
+
+IL_0029:
+	{
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_9 = ___0_reader;
+		NullCheck(L_9);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_10;
+		L_10 = XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline(L_9, NULL);
+		NullCheck(L_10);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
+		L_11 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_10, NULL);
+		G_B7_0 = L_11;
+	}
+
+IL_0034:
+	{
+		V_0 = G_B7_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:420>
+		goto IL_0042;
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:422>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_12 = ___0_reader;
+		NullCheck(L_12);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_13;
+		L_13 = XRInputButtonReader_get_inputActionPerformed_m669E42BD3FAAEA4A7C7549A31CACEC9489242A42_inline(L_12, NULL);
+		V_0 = L_13;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:423>
+		goto IL_0042;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:425>
+		V_0 = (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)NULL;
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:429>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_14 = V_0;
+		if (L_14)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		String_t* L_15 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
+		return L_15;
+	}
+
+IL_004b:
+	{
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_16 = V_0;
+		String_t* L_17;
+		L_17 = InputActionRebindingExtensions_GetBindingDisplayString_m316A3C960D797985D089B8BB435E668ACAA4DC2F(L_16, 0, 0, NULL);
+		return L_17;
+	}
+}
+// Method Definition Index: 99753
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_Update_m5296B2AD64704D604B01CCF1E82143ADA380E5C6 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:437>
+		XRInteractionSimulatorPlayModeMenu_HandleHighlightedDevicePanels_m2DF45DF95E4D9F46FEF6E6B7D8B7AEE43BE2A534(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:438>
+		XRInteractionSimulatorPlayModeMenu_HandleHighlightedControllerActionPanels_m4E76328FDA07F841307C6569D8FC4EDC01A5C47F(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:439>
+		XRInteractionSimulatorPlayModeMenu_HandleHighlightedHandActionPanels_m89AD3CD4BA3077B038BA5595030245E377D5D288(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:440>
+		XRInteractionSimulatorPlayModeMenu_HandleActiveMenus_m8AC9C23C8537EECE5B76EC74A1BCE6F2AEE3A366(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:441>
+		return;
+	}
+}
+// Method Definition Index: 99754
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_OpenCloseInputSelectionMenu_m1266CDBD993FBBDF3371BF192801A4E375DB254A (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:448>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_InputSelectionMenu;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:449>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_InputSelectionMenu;
+		bool L_3 = V_0;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:450>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_ClosedInputSelectionMenu;
+		bool L_5 = V_0;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_5, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:451>
+		return;
+	}
+}
+// Method Definition Index: 99755
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_OpenCloseControllerActionsMenu_m49732ECEB875246EF31C69887EE4BC9988F97899 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:458>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_ControllerActionsMenu;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:459>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_ControllerActionsMenu;
+		bool L_3 = V_0;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:460>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_ClosedControllerActionsMenu;
+		bool L_5 = V_0;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_5, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:461>
+		return;
+	}
+}
+// Method Definition Index: 99756
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_OpenCloseHandActionsMenu_m742765217774D37018C6F5B6FC9D0B0CC98D60B1 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:468>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_HandActionsMenu;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:469>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_HandActionsMenu;
+		bool L_3 = V_0;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:470>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_ClosedHandActionsMenu;
+		bool L_5 = V_0;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_5, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:471>
+		return;
+	}
+}
+// Method Definition Index: 99757
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleActiveMenus_m8AC9C23C8537EECE5B76EC74A1BCE6F2AEE3A366 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	bool V_2 = false;
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:475>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:476>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:478>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_6, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:479>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_1;
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_8, NULL);
+		if (!L_9)
+		{
+			G_B2_0 = ((((int32_t)((((int32_t)L_5) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+			goto IL_003c;
+		}
+		G_B1_0 = ((((int32_t)((((int32_t)L_5) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_0;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_10, NULL);
+		G_B3_0 = ((((int32_t)L_11) == ((int32_t)0))? 1 : 0);
+		G_B3_1 = G_B1_0;
+		goto IL_003d;
+	}
+
+IL_003c:
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_003d:
+	{
+		V_2 = (bool)G_B3_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:481>
+		bool L_12 = V_2;
+		if (!((int32_t)(G_B3_1|(int32_t)L_12)))
+		{
+			goto IL_0146;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_13 = V_0;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_0146;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:483>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_15 = V_0;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_15, NULL);
+		if (L_16)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_17 = V_0;
+		NullCheck(L_17);
+		bool L_18;
+		L_18 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_17, NULL);
+		if (!L_18)
+		{
+			goto IL_00ad;
+		}
+	}
+
+IL_0060:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:485>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_HandActionsMenu;
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_19, NULL);
+		__this->___m_PreviousHandMenuState = L_20;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:486>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___m_HandActionsMenu;
+		NullCheck(L_21);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:487>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_ClosedHandActionsMenu;
+		NullCheck(L_22);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:489>
+		bool L_23 = __this->___m_PreviousControllerMenuState;
+		if (!L_23)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:490>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___m_ControllerActionsMenu;
+		NullCheck(L_24);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)1, NULL);
+		goto IL_0108;
+	}
+
+IL_009f:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:492>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_ClosedControllerActionsMenu;
+		NullCheck(L_25);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)1, NULL);
+		goto IL_0108;
+	}
+
+IL_00ad:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:494>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_26 = V_0;
+		NullCheck(L_26);
+		bool L_27;
+		L_27 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_26, NULL);
+		if (L_27)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_28 = V_0;
+		NullCheck(L_28);
+		bool L_29;
+		L_29 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_28, NULL);
+		if (!L_29)
+		{
+			goto IL_0108;
+		}
+	}
+
+IL_00bd:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:496>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___m_ControllerActionsMenu;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_30, NULL);
+		__this->___m_PreviousControllerMenuState = L_31;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:497>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___m_ControllerActionsMenu;
+		NullCheck(L_32);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:498>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___m_ClosedControllerActionsMenu;
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:500>
+		bool L_34 = __this->___m_PreviousHandMenuState;
+		if (!L_34)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:501>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___m_HandActionsMenu;
+		NullCheck(L_35);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)1, NULL);
+		goto IL_0108;
+	}
+
+IL_00fc:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:503>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___m_ClosedHandActionsMenu;
+		NullCheck(L_36);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)1, NULL);
+	}
+
+IL_0108:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:506>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_37 = V_0;
+		NullCheck(L_37);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_38;
+		L_38 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_37, NULL);
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_39 = __this->___m_HandPlaybackManager;
+		NullCheck(L_39);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_40;
+		L_40 = SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline(L_39, NULL);
+		if ((!(((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_38) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_40))))
+		{
+			goto IL_0127;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:507>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___m_LeftHandActionHighlightPanel;
+		NullCheck(L_41);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_41, (bool)0, NULL);
+	}
+
+IL_0127:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:508>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_42 = V_0;
+		NullCheck(L_42);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_43;
+		L_43 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_42, NULL);
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_44 = __this->___m_HandPlaybackManager;
+		NullCheck(L_44);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_45;
+		L_45 = SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline(L_44, NULL);
+		if ((!(((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_43) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_45))))
+		{
+			goto IL_0146;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:509>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_46 = __this->___m_RightHandActionHighlightPanel;
+		NullCheck(L_46);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_46, (bool)0, NULL);
+	}
+
+IL_0146:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:512>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_47 = V_0;
+		NullCheck(L_47);
+		bool L_48;
+		L_48 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_47, NULL);
+		if (!L_48)
+		{
+			goto IL_01a8;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_49 = V_1;
+		NullCheck(L_49);
+		bool L_50;
+		L_50 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_49, NULL);
+		if (L_50)
+		{
+			goto IL_01a8;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:514>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = __this->___m_ControllerActionsMenu;
+		NullCheck(L_51);
+		bool L_52;
+		L_52 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_51, NULL);
+		__this->___m_PreviousControllerMenuState = L_52;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:515>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = __this->___m_HandActionsMenu;
+		NullCheck(L_53);
+		bool L_54;
+		L_54 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_53, NULL);
+		__this->___m_PreviousHandMenuState = L_54;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:517>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___m_HandActionsMenu;
+		NullCheck(L_55);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_55, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:518>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___m_ClosedHandActionsMenu;
+		NullCheck(L_56);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:519>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->___m_ControllerActionsMenu;
+		NullCheck(L_57);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_57, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:520>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_58 = __this->___m_ClosedControllerActionsMenu;
+		NullCheck(L_58);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_58, (bool)0, NULL);
+	}
+
+IL_01a8:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:523>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_59 = __this->___m_ToggleActionMenu;
+		NullCheck(L_59);
+		bool L_60;
+		L_60 = XRInputButtonReader_ReadWasPerformedThisFrame_mD45A7388B19EE02420E9F3D19C98F03FFBDA7A93(L_59, NULL);
+		if (!L_60)
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_61 = V_0;
+		NullCheck(L_61);
+		bool L_62;
+		L_62 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_61, NULL);
+		if (L_62)
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:525>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_63 = V_0;
+		NullCheck(L_63);
+		bool L_64;
+		L_64 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_63, NULL);
+		if (L_64)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_65 = V_0;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_65, NULL);
+		if (!L_66)
+		{
+			goto IL_01d5;
+		}
+	}
+
+IL_01cd:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:526>
+		XRInteractionSimulatorPlayModeMenu_OpenCloseControllerActionsMenu_m49732ECEB875246EF31C69887EE4BC9988F97899(__this, NULL);
+		goto IL_01eb;
+	}
+
+IL_01d5:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:527>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_67 = V_0;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_67, NULL);
+		if (L_68)
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_69 = V_0;
+		NullCheck(L_69);
+		bool L_70;
+		L_70 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_69, NULL);
+		if (!L_70)
+		{
+			goto IL_01eb;
+		}
+	}
+
+IL_01e5:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:528>
+		XRInteractionSimulatorPlayModeMenu_OpenCloseHandActionsMenu_m742765217774D37018C6F5B6FC9D0B0CC98D60B1(__this, NULL);
+	}
+
+IL_01eb:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:531>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_71 = __this->___m_ToggleInputSelectionMenu;
+		NullCheck(L_71);
+		bool L_72;
+		L_72 = XRInputButtonReader_ReadWasPerformedThisFrame_mD45A7388B19EE02420E9F3D19C98F03FFBDA7A93(L_71, NULL);
+		if (!L_72)
+		{
+			goto IL_01fe;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:532>
+		XRInteractionSimulatorPlayModeMenu_OpenCloseInputSelectionMenu_m1266CDBD993FBBDF3371BF192801A4E375DB254A(__this, NULL);
+	}
+
+IL_01fe:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:533>
+		return;
+	}
+}
+// Method Definition Index: 99758
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleHighlightedDevicePanels_m2DF45DF95E4D9F46FEF6E6B7D8B7AEE43BE2A534 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:537>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:538>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:540>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_8, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_1;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_10, NULL);
+		if ((!(((uint32_t)L_9) == ((uint32_t)L_11))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:541>
+		return;
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:543>
+		XRInteractionSimulatorPlayModeMenu_ClearHighlightedDevicePanels_m71FC44914FB0FEADCFD97154508307CDA3B832F2(__this, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:545>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:547>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___m_HighlightFullBodyPanel;
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:548>
+		return;
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:551>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_15 = V_0;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = XRInteractionSimulatorState_get_manipulatingLeftController_m936FB37E05A029BF96905E2E4F062D9B40391C95(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:552>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___m_HighlightLeftControllerPanel;
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:554>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_18 = V_0;
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = XRInteractionSimulatorState_get_manipulatingRightController_m18F638D1A564B3A195E3C4CCADD5FD4088504E88(L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:555>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_HighlightRightControllerPanel;
+		NullCheck(L_20);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
+	}
+
+IL_0078:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:557>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_21 = V_0;
+		NullCheck(L_21);
+		bool L_22;
+		L_22 = XRInteractionSimulatorState_get_manipulatingLeftHand_mC121606B38618E92AEF0049EADAEE7C060046723(L_21, NULL);
+		if (!L_22)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:559>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___m_HighlightLeftHandPanel;
+		NullCheck(L_23);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:560>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___m_LeftHandHighlightPanel;
+		NullCheck(L_24);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)1, NULL);
+	}
+
+IL_0098:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:563>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_25 = V_0;
+		NullCheck(L_25);
+		bool L_26;
+		L_26 = XRInteractionSimulatorState_get_manipulatingRightHand_m89C75A6CBCD677898FDECFFF9280138F388BCC01(L_25, NULL);
+		if (!L_26)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:565>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___m_HighlightRightHandPanel;
+		NullCheck(L_27);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_27, (bool)1, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:566>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___m_RightHandHighlightPanel;
+		NullCheck(L_28);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)1, NULL);
+	}
+
+IL_00b8:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:569>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_29 = V_0;
+		NullCheck(L_29);
+		bool L_30;
+		L_30 = XRInteractionSimulatorState_get_manipulatingHMD_mB0D649CC6ECAE7011A7CD18999DA2C150DDF1A9C(L_29, NULL);
+		if (!L_30)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:570>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___m_HighlightHeadPanel;
+		NullCheck(L_31);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_31, (bool)1, NULL);
+	}
+
+IL_00cc:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:571>
+		return;
+	}
+}
+// Method Definition Index: 99759
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleHighlightedControllerActionPanels_m4E76328FDA07F841307C6569D8FC4EDC01A5C47F (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m60E768E192B32C68E19C6650B57A9BCE2D514D83_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	bool V_2 = false;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:575>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:576>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:578>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = XRInteractionSimulatorState_get_manipulatingFPS_mA2905DEB224B6A6CF47643EC16CF3D5734280483(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:579>
+		return;
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:581>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:582>
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:583>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_6, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_1;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_8, NULL);
+		if ((!(((uint32_t)L_7) == ((uint32_t)L_9))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_10 = V_0;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_10, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_1;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline(L_12, NULL);
+		if ((!(((uint32_t)L_11) == ((uint32_t)L_13))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_14 = V_0;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_14, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_16 = V_1;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline(L_16, NULL);
+		if ((!(((uint32_t)L_15) == ((uint32_t)L_17))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:584>
+		return;
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:586>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_18 = __this->___m_ControllerInputRow;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_19 = V_0;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_19, NULL);
+		NullCheck(L_18);
+		bool L_21;
+		L_21 = Dictionary_2_ContainsKey_m60E768E192B32C68E19C6650B57A9BCE2D514D83(L_18, L_20, Dictionary_2_ContainsKey_m60E768E192B32C68E19C6650B57A9BCE2D514D83_RuntimeMethod_var);
+		V_2 = L_21;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:587>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_ControllerActionHighlightPanel;
+		bool L_23 = V_2;
+		NullCheck(L_22);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, L_23, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:589>
+		bool L_24 = V_2;
+		if (!L_24)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:590>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_ControllerActionHighlightPanel;
+		NullCheck(L_25);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_25, NULL);
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_27 = __this->___m_ControllerInputRow;
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_28 = V_0;
+		NullCheck(L_28);
+		int32_t L_29;
+		L_29 = XRInteractionSimulatorState_get_currentControllerInputMode_m8B1A5E620A661D7E6EBB62F0C3EDC019CD1410BB(L_28, NULL);
+		NullCheck(L_27);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B(L_27, L_29, Dictionary_2_get_Item_m6B4B9792BC5ACD5D9587DEC6B69EABE2FB668E4B_RuntimeMethod_var);
+		NullCheck(L_30);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
+		L_31 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_30, NULL);
+		NullCheck(L_31);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_31, NULL);
+		NullCheck(L_26);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_26, L_32, NULL);
+	}
+
+IL_0098:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:591>
+		return;
+	}
+}
+// Method Definition Index: 99760
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_HandleHighlightedHandActionPanels_m89AD3CD4BA3077B038BA5595030245E377D5D288 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_0 = NULL;
+	XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* V_1 = NULL;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:595>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_0 = __this->___m_Simulator;
+		NullCheck(L_0);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_1;
+		L_1 = XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:596>
+		XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* L_2 = __this->___m_Simulator;
+		NullCheck(L_2);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_3;
+		L_3 = XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:598>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_4 = V_0;
+		NullCheck(L_4);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_5;
+		L_5 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_4, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_6 = V_1;
+		NullCheck(L_6);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_7;
+		L_7 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_6, NULL);
+		if ((((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_5) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_7)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:599>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_8 = V_0;
+		NullCheck(L_8);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_9;
+		L_9 = XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline(L_8, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___m_LeftHandActionHighlightPanel;
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_11 = __this->___m_LeftHandExpressionRow;
+		XRInteractionSimulatorPlayModeMenu_UpdateHandActionHighlight_mEFC9351F8B4259DCB7523F3354B859A5A136FE38(__this, L_9, L_10, L_11, NULL);
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:601>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_12 = V_0;
+		NullCheck(L_12);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_13;
+		L_13 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_12, NULL);
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_14 = V_1;
+		NullCheck(L_14);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_15;
+		L_15 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_14, NULL);
+		if ((((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_13) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_15)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:602>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_16 = V_0;
+		NullCheck(L_16);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_17;
+		L_17 = XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline(L_16, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_RightHandActionHighlightPanel;
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_19 = __this->___m_RightHandExpressionRow;
+		XRInteractionSimulatorPlayModeMenu_UpdateHandActionHighlight_mEFC9351F8B4259DCB7523F3354B859A5A136FE38(__this, L_17, L_18, L_19, NULL);
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:603>
+		return;
+	}
+}
+// Method Definition Index: 99761
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_UpdateHandActionHighlight_mEFC9351F8B4259DCB7523F3354B859A5A136FE38 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* ___0_expression, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_highlightPanel, Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* ___2_rowDict, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m2B6027DC7F08AB12F38EE38624B7E7C52170DBC5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1149C9D2CE832ECDBC2F0663EE3E1899C56C0D27_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:607>
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_0 = ___0_expression;
+		SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* L_1 = __this->___m_HandPlaybackManager;
+		NullCheck(L_1);
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_2;
+		L_2 = SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline(L_1, NULL);
+		if ((((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_0) == ((RuntimeObject*)(SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B*)L_2)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_3 = ___2_rowDict;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_4 = ___0_expression;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Dictionary_2_ContainsKey_m2B6027DC7F08AB12F38EE38624B7E7C52170DBC5(L_3, L_4, Dictionary_2_ContainsKey_m2B6027DC7F08AB12F38EE38624B7E7C52170DBC5_RuntimeMethod_var);
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0018:
+	{
+		V_0 = (bool)G_B3_0;
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:608>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___1_highlightPanel;
+		bool L_7 = V_0;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, L_7, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:609>
+		bool L_8 = V_0;
+		if (!L_8)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:610>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = ___1_highlightPanel;
+		NullCheck(L_9);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_11 = ___2_rowDict;
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_12 = ___0_expression;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
+		L_13 = Dictionary_2_get_Item_m1149C9D2CE832ECDBC2F0663EE3E1899C56C0D27(L_11, L_12, Dictionary_2_get_Item_m1149C9D2CE832ECDBC2F0663EE3E1899C56C0D27_RuntimeMethod_var);
+		NullCheck(L_13);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
+		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_14, NULL);
+		NullCheck(L_10);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_15, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:611>
+		return;
+	}
+}
+// Method Definition Index: 99762
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu_ClearHighlightedDevicePanels_m71FC44914FB0FEADCFD97154508307CDA3B832F2 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:615>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_HighlightFullBodyPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:616>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___m_HighlightLeftControllerPanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:617>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___m_HighlightRightControllerPanel;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:618>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___m_HighlightLeftHandPanel;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:619>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_HighlightRightHandPanel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:620>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_HighlightHeadPanel;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:621>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_LeftHandHighlightPanel;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:622>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___m_RightHandHighlightPanel;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:623>
+		return;
+	}
+}
+// Method Definition Index: 99763
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu__ctor_m6AE36B240C61DBCD5C555848D9AD5D709B11BE83 (XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:193>
+		Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1* L_0 = (Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1*)il2cpp_codegen_object_new(Dictionary_2_tFD04A4218F0512A1E9CA34BADFF3A9EB998328A1_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432(L_0, Dictionary_2__ctor_m7133B945DB5B9ACBAD1E86254A93A822E2C66432_RuntimeMethod_var);
+		__this->___m_ControllerInputRow = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ControllerInputRow), (void*)L_0);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:194>
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_1 = (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762*)il2cpp_codegen_object_new(Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A(L_1, Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A_RuntimeMethod_var);
+		__this->___m_LeftHandExpressionRow = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LeftHandExpressionRow), (void*)L_1);
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:195>
+		Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762* L_2 = (Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762*)il2cpp_codegen_object_new(Dictionary_2_t13DCC277EC11EA6AD3D9459B9F7344C90F904762_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A(L_2, Dictionary_2__ctor_mB0693EE60FAD1D190BD38627DC4EE8A283798F1A_RuntimeMethod_var);
+		__this->___m_RightHandExpressionRow = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RightHandExpressionRow), (void*)L_2);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 99764
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInteractionSimulatorPlayModeMenu__cctor_mF85BEFD0A8F5A57E82182C2048F9B928C8864365 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/karbl/Senior Capstone/Capstone_Project-Runtime-Escape/RuntimeEscape/Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/Scripts/XRInteractionSimulatorPlayModeMenu.cs:200>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_0), (0.43921569f), (0.43921569f), (0.43921569f), NULL);
+		((XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_StaticFields*)il2cpp_codegen_static_fields_for(XRInteractionSimulatorPlayModeMenu_t26A46A6D30CB06A7D7F59BA73A86D216EF6482D8_il2cpp_TypeInfo_var))->___k_DisabledColor = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 44668
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:57>
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:57>
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 28974
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulator_get_pointAndClickActive_mFF0C7737C800E7D214A16FF8E3FDD642C947E535_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:1120>
+		bool L_0 = __this->___m_PointAndClickActive;
+		return L_0;
+	}
+}
+// Method Definition Index: 28975
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* XRInteractionSimulator_get_currentState_m6D6FF819C44ED713FF334B6B9FA11E8CFD8EC94B_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:1127>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_0 = __this->___m_CurrentState;
+		return L_0;
+	}
+}
+// Method Definition Index: 44705
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:657>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 29048
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_deviceMode_m2548ABBDF95E0B446A2EB5741D237FC76887DF31_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:25>
+		int32_t L_0 = __this->___U3CdeviceModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29052
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingRight_mC22E9BA21B03EF53C3033E4ECA79055F69F43489_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:35>
+		bool L_0 = __this->___U3CisTranslatingRightU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29054
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingLeft_mF988C9E6F28AAD691A6987BD9FC36B26F62E7878_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:40>
+		bool L_0 = __this->___U3CisTranslatingLeftU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29060
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingForward_m3C6B02683E3E5875E7C5B847C8C2EE4EF61A0D4C_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:55>
+		bool L_0 = __this->___U3CisTranslatingForwardU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29062
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingBackward_m23EB4C1BFEE391C13C578B1C342A00E93A715A03_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:60>
+		bool L_0 = __this->___U3CisTranslatingBackwardU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29056
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingUp_m6758A7D99FA32A0E4F011724C63D2E8907F84F49_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:45>
+		bool L_0 = __this->___U3CisTranslatingUpU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29058
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isTranslatingDown_mAA1DF0DDEB3DBA3A91156A4614EEED22387C17D8_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:50>
+		bool L_0 = __this->___U3CisTranslatingDownU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29064
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingRight_m15FD66CA92934719D1B4F7A3205B2D299BCB9604_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:65>
+		bool L_0 = __this->___U3CisRotatingRightU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29066
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingLeft_m58D383A056794F679EE27A4AE900FFBC90786AB5_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:70>
+		bool L_0 = __this->___U3CisRotatingLeftU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29068
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingUp_mA7017D947F59EA8557E127B001F2CD4E36FE9852_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:75>
+		bool L_0 = __this->___U3CisRotatingUpU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29070
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_isRotatingDown_m0FEEF853393A9E35D64EE84CA52A7A7DD3AACA31_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:80>
+		bool L_0 = __this->___U3CisRotatingDownU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 28976
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* XRInteractionSimulator_get_previousState_m097CB21E8FD849234197DB8AF1D639E6EA66E11F_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:1134>
+		XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* L_0 = __this->___m_PreviousState;
+		return L_0;
+	}
+}
+// Method Definition Index: 29050
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_targetedDeviceInput_mDDB1C6B360D73322F9F5E931B3A350B6E183252C_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:30>
+		int32_t L_0 = __this->___U3CtargetedDeviceInputU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29072
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_performingLeftQuickAction_m6580CF5EB3B3E95F5367C9A327BE0B3DC606E179_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:85>
+		bool L_0 = __this->___U3CperformingLeftQuickActionU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29074
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_performingRightQuickAction_m3CF016FF9D91A7298E74C3C769C9A4CE7F553898_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:90>
+		bool L_0 = __this->___U3CperformingRightQuickActionU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 28452
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SimulatedHandExpression_get_sequenceType_m2A7AD06DACCBDD365B517A250FFE6C19B78E38A1_inline (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/SimulatedHandExpression.cs:96>
+		int32_t L_0 = __this->___m_SequenceType;
+		return L_0;
+	}
+}
+// Method Definition Index: 29078
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_leftControllerInputMode_m13EED6634F54C0663793947C1E195ECB4ADFB037_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:100>
+		int32_t L_0 = __this->___U3CleftControllerInputModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29080
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_rightControllerInputMode_m0FC9659129EFCCB442AE5B0CEF9F39B9B638635F_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:105>
+		int32_t L_0 = __this->___U3CrightControllerInputModeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29084
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* XRInteractionSimulatorState_get_leftHandExpression_mF9880E7CBDC4331D3ADFA00A4ACF2AA397D6A4DF_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:115>
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_0 = __this->___U3CleftHandExpressionU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29086
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* XRInteractionSimulatorState_get_rightHandExpression_mFAB5C862968BF73C94F6BD7A2F1447C2DDA303C3_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:120>
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_0 = __this->___U3CrightHandExpressionU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29082
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInteractionSimulatorState_get_activeControllerHotkeyButtons_mD859FD328B54861ABDBF28E612675AE1E369E3EE_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:110>
+		int32_t L_0 = __this->___U3CactiveControllerHotkeyButtonsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29088
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_handExpressionToggleHeld_mF3C383E43E9309CCAC4C3B5A1C1B8AF79F3CE9EB_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:126>
+		bool L_0 = __this->___U3ChandExpressionToggleHeldU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 29076
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRInteractionSimulatorState_get_leftDeviceHotkeyModifierPressed_m33DFDD01C18A3ABC0F256133A7AC24C425BD485E_inline (XRInteractionSimulatorState_t1F4461DB59F7BFF2C8550FA70CA9A19A25B5739A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulatorState.cs:95>
+		bool L_0 = __this->___U3CleftDeviceHotkeyModifierPressedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 28450
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* SimulatedHandExpression_get_toggleInput_m16D8F8CDD24C1B3BE3B3FA26297FD684417B3F0C_inline (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/SimulatedHandExpression.cs:62>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_ToggleInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 29255
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* XRInputButtonReader_get_inputActionReferencePerformed_mD4D2065CFC0237A6E65670D081E42A033D808A38_inline (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Readers/XRInputButtonReader.cs:177>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_InputActionReferencePerformed;
+		return L_0;
+	}
+}
+// Method Definition Index: 28956
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* XRInteractionSimulator_get_quickActionControllerInputModes_m53896B63465E11968A46321554D26D9631D5E68E_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:995>
+		List_1_t5BCA510C4E28F6EFCDC1E17AEDBCF0B465C5D98A* L_0 = __this->___m_QuickActionControllerInputModes;
+		return L_0;
+	}
+}
+// Method Definition Index: 28470
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* SimulatedHandPlaybackManager_get_simulatedHandExpressions_m7AFCF4A41A81194AAEBB16A98B1E4BB0CA65543B_inline (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/SimulatedHandPlaybackManager.cs:80>
+		List_1_t88DD50E9DA0F4B9CEC9D65166A934529071DEFFB* L_0 = __this->___m_SimulatedHandExpressions;
+		return L_0;
+	}
+}
+// Method Definition Index: 28456
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SimulatedHandExpression_get_isQuickAction_mAA263E54E231BDA5576C8E76D43F86A748205397_inline (SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/SimulatedHandExpression.cs:212>
+		bool L_0 = __this->___m_IsQuickAction;
+		return L_0;
+	}
+}
+// Method Definition Index: 28890
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_triggerInput_mDDD941B1135E1617AF9FDF4123C3122F4DF4EC61_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:510>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_TriggerInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28888
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_gripInput_m0B61567D62CBAD704CF6294C5532DE53D4B8370F_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:497>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_GripInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28892
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primaryButtonInput_m888BC37EE782D5B81C4418B0A91C2CA46676CC1C_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:523>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_PrimaryButtonInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28894
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondaryButtonInput_mEDE5093D0E853559F4C40472AEB4B9D55B8E910C_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:536>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_SecondaryButtonInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28896
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_menuInput_m84C9A16C0D5A7BCD241B8F27E93DB501C9462110_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:549>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_MenuInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28898
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primary2DAxisClickInput_mFD83EAEDE0665CBDA9C5AA082102845E99D0A82F_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:562>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_Primary2DAxisClickInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28900
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondary2DAxisClickInput_m524E294AB96C3A999582475309DF62B2799CD64B_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:575>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_Secondary2DAxisClickInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28902
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primary2DAxisTouchInput_m75D8BAD5A09A5C7B1BDD1040E32A8CD6B6D5DA4A_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:588>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_Primary2DAxisTouchInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28904
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondary2DAxisTouchInput_m510BA4AD356D1F4B1CCA38FE8CD01AD0CDB67E93_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:601>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_Secondary2DAxisTouchInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28906
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_primaryTouchInput_m4A2DB06C2088902E437C0DBCE0C04A9C578514F9_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:614>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_PrimaryTouchInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28908
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* XRInteractionSimulator_get_secondaryTouchInput_m98FBE1F8591F31F54F616ED5BD6D8FC7D9FDB4A7_inline (XRInteractionSimulator_tEC53D78982DE62BF122F170BF4E961C054819FD6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/XRInteractionSimulator.cs:627>
+		XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* L_0 = __this->___m_SecondaryTouchInput;
+		return L_0;
+	}
+}
+// Method Definition Index: 28471
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* SimulatedHandPlaybackManager_get_restingHandExpression_m834B83F433F7A47419ED8FD88F1AE6BCFBADA543_inline (SimulatedHandPlaybackManager_t9EA3C5B1308E34632B1E151A24089ECFB85CDB2C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Simulation/SimulatedHandPlaybackManager.cs:91>
+		SimulatedHandExpression_tBA4D65D32580EECD62C6571E039188133339097B* L_0 = __this->___m_RestingHandExpression;
+		return L_0;
+	}
+}
+// Method Definition Index: 44347
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:47>
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:47>
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:47>
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:47>
+		__this->___a = (1.0f);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 28244
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* XRInputModalityManager_get_leftHand_m402022E4787271D565BD5222D7A9C65C66F8C428_inline (XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/XRInputModalityManager.cs:87>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_LeftHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 28246
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* XRInputModalityManager_get_rightHand_m66D448E794A2E2D604B990E7D633014BDF9F14D9_inline (XRInputModalityManager_tF0478EEA921FE18830A3B2C01AB9AF15A0FEEAAA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/XRInputModalityManager.cs:103>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_RightHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 29249
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInputButtonReader_get_inputSourceMode_m9C09E595B3C587F18D2290E4BF9964A4DCC2623F_inline (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Readers/XRInputButtonReader.cs:128>
+		int32_t L_0 = __this->___m_InputSourceMode;
+		return L_0;
+	}
+}
+// Method Definition Index: 29251
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* XRInputButtonReader_get_inputActionPerformed_m669E42BD3FAAEA4A7C7549A31CACEC9489242A42_inline (XRInputButtonReader_t0727CFE55AD1B8ECEFCD382660D9AC0DA1639515* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@530ce2e6c59e/Runtime/Inputs/Readers/XRInputButtonReader.cs:146>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_0 = __this->___m_InputActionPerformed;
+		return L_0;
+	}
+}
+// Method Definition Index: 9573
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 9531
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 9422
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B Enumerator_get_Current_m12EE850D56E586DF121B059557CEAF4A7472995B_gshared_inline (Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 9523
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 9512
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m9080410FAF175EB3313FCE9515BA3A9D8E11718F_gshared_inline (List_1_tDA4D291C60B1EFA9EA50BBA3367C657CC9410576* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 9512
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 9466
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->____currentValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 9466
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m76B0ECD4B03E606A1CE3DF60589D2E97130B02CA_gshared_inline (Enumerator_tF9B1C7464F1BFE1675CFE608CC62D4507968CF08* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->____currentValue;
+		return L_0;
+	}
+}
