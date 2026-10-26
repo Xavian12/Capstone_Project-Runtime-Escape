@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 734277ab79055654ba19340ce517af03
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textMesh: {instanceID: 0}
+  - screenRenderer: {instanceID: 0}
+  - emissiveMaterial: {fileID: 2100000, guid: 6524aa555f1b42244986381fdbfcd6eb, type: 2}
+  - normalMaterial: {fileID: 2100000, guid: 7cbe213b461e1c440a630e39dc10d1e0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 326721
+  packageName: CRT & Slimline Monitors Pack
+  packageVersion: 1.0
+  assetPath: Assets/CRT_&_Slimline_Monitors_Pack/Script/CRTSlimlineMonitorsPack.cs
+  uploadId: 773592
