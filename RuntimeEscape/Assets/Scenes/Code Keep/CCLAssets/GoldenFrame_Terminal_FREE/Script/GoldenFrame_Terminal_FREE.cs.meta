@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1dc0ea6d675ae04aab101cb6a1bde0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textMesh: {instanceID: 0}
+  - screenRenderer: {instanceID: 0}
+  - emissiveMaterial: {fileID: 2100000, guid: cce71e2a27619d046a3a2c3dd565e391, type: 2}
+  - normalMaterial: {fileID: 2100000, guid: 15bc120910895834e82061eb08e73162, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
