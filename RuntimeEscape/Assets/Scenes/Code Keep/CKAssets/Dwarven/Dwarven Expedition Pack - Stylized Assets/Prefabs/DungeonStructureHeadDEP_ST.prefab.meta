@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 19f0d44f83181c64aaee4796197eb52b
+labels:
+- dunngeon
+- gates
+- head
+- model
+- stone
+- structures
+timeCreated: 1569842742
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab
+  uploadId: 333210

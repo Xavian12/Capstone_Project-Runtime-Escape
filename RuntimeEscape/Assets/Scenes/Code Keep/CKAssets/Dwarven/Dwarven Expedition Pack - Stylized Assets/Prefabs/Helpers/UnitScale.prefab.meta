@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 982ef0054f278fc47b3f5c0b34f3e9fb
+labels:
+- model
+timeCreated: 1569871599
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/UnitScale.prefab
+  uploadId: 333210

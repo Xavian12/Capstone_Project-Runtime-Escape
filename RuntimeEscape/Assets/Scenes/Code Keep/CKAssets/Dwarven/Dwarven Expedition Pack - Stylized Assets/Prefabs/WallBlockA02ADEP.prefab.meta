@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cc13072d91f23644ca13f679632426ca
+labels:
+- dunngeon
+- gates
+- model
+- stone
+- structures
+timeCreated: 1569926689
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA02ADEP.prefab
+  uploadId: 333210

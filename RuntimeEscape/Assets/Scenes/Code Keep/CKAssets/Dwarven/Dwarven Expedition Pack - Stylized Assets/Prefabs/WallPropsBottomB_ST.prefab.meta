@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4a5671e23279ff243b82037573e55e4a
+labels:
+- dunngeon
+- gates
+- model
+- stone
+- structures
+timeCreated: 1569868924
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomB_ST.prefab
+  uploadId: 333210
