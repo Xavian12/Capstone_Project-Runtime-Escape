@@ -42,7 +42,11 @@
             "name": "AnimationClip",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -51,7 +55,11 @@
             "name": "Animator",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -60,7 +68,11 @@
             "name": "AnimatorController",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -68,6 +80,14 @@
           {
             "name": "AnimatorOverrideController",
             "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Avatar",
+            "scenes": [
+              "Assets/Scenes/Classroom/Classroom.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -365,7 +385,11 @@
             "name": "LineRenderer",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -507,7 +531,11 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -578,7 +606,11 @@
             "name": "SkinnedMeshRenderer",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -593,7 +625,11 @@
             "name": "SortingGroup",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -602,7 +638,11 @@
             "name": "Sprite",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1157,7 +1197,11 @@
             "name": "CharacterController",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1703,7 +1747,11 @@
             "name": "Canvas",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1718,7 +1766,11 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/Scenes/Classroom/Classroom.unity",
-              "Assets/Scenes/MenuHallway3D.unity"
+              "Assets/Scenes/Code Keep/Code Keep.unity",
+              "Assets/Scenes/Escape The Wild/Escape The Wild.unity",
+              "Assets/Scenes/MenuHallway3D.unity",
+              "Assets/Scenes/The Cursed Computer Lab/The Cursed Computer Lab.unity",
+              "Assets/Scenes/The Infinite Loop/The Infinite Loop.unity"
             ],
             "dependencyType": 0,
             "icon": null
