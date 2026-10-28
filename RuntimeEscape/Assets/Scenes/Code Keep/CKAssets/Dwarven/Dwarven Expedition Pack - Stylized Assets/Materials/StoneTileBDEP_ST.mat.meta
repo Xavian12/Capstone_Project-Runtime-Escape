@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c79374705a897ce4f86957ca7096de1e
+labels:
+- dunngeon
+- pbr
+- stone
+- structures
+timeCreated: 1569869053
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: materials
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileBDEP_ST.mat
+  uploadId: 333210

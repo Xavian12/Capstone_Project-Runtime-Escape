@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f51a06c588d4569419404f9e8c3f425e
+labels:
+- dunngeon
+- pbr
+- stone
+- structures
+timeCreated: 1569866898
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: materials
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/New
+    Material.mat
+  uploadId: 333210

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4881923339e8b8d49934c314a55bebf3
+labels:
+- dunngeon
+- gates
+- model
+- stone
+- structures
+timeCreated: 1569514946
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab
+  uploadId: 333210

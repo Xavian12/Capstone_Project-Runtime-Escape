@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 34a7af6d02350254e9cb395769830b9d
+labels:
+- dunngeon
+- head
+- pbr
+- stone
+- structures
+timeCreated: 1569842350
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: materials
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonStructureHeadDEP_ST.mat
+  uploadId: 333210
