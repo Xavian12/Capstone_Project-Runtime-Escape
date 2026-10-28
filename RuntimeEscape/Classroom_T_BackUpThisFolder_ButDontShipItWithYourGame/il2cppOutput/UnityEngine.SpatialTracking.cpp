@@ -739,7 +739,7 @@ inline void List_1_AddWithResize_m02184E249D902C89C3E22E7CDE48131D39701169 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100739
+// Method Definition Index: 101953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriverDataDescription__ctor_m76D45B5826854354DF5D5F3962767B0ED49FD5E7 (TrackedPoseDriverDataDescription_tDD80D37EB4F938007BCE0FAB9705032594E4D9FF* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -748,7 +748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriverDataDescription__ctor_m
 		return;
 	}
 }
-// Method Definition Index: 100740
+// Method Definition Index: 101954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriverDataDescription__cctor_mB66097427DE427D6DAC5B5A68CC2D35E7526BE27 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -993,7 +993,7 @@ IL2CPP_EXTERN_C void PoseData_t67ECD1DA6257206C1935CCD030E1E1EF57E1443A_marshal_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100741
+// Method Definition Index: 101955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PoseDataSource_GetNodePoseData_m07EE5781C7E0EB625084A340D115C34C47B07B8E (int32_t ___0_node, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_resultPose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1141,7 +1141,7 @@ IL_007b:
 		return L_19;
 	}
 }
-// Method Definition Index: 100742
+// Method Definition Index: 101956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoseDataSource_TryGetDataFromSource_m9CCF52B621C860AB223A2F1B621C99E0106455F1 (int32_t ___0_poseSource, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_resultPose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1160,7 +1160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoseDataSource_TryGetDataFromSource_m9CC
 		return (bool)((((int32_t)L_2) == ((int32_t)3))? 1 : 0);
 	}
 }
-// Method Definition Index: 100743
+// Method Definition Index: 101957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PoseDataSource_GetDataFromSource_mD37A9CC706B99D7A2535DEA7CB0D40F7F47B277A (int32_t ___0_poseSource, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___1_resultPose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1353,7 +1353,7 @@ IL_0081:
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 100744
+// Method Definition Index: 101958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseDataSource__cctor_m2CA606CD693A292EED74511BED8CEC06870BA3F3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1381,7 +1381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoseDataSource__cctor_m2CA606CD693A292EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100745
+// Method Definition Index: 101959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_deviceType_m17B7178484ECE7F92482DE4C601BBBD70246B743 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1390,7 +1390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_deviceType_m17B
 		return L_0;
 	}
 }
-// Method Definition Index: 100746
+// Method Definition Index: 101960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_deviceType_m8928B93C062C7E11D74488DF75E7E0B975FE2B8B (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1401,7 +1401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_deviceType_m8928B9
 		return;
 	}
 }
-// Method Definition Index: 100747
+// Method Definition Index: 101961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_poseSource_m9170B150EF9457C39E316C1FE4C94691ECA92106 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1410,7 +1410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_poseSource_m917
 		return L_0;
 	}
 }
-// Method Definition Index: 100748
+// Method Definition Index: 101962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_poseSource_mEAA5E3640295ACF067287B196FDDCFD69120CC68 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1421,7 +1421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_poseSource_mEAA5E3
 		return;
 	}
 }
-// Method Definition Index: 100749
+// Method Definition Index: 101963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackedPoseDriver_SetPoseSource_m34F8A63205A899E7AE5CAFE116177BB64AC00C13 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_deviceType, int32_t ___1_pose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1518,7 +1518,7 @@ IL_004e:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 100750
+// Method Definition Index: 101964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D* TrackedPoseDriver_get_poseProviderComponent_m4EEE14236F73AF01BA4FCE900DE6198BA5B71124 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1527,7 +1527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BasePoseProvider_t55E2883DF2C8052200284D64B68
 		return L_0;
 	}
 }
-// Method Definition Index: 100751
+// Method Definition Index: 101965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_poseProviderComponent_mE69DED5BA85FA1712F75CCD9217223FA1A0F35EA (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1539,7 +1539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_poseProviderCompon
 		return;
 	}
 }
-// Method Definition Index: 100752
+// Method Definition Index: 101966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_GetPoseData_m3B8070CB063DE4D7A901AD9715E0016B68AADE6C (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_device, int32_t ___1_poseSource, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_resultPose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1581,7 +1581,7 @@ IL_0016:
 		return L_7;
 	}
 }
-// Method Definition Index: 100753
+// Method Definition Index: 101967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_trackingType_m33BB19AE09F28F85E9E61022132218F6EB73C3B3 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1590,7 +1590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_trackingType_m3
 		return L_0;
 	}
 }
-// Method Definition Index: 100754
+// Method Definition Index: 101968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_trackingType_mF91C94B07D1761078015D0F74B5ACC663C5932F9 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1601,7 +1601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_trackingType_mF91C
 		return;
 	}
 }
-// Method Definition Index: 100755
+// Method Definition Index: 101969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_updateType_m89CCB2F9300BF6F6BA265B5120E03680FBFCF506 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1610,7 +1610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackedPoseDriver_get_updateType_m89C
 		return L_0;
 	}
 }
-// Method Definition Index: 100756
+// Method Definition Index: 101970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_updateType_m361300C65C0F5FA68728B8C18096573EBBFBA254 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1621,7 +1621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_updateType_m361300
 		return;
 	}
 }
-// Method Definition Index: 100757
+// Method Definition Index: 101971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackedPoseDriver_get_UseRelativeTransform_m364C0EC379CBD6898EA09712A3245B3D9E69114B (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1630,7 +1630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackedPoseDriver_get_UseRelativeTransfo
 		return L_0;
 	}
 }
-// Method Definition Index: 100758
+// Method Definition Index: 101972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_UseRelativeTransform_mCFB5B8BCF840C51BD0AA29F4F8CE255A4284BD90 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1641,7 +1641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_UseRelativeTransfo
 		return;
 	}
 }
-// Method Definition Index: 100759
+// Method Definition Index: 101973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TrackedPoseDriver_get_originPose_mBE222A120504DAAF230CE41A3A8BAB847FE28D08 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1650,7 +1650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 		return L_0;
 	}
 }
-// Method Definition Index: 100760
+// Method Definition Index: 101974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_originPose_m2C46FCA44C17A58EF0A9F1479F64D612B8BD3612 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1661,7 +1661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_originPose_m2C46FC
 		return;
 	}
 }
-// Method Definition Index: 100761
+// Method Definition Index: 101975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_CacheLocalPosition_m8D577E735DA73CDEB6CCAD152E457B141CB7A7D5 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1685,7 +1685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_CacheLocalPosition_m8D
 		return;
 	}
 }
-// Method Definition Index: 100762
+// Method Definition Index: 101976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_ResetToCachedLocalPosition_m7FD46724D2BF37DFD65CEFB2DBD1A6F03BD3A90D (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1699,7 +1699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_ResetToCachedLocalPosi
 		return;
 	}
 }
-// Method Definition Index: 100763
+// Method Definition Index: 101977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_Awake_m1939FF8E60FD6C4D91FFCDFE3B861F83BB6C7EEE (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1709,7 +1709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_Awake_m1939FF8E60FD6C4
 		return;
 	}
 }
-// Method Definition Index: 100764
+// Method Definition Index: 101978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnDestroy_m34A5CEA220217311DF4076BFA69F1013D0F2DAAA (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1717,7 +1717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnDestroy_m34A5CEA2202
 		return;
 	}
 }
-// Method Definition Index: 100765
+// Method Definition Index: 101979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnEnable_m36C815D001B992B28CD69CA2F282EC7660C8E9F7 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1737,7 +1737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnEnable_m36C815D001B9
 		return;
 	}
 }
-// Method Definition Index: 100766
+// Method Definition Index: 101980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnDisable_mC6EB0D19C5ECC17A8F17DB478C978CAE0280790F (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1759,7 +1759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnDisable_mC6EB0D19C5E
 		return;
 	}
 }
-// Method Definition Index: 100767
+// Method Definition Index: 101981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_FixedUpdate_m43910F40F01F60740C97F82D3157AFAE3587551A (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1791,7 +1791,7 @@ IL_0017:
 		return;
 	}
 }
-// Method Definition Index: 100768
+// Method Definition Index: 101982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_Update_mA2D898B30A3072B68ED650C68DDF8A8461E04CCA (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1823,7 +1823,7 @@ IL_0017:
 		return;
 	}
 }
-// Method Definition Index: 100769
+// Method Definition Index: 101983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_OnBeforeRender_m81B27C3A2FE49926AF76BB1E3332D35C313D2438 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1855,7 +1855,7 @@ IL_0017:
 		return;
 	}
 }
-// Method Definition Index: 100770
+// Method Definition Index: 101984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_SetLocalTransform_m470407210CD80790C2887973D09AFE97454CC2DF (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_newPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_newRotation, int32_t ___2_poseFlags, const RuntimeMethod* method) 
 {
 	{
@@ -1935,7 +1935,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 100771
+// Method Definition Index: 101985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TrackedPoseDriver_TransformPoseByOriginIfNeeded_mA8C3ADCF55349F26E6AC90CC2488217ECC49F1B2 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_pose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1968,7 +1968,7 @@ IL_0016:
 		return L_3;
 	}
 }
-// Method Definition Index: 100772
+// Method Definition Index: 101986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TrackedPoseDriver_HasStereoCamera_mE463A159FA7B7116C667A01B6197B44B340823CE (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2007,7 +2007,7 @@ IL_0017:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 100773
+// Method Definition Index: 101987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_PerformUpdate_m7ECADDEEA9C6EC284D0EB169605B6BCA34449D97 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
@@ -2065,7 +2065,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 100774
+// Method Definition Index: 101988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver__ctor_mCB5636C22D685907A7D30BEA4FF3D5BD2FE5D3F0 (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2115,7 +2115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver__ctor_mCB5636C22D68590
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100775
+// Method Definition Index: 101989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BasePoseProvider_GetPoseFromProvider_m815E60EB1A0C2D449B60F60DDD0D49DCF7E68A69 (BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_output, const RuntimeMethod* method) 
 {
 	{
@@ -2139,7 +2139,7 @@ IL_000b:
 		return (int32_t)(0);
 	}
 }
-// Method Definition Index: 100776
+// Method Definition Index: 101990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BasePoseProvider_TryGetPoseFromProvider_m6961C33D08BB411C9E425EDE5813480319F9BFB0 (BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_output, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2159,7 +2159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BasePoseProvider_TryGetPoseFromProvider_
 		return (bool)0;
 	}
 }
-// Method Definition Index: 100777
+// Method Definition Index: 101991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePoseProvider__ctor_mB1BA00DFB674FA54CD28933D4335F6162B378020 (BasePoseProvider_t55E2883DF2C8052200284D64B68471636876FA1D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2171,7 +2171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePoseProvider__ctor_mB1BA00DFB674FA54
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 100746
+// Method Definition Index: 101960
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_deviceType_m8928B93C062C7E11D74488DF75E7E0B975FE2B8B_inline (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2182,7 +2182,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_device
 		return;
 	}
 }
-// Method Definition Index: 100748
+// Method Definition Index: 101962
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackedPoseDriver_set_poseSource_mEAA5E3640295ACF067287B196FDDCFD69120CC68_inline (TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{

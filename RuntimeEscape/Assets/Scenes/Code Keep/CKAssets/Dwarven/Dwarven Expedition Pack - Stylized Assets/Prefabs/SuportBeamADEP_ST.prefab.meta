@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 05621cf18ffdbc347a5dedd09d576380
+labels:
+- dunngeon
+- gates
+- model
+- stone
+- structures
+timeCreated: 1569584746
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamADEP_ST.prefab
+  uploadId: 333210

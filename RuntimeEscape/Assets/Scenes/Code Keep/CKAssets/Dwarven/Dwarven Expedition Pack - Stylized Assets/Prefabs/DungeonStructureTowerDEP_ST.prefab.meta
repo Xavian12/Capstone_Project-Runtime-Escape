@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3bdfacaee031fad44a81bc6c2a67d179
+labels:
+- dunngeon
+- model
+- stone
+- structures
+timeCreated: 1569842760
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab
+  uploadId: 333210

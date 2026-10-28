@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: efc0af282d36bdb4d83ebe2fe7331187
+labels:
+- cliffs
+- dunngeon
+- pbr
+- rocks
+- stone
+- structures
+timeCreated: 1569867231
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: materials
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155149
+  packageName: Dwarven Expedition Pack - Stylized Assets
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/RawStoneDEP_ST.mat
+  uploadId: 333210
