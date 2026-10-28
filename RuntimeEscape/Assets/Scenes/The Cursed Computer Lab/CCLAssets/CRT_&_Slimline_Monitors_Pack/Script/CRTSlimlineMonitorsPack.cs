@@ -23,7 +23,7 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
             TurnOnComputer();
     }
 
-    private void TurnOnComputer()
+    public void TurnOnComputer()
     {
         if (screenRenderer != null && emissiveMaterial != null)
         {
@@ -38,7 +38,7 @@ public class CRTSlimlineMonitorsPack : MonoBehaviour
         isOn = true;
     }
 
-    private void TurnOffComputer()
+    public void TurnOffComputer()
     {
         if (screenRenderer != null && normalMaterial != null)
         {
