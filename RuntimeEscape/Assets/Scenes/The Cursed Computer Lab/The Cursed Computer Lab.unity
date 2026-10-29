@@ -7139,6 +7139,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3881695478753448996, guid: 900432286b70dd3448b0884c911e1f6d, type: 3}
   m_PrefabInstance: {fileID: 454536212}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &459310544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459310546}
+  - component: {fileID: 459310545}
+  m_Layer: 0
+  m_Name: XR Interaction Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &459310545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459310544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+--- !u!4 &459310546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459310544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8058386, y: 2.0937881, z: 14.95649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &464333104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8814,6 +8860,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd1b4280973159e49b2b4c7de64cd056, type: 3}
   m_PrefabInstance: {fileID: 1779394590}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &552822080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7668652311130866838, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+  m_PrefabInstance: {fileID: 642677672}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &554564749
 GameObject:
   m_ObjectHideFlags: 0
@@ -10002,7 +10053,7 @@ PrefabInstance:
       objectReference: {fileID: 2080874693}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
-      value: 'XR Origin (XR Rig) '
+      value: XR Origin (XR Rig) (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_IsActive
@@ -10780,7 +10831,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 752351882884254406, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3910212875142982708, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
       propertyPath: m_Name
@@ -10829,13 +10880,115 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3910212875142982708, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 820614043}
+    - targetCorrespondingSourceObject: {fileID: 3333499926636197230, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 642677681}
   m_SourcePrefab: {fileID: 100100000, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
 --- !u!4 &642677673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4397779639313774222, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
   m_PrefabInstance: {fileID: 642677672}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &642677674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3333499926636197230, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+  m_PrefabInstance: {fileID: 642677672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &642677679 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4132275059527457778, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+  m_PrefabInstance: {fileID: 642677672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &642677681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642677674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 820614043}
+        m_TargetAssemblyTypeName: CRTSlimlineMonitorsPack, Assembly-CSharp
+        m_MethodName: TurnOnComputer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
 --- !u!1001 &644409236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13469,6 +13622,27 @@ Transform:
   - {fileID: 1883326825}
   m_Father: {fileID: 1753362158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &820614042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3910212875142982708, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+  m_PrefabInstance: {fileID: 642677672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &820614043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820614042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734277ab79055654ba19340ce517af03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 552822080}
+  screenRenderer: {fileID: 642677679}
+  emissiveMaterial: {fileID: 2100000, guid: 6524aa555f1b42244986381fdbfcd6eb, type: 2}
+  normalMaterial: {fileID: 2100000, guid: 7cbe213b461e1c440a630e39dc10d1e0, type: 2}
 --- !u!1001 &820918062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17094,13 +17268,98 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3910212875142982708, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1394739689}
+    - targetCorrespondingSourceObject: {fileID: 3333499926636197230, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1057929223}
   m_SourcePrefab: {fileID: 100100000, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
 --- !u!4 &1057929221 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4397779639313774222, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
   m_PrefabInstance: {fileID: 1057929220}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1057929222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3333499926636197230, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+  m_PrefabInstance: {fileID: 1057929220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1057929223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057929222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
 --- !u!1 &1066024940
 GameObject:
   m_ObjectHideFlags: 0
@@ -23547,6 +23806,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd1b4280973159e49b2b4c7de64cd056, type: 3}
   m_PrefabInstance: {fileID: 1883326824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1394739688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3910212875142982708, guid: f585c80791cfa6746bfb6d9a63158312, type: 3}
+  m_PrefabInstance: {fileID: 1057929220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1394739689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394739688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734277ab79055654ba19340ce517af03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CRTSlimlineMonitorsPack
+  textMesh: {fileID: 0}
+  screenRenderer: {fileID: 0}
+  emissiveMaterial: {fileID: 2100000, guid: 6524aa555f1b42244986381fdbfcd6eb, type: 2}
+  normalMaterial: {fileID: 2100000, guid: 7cbe213b461e1c440a630e39dc10d1e0, type: 2}
 --- !u!1 &1396308564 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bd1b4280973159e49b2b4c7de64cd056, type: 3}
@@ -32293,6 +32573,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1066024941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1957942696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.58048
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.28956
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_Name
+      value: XR Device Simulator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
 --- !u!1001 &1962603682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35242,3 +35579,5 @@ SceneRoots:
   - {fileID: 384952862}
   - {fileID: 1692184867}
   - {fileID: 614040765}
+  - {fileID: 1957942696}
+  - {fileID: 459310546}
