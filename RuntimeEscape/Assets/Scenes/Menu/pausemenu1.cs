@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using UnityEngine.Audio;
 
 public class pausemenu1 : MonoBehaviour
 {
@@ -63,4 +64,5 @@ public class pausemenu1 : MonoBehaviour
     {
         Application.Quit();
     }
+
 }

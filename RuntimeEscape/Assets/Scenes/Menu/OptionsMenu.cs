@@ -1,12 +1,41 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
+
 public class OptionsMenu : MonoBehaviour
 {
-
     public AudioMixer audioMixer;
 
-    public void SetVolume (float volume)
+    public Slider musicSlider;
+    public Slider sfxSlider;
+
+    private void Start()
     {
-        audioMixer.SetFloat("Volume", volume);
+        LoadVoluem();
+        
+    }
+
+    public void UpdateMusicVolume(float volume)
+    {
+        audioMixer.SetFloat("MusicVolume", volume);
+    }
+    public void UpdateSouondVolume(float volume)
+    {
+        audioMixer.SetFloat("SFXVolume", volume);
+    }
+
+    public void SaveVolume()
+    {
+        audioMixer.GetFloat("MusicVolume", out float musicVolume);
+        PlayerPrefs.SetFloat("MusicVolume", musicVolume);
+
+        audioMixer.GetFloat("SFXVolume", out float sfxVolume);
+        PlayerPrefs.SetFloat("SFXVolume", sfxVolume);
+    }
+
+    public void LoadVoluem()
+    {
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
     }
 }

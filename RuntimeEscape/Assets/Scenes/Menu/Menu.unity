@@ -1042,17 +1042,17 @@ MonoBehaviour:
   m_FillRect: {fileID: 1969929023}
   m_HandleRect: {fileID: 694128717}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147035272}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: ChangeVolume
-        m_Mode: 1
+      - m_Target: {fileID: 592449109}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: UpdateMusicVolume
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2353,6 +2353,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 592449109}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: SaveVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &385122629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,7 +2564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &458844156
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2562,7 +2574,7 @@ AudioSource:
   m_GameObject: {fileID: 458844155}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5767098375480664698, guid: 4eb6435759116fe4e9ee8a648b8824bc, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -3200,6 +3212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OptionsMenu
   audioMixer: {fileID: 0}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
 --- !u!114 &523088990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3704,6 +3718,7 @@ GameObject:
   - component: {fileID: 592449111}
   - component: {fileID: 592449110}
   - component: {fileID: 592449109}
+  - component: {fileID: 592449116}
   m_Layer: 0
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -3723,7 +3738,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 290bcb05205f9654cb68d75432334681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OptionsMenu
-  audioMixer: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: 4eb6435759116fe4e9ee8a648b8824bc, type: 2}
+  musicSlider: {fileID: 147035273}
+  sfxSlider: {fileID: 0}
 --- !u!114 &592449110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3857,6 +3874,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.003, y: 0.07}
   m_SizeDelta: {x: 75, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &592449116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592449108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37069ded583da8f4496eee01717ea4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::pausemenu1
+  wristUI: {fileID: 0}
+  activeWristUI: 1
+  audioMixer: {fileID: 0}
 --- !u!1 &596628119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6687,7 +6719,7 @@ AudioSource:
   m_GameObject: {fileID: 919049105}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2682215786722470037, guid: 4eb6435759116fe4e9ee8a648b8824bc, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -6786,6 +6818,8 @@ GameObject:
   - component: {fileID: 933180231}
   - component: {fileID: 933180230}
   - component: {fileID: 933180229}
+  - component: {fileID: 933180233}
+  - component: {fileID: 933180232}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -6837,6 +6871,35 @@ Transform:
   - {fileID: 919049106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933180232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933180228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc94d8465f497144496cbdaf14e40c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicManager
+  musicLibrary: {fileID: 933180233}
+  musicSource: {fileID: 919049107}
+--- !u!114 &933180233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933180228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f71b549e6efef40bcbcc778bb550cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicLibrary
+  tracks:
+  - trackName: Main
+    clip: {fileID: 0}
 --- !u!1 &938306849
 GameObject:
   m_ObjectHideFlags: 0
@@ -12462,6 +12525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::pausemenu1
   wristUI: {fileID: 0}
   activeWristUI: 1
+  audioMixer: {fileID: 0}
 --- !u!1 &1558295353
 GameObject:
   m_ObjectHideFlags: 0
@@ -12842,6 +12906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::pausemenu1
   wristUI: {fileID: 523088988}
   activeWristUI: 1
+  audioMixer: {fileID: 0}
 --- !u!114 &1592018260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14974,6 +15039,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OptionsMenu
   audioMixer: {fileID: 0}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
 --- !u!114 &1760724061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17964,6 +18031,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 238d5334-6a1e-4978-adc2-8cbc48a5c73e
     m_ActionName: PauseMenu/Pause Menu
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 15faa181-4bc9-4a08-8dfb-194092913b0d
+    m_ActionName: PauseMenu/TogglePlayerMenu
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PauseMenu
@@ -17983,6 +18054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::pausemenu1
   wristUI: {fileID: 592449108}
   activeWristUI: 1
+  audioMixer: {fileID: 0}
 --- !u!114 &2104325600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18390,11 +18462,11 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1652297261}
   - {fileID: 469661862}
   - {fileID: 2104325590}
   - {fileID: 536222483}
   - {fileID: 1592018251}
-  - {fileID: 1652297261}
   - {fileID: 864616119}
   - {fileID: 1508105710}
   - {fileID: 933180231}
